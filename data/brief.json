@@ -1,6 +1,6 @@
 {
   "edition_title": "7 月 17 日，星期五",
-  "updated_label": "2026-07-17 12:16 北京时间",
+  "updated_label": "2026-07-17 12:32 北京时间",
   "estimated_minutes": 8,
   "market_label": "收盘或最近可得报价 · 非实时",
   "theme": "先分清事实、阅读框架和市场反应。对政策与宏观数据，优先等待执行细则和后续数据，不追逐单日情绪。",
@@ -9,8 +9,9 @@
       "id": "china-policy",
       "section": "lead",
       "source": "中国经济 · stats.gov.cn · 扩展来源",
-      "title": "上半年经济运行在合理区间 新动能快速成长 - stats.gov.cn",
-      "summary": "来源等级：扩展来源。这是自动筛出的短线索；打开原文核对背景、数据口径与完整表述。",
+      "title": "上半年经济运行在合理区间 新动能快速成长",
+      "original_title": "上半年经济运行在合理区间 新动能快速成长",
+      "summary": "一句话：这是一项中国经济运行或政策线索。比“总体向好”的表述更重要的是消费、制造业投资、地产和就业分项是否同步改善。",
       "time": "10:00",
       "minutes": 2,
       "tags": [
@@ -27,19 +28,20 @@
           "risk"
         ]
       ],
-      "fact": "来源 stats.gov.cn 的公开标题指出：上半年经济运行在合理区间 新动能快速成长 - stats.gov.cn。来源等级为扩展来源；此处保留的是短线索，完整事实与措辞请以原文为准。",
-      "why": "政策标题只能说明方向。更有用的是继续确认资金规模、落地细则和随后的消费、就业或投资数据。",
-      "impact": "中国增长预期、内需相关行业和人民币风险偏好可能首先反应；持续性仍取决于执行与数据验证。",
-      "uncertain": "单一表态不能直接代表政策效果，需等待正式文件、部门执行口径和后续数据。",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBjSVVBdjhnVkllcy1uRkVXVVBUMEgxX2c0NW9Tcm1HUV9ERHMzeldFMk1FLWdDMEd6dTRNU0s4OEdpYlpYRDdGckZhUmlYTFp0SkJaR0ZwWEtmVlVDVHZTQmwzZVUwUElHNGZvcWJFUQ?oc=5",
+      "fact": "标题线索：上半年经济运行在合理区间 新动能快速成长。完整事实、数字与条件请以原文为准。",
+      "why": "这类综合表述主要影响市场对增长下限和政策加码必要性的判断。对投资者而言，关键是把总量信号拆成内需、地产、出口和价格四条线来看。",
+      "impact": "若消费和制造业投资分项继续改善，内需与顺周期板块的预期更容易得到支持；若改善主要依赖单一分项，市场反应通常不会持续。",
+      "uncertain": "下一步看消费、固定资产投资、地产销售与就业的分项数据，以及是否出现更具体的财政或货币政策安排。",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260715_1964121.html",
       "sources": "原始来源：stats.gov.cn（扩展来源）"
     },
     {
       "id": "us-macro",
       "section": "lead",
       "source": "美国宏观 · Federal Reserve Bank of Dallas · 优先来源",
-      "title": "Remarks on inflation, employment and monetary policy - Federal Reserve Bank of Dallas",
-      "summary": "来源等级：优先来源。这是自动筛出的短线索；打开原文核对背景、数据口径与完整表述。",
+      "title": "关于通胀、就业和货币政策的评论",
+      "original_title": "Remarks on inflation, employment and monetary policy",
+      "summary": "达拉斯联储主席洛里·洛根分享了她对经济和货币政策前景的看法。",
       "time": "03:25",
       "minutes": 3,
       "tags": [
@@ -56,19 +58,20 @@
           "crypto"
         ]
       ],
-      "fact": "来源 Federal Reserve Bank of Dallas 的公开标题指出：Remarks on inflation, employment and monetary policy - Federal Reserve Bank of Dallas。来源等级为优先来源；此处保留的是短线索，完整事实与措辞请以原文为准。",
-      "why": "通胀、就业和美联储表态共同决定利率预期，而利率预期是美股估值、美元和 BTC 风险偏好的共同变量。",
-      "impact": "若数据显著高于预期，收益率和美元通常更易走强；反之可能支持风险资产。实际反应取决于市场此前定价。",
-      "uncertain": "单一数据经常被修正，且美联储会综合多项指标判断，不能把标题等同于政策结论。",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1PMGkwNXZubFJsX0F4SjRBazVNamk5TTQ0aGpiV1FVQWdaYy1rZTZWZ3pBNzlZZGlaX1Q1X00yc1V5cHlnb1BzSDJVZ085YUdMS0dWSmdfMEVaY1BRMV94M0tPMHdRT2pkYWlITQ?oc=5",
+      "fact": "来源摘要：达拉斯联储主席洛里·洛根分享了她对经济和货币政策前景的看法。 标题线索：关于通胀、就业和货币政策的评论。完整事实、数字与条件请以原文为准。",
+      "why": "市场真正交易的是“通胀回落是否足以允许更宽松的利率路径”。讲话若强调通胀风险，通常会让降息预期更谨慎；若强调就业转弱，方向可能相反。",
+      "impact": "对美股和 BTC，最直接的传导是美债收益率与美元。当前页面市场快照为：标普 500下跌0.51%；BTC下跌2.20%；美元/人民币上涨0.09%；应把该变动与利率、美元是否同向一起看。",
+      "uncertain": "下一步看 CPI、PCE、非农就业、失业率，以及下一次 FOMC 声明和点阵图，而不是只根据一次讲话下注。",
+      "url": "https://www.dallasfed.org/news/speeches/logan/2026/lkl260716",
       "sources": "原始来源：Federal Reserve Bank of Dallas（优先来源）"
     },
     {
       "id": "trade-chain",
       "section": "lead",
       "source": "全球贸易 · Nikkei Asia · 优先来源",
-      "title": "Toyota Tsusho ships auto parts to Mexico and Canada, cutting out US tariff - Nikkei Asia",
-      "summary": "来源等级：优先来源。这是自动筛出的短线索；打开原文核对背景、数据口径与完整表述。",
+      "title": "丰田通商向墨西哥和加拿大运送汽车零部件，免除美国关税",
+      "original_title": "Toyota Tsusho ships auto parts to Mexico and Canada, cutting out US tariff",
+      "summary": "一句话：标题反映企业正通过产地、物流或供应链布局来应对美国关税。关税的影响正在从政策层面传导到具体采购与制造决策。",
       "time": "04:34",
       "minutes": 3,
       "tags": [
@@ -85,19 +88,20 @@
           "risk"
         ]
       ],
-      "fact": "来源 Nikkei Asia 的公开标题指出：Toyota Tsusho ships auto parts to Mexico and Canada, cutting out US tariff - Nikkei Asia。来源等级为优先来源；此处保留的是短线索，完整事实与措辞请以原文为准。",
-      "why": "贸易政策从新闻标题走向盈利影响，需要拆分生效日期、豁免范围、库存周期和企业的成本传导能力。",
-      "impact": "出口链、进口依赖度较高的企业以及部分制造和消费行业的预期可能变化；指数层面的影响取决于权重行业暴露。",
-      "uncertain": "最终文本、谈判进展与企业应对节奏可能改变初始判断，需以原始公告为准。",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPb3ZaVXo4NkR3Y3BFYmtiamZWVUZvTlJrUEFkYkVqYy1xb3U4dXBkWEg5VU8zN2pKQWVDa1lyeVNTT2NJLTQtV2NXOGRSLU9rOTN1eGU0bHJHQkRLOFlEdEhHb3BTWjNUY1pPbk81d0UzcEs0MnM3ZlFKYU4za01kUDFBRDJlRE1IVUNvSXlhWDBTUGRzQkc2dUd6NmxSX1BqSkZLUExicmE2amZkUUFJQmRtOU1kZ1FzMm5NRA?oc=5",
+      "fact": "标题线索：丰田通商向墨西哥和加拿大运送汽车零部件，免除美国关税。完整事实、数字与条件请以原文为准。",
+      "why": "这类案例的价值在于观察企业是否真的迁移订单和产能，而不只是宣布计划。若更多企业采取相似做法，关税成本会改变区域贸易流和部分行业的利润率。",
+      "impact": "汽车零部件、电子、航运和北美制造链更值得跟踪。对中国相关资产，重点不是单一公司，而是转口、海外产能和订单转移是否形成趋势。",
+      "uncertain": "下一步看关税生效范围、原产地规则、豁免条款，以及企业是否披露资本开支、库存或交付地的实质调整。",
+      "url": "https://asia.nikkei.com/spotlight/supply-chain/toyota-tsusho-ships-auto-parts-to-mexico-and-canada-cutting-out-us-tariff",
       "sources": "原始来源：Nikkei Asia（优先来源）"
     },
     {
       "id": "us-markets",
       "section": "update",
       "source": "美国市场 · Reuters · 优先来源",
-      "title": "Wall Street ends lower as chip weakness offsets solid earnings, economic data - Reuters",
-      "summary": "来源等级：优先来源。这是自动筛出的短线索；打开原文核对背景、数据口径与完整表述。",
+      "title": "由于芯片疲软抵消了稳健的盈利和经济数据，华尔街收低",
+      "original_title": "Wall Street ends lower as chip weakness offsets solid earnings, economic data",
+      "summary": "一句话：指数层面出现分化时，往往意味着盈利或宏观数据的利好不足以覆盖权重行业的压力。",
       "time": "04:18",
       "minutes": 1,
       "tags": [
@@ -110,19 +114,20 @@
           "market"
         ]
       ],
-      "fact": "来源 Reuters 的公开标题指出：Wall Street ends lower as chip weakness offsets solid earnings, economic data - Reuters。来源等级为优先来源；此处保留的是短线索，完整事实与措辞请以原文为准。",
-      "why": "市场交易的是未来预期，指引、利润率和资本开支往往比单季结果更能改变估值。",
-      "impact": "大型科技公司的业绩与资本开支会对指数、供应链和成长风格估值产生较大影响。",
-      "uncertain": "股价反应同时受估值和投资者仓位影响，业绩超预期也不必然意味着上涨。",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPWGU5QUxvUmRMUXgzYmxBbXIxRnM5aTE2Q014TV9HeVlIdVQ0RGV4aWx3a0RMQ2djdUdvSEwtX2diaDZ2QkhfaWE4WmFpb1pWTzlsajhWaTdqYWp4N0hnSjRRWGVIQU93VnA1czVqOGZYekhOMDNWMmZFSnVxTmxybHhxR2NLTVJDR3NxWVE5ZDFEUC11N2NvU0NXSTJrbTJXbXNsQjZsZklUb19vVy1wMi1mU1YxSGc?oc=5",
+      "fact": "标题线索：由于芯片疲软抵消了稳健的盈利和经济数据，华尔街收低。完整事实、数字与条件请以原文为准。",
+      "why": "如果芯片或大型科技股走弱，即便整体盈利不错，指数也可能承压，因为这些公司对标普和纳指的权重很高。要区分“市场整体变差”和“少数权重股拖累”。",
+      "impact": "观察半导体、云计算资本开支和大盘成长股的相对表现。当前页面市场快照为：标普 500下跌0.51%；BTC下跌2.20%；美元/人民币上涨0.09%；若收益率同步上行，高估值板块通常更脆弱。",
+      "uncertain": "下一步看公司业绩指引、利润率和资本开支，而不是只看单季是否超预期；同时留意市场下跌是否扩散到非科技板块。",
+      "url": "https://www.reuters.com/business/wall-st-futures-pause-after-two-day-rally-investors-await-data-earnings-2026-07-16/",
       "sources": "原始来源：Reuters（优先来源）"
     },
     {
       "id": "bitcoin",
       "section": "update",
       "source": "加密资产 · CoinDesk · 优先来源",
-      "title": "Ether outruns bitcoin as ETF money returns, almost all of from BlackRock's fund - CoinDesk",
-      "summary": "来源等级：优先来源。这是自动筛出的短线索；打开原文核对背景、数据口径与完整表述。",
+      "title": "以太坊超过比特币，ETF资金回报几乎全部来自贝莱德基金",
+      "original_title": "Ether outruns bitcoin as ETF money returns, almost all of from BlackRock's fund",
+      "summary": "这并不是一次广泛的反弹，因为比特币在同一时期上涨了 4%，而 solana、TRON 和 hyperliquid 的价格均较低。",
       "time": "12:56",
       "minutes": 1,
       "tags": [
@@ -135,11 +140,11 @@
           "market"
         ]
       ],
-      "fact": "来源 CoinDesk 的公开标题指出：Ether outruns bitcoin as ETF money returns, almost all of from BlackRock's fund - CoinDesk。来源等级为优先来源；此处保留的是短线索，完整事实与措辞请以原文为准。",
-      "why": "BTC 同时受链上和 ETF 资金、美元流动性、实际利率与风险情绪影响，单一指标的解释力有限。",
-      "impact": "持续配置型资金流入可能改善边际买盘预期；利率上行或风险资产走弱也可能抵消这种支持。",
-      "uncertain": "短期波动常由多因素共同驱动，单日流入流出不能独立预测价格趋势。",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPN0FMeS05X3BQeDhVUzZIeWxEWmszS2FEblg5bU1lUVNtck9mWW1xOVRLTUhwYXpDdlJoeTk0MHhWaU1RYWpqR3EtTzZGYXhRM0tzQ1NkcFdOa3dKT3FZVkRIVE1zTmpDdUJLUjQ4bDdKaE5mNFM4UGNkYWJCREJGWW9XSVdRNkxZWjN6eXk1V042dDVOeHJIdTJES24yZXN3UjNzSG1yQ1lOYnB5ZkJ6VnZDX0o0RnhrWU9CQm4xMA?oc=5",
+      "fact": "来源摘要：这并不是一次广泛的反弹，因为比特币在同一时期上涨了 4%，而 solana、TRON 和 hyperliquid 的价格均较低。 标题线索：以太坊超过比特币，ETF资金回报几乎全部来自贝莱德基金。完整事实、数字与条件请以原文为准。",
+      "why": "ETF 净流入可以反映配置型需求，但不能单独解释价格。若以太坊跑赢比特币，可能代表资金在加密资产内部轮动，而不是整个风险偏好普遍升温。",
+      "impact": "BTC 更需要与美元、实际利率和美股风险偏好一起看。当前页面市场快照为：标普 500下跌0.51%；BTC下跌2.20%；美元/人民币上涨0.09%；单日 ETF 流量应视为确认信号，而不是交易指令。",
+      "uncertain": "下一步看 ETF 连续多日净流、主要发行方资金占比、BTC 与 ETH 的相对强弱，以及美债收益率和美元是否反向变化。",
+      "url": "https://www.coindesk.com/markets/2026/07/16/ether-outruns-bitcoin-as-etf-money-returns-almost-all-of-from-blackrock-s-fund",
       "sources": "原始来源：CoinDesk（优先来源）"
     }
   ],
@@ -156,13 +161,13 @@
     },
     {
       "label": "美元/人民币",
-      "value": "6.7742",
+      "value": "6.7744",
       "change": 0.09
     },
     {
       "label": "BTC",
-      "value": "$63.5k",
-      "change": -1.91
+      "value": "$63.3k",
+      "change": -2.2
     }
   ],
   "calendar": [
@@ -189,21 +194,21 @@
     {
       "title": "中国内需与政策传导",
       "status": "每日更新",
-      "update": "上半年经济运行在合理区间 新动能快速成长 - stats.gov.cn",
+      "update": "上半年经济运行在合理区间 新动能快速成长",
       "next": "正式文件、资金安排，以及消费和就业的后续数据。",
       "story_id": "china-policy"
     },
     {
       "title": "美联储与风险资产",
       "status": "每日更新",
-      "update": "Remarks on inflation, employment and monetary policy - Federal Reserve Bank of Dallas",
+      "update": "关于通胀、就业和货币政策的评论",
       "next": "通胀、就业、收益率及美联储沟通是否形成同一方向。",
       "story_id": "us-macro"
     },
     {
       "title": "BTC 与流动性",
       "status": "每日更新",
-      "update": "Ether outruns bitcoin as ETF money returns, almost all of from BlackRock's fund - CoinDesk",
+      "update": "以太坊超过比特币，ETF资金回报几乎全部来自贝莱德基金",
       "next": "ETF 资金、美元与实际利率、风险资产波动。",
       "story_id": "bitcoin"
     }

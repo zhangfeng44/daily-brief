@@ -277,6 +277,13 @@
       letter-spacing: 0;
     }
 
+    .story-original-title, .detail-original-title {
+      margin: -2px 0 9px;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.5;
+    }
+
     .story-summary {
       max-width: 690px;
       margin: 0;
@@ -1019,11 +1026,12 @@
     </div>
     <div class="detail-body">
       <h2 id="detailTitle"></h2>
+      <p class="detail-original-title" id="detailOriginalTitle"></p>
       <div class="story-tags" id="detailTags"></div>
       <section class="detail-block"><h3>发生了什么</h3><p id="detailFact"></p></section>
       <section class="detail-block"><h3>为什么重要</h3><p id="detailWhy"></p></section>
       <section class="detail-block"><h3>可能影响</h3><p id="detailImpact"></p></section>
-      <section class="detail-block detail-callout"><h3>仍不确定</h3><p id="detailUncertain"></p></section>
+      <section class="detail-block detail-callout"><h3>下一步看什么</h3><p id="detailUncertain"></p></section>
       <div class="detail-foot">
         <span class="source-text" id="detailSources"></span>
         <button class="text-button save-button" id="detailSave"><i data-lucide="bookmark"></i>稍后读</button>
@@ -1149,6 +1157,7 @@
         '<div class="story-copy">' +
           '<div class="story-kicker"><span class="source-dot"></span>' + escapeHtml(story.source) + ' · ' + escapeHtml(story.minutes || 2) + ' 分钟</div>' +
           '<h3 class="story-title">' + escapeHtml(story.title) + '</h3>' +
+          (story.original_title && story.original_title !== story.title ? '<p class="story-original-title">原标题：' + escapeHtml(story.original_title) + '</p>' : '') +
           '<p class="story-summary">' + escapeHtml(story.summary) + '</p>' +
           '<div class="story-tags">' + tagMarkup(story.tags || []) + '</div>' +
         '</div>' +
@@ -1226,6 +1235,8 @@
       updateReading();
       document.getElementById("detailSource").innerHTML = '<span class="source-dot"></span>' + story.source;
       document.getElementById("detailTitle").textContent = story.title;
+      const originalTitle = document.getElementById("detailOriginalTitle");
+      originalTitle.textContent = story.original_title && story.original_title !== story.title ? "原标题：" + story.original_title : "";
       document.getElementById("detailTags").innerHTML = tagMarkup(story.tags);
       document.getElementById("detailFact").textContent = story.fact;
       document.getElementById("detailWhy").textContent = story.why;

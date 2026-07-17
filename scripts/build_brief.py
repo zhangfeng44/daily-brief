@@ -17,6 +17,7 @@ ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "data" / "brief.json"
 USER_AGENT = "daily-brief/1.0 (+https://github.com/zhangfeng44/daily-brief)"
 BEIJING = timezone(timedelta(hours=8))
+GOOGLE_NEWS_URL = re.compile(r"^https://news\.google\.com/rss/articles/([^?]+)")
 DOMESTIC_MEDIA_MARKERS = [
     "东方财富", "汇通网", "fx678", "新浪", "网易", "腾讯", "搜狐", "凤凰", "财联社",
     "第一财经", "证券时报", "上海证券报", "经济观察报", "界面", "澎湃", "富途", "moomoo",
@@ -127,8 +128,113 @@ def request(url: str) -> bytes:
         return response.read()
 
 
+def post(url: str, data: bytes) -> bytes:
+    req = urllib.request.Request(
+        url,
+        data=data,
+        headers={
+            "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8",
+            "User-Agent": USER_AGENT,
+        },
+    )
+    with urllib.request.urlopen(req, timeout=20) as response:
+        return response.read()
+
+
 def strip_html(value: str) -> str:
     return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", value or "")).strip()
+
+
+def clean_headline(title: str, publisher: str) -> str:
+    suffix = " - " + publisher
+    return title[:-len(suffix)].strip() if title.lower().endswith(suffix.lower()) else title.strip()
+
+
+def translate_to_chinese(value: str) -> str:
+    if not value or re.search(r"[\u4e00-\u9fff]", value):
+        return value
+    params = urllib.parse.urlencode({
+        "client": "gtx",
+        "sl": "auto",
+        "tl": "zh-CN",
+        "dt": "t",
+        "q": value,
+    })
+    try:
+        payload = json.loads(request("https://translate.googleapis.com/translate_a/single?" + params))
+        translated = "".join(part[0] for part in payload[0] if part and part[0]).strip()
+        return translated or value
+    except Exception as error:
+        print(f"Translation unavailable: {error}")
+        return value
+
+
+def decode_google_news_url(url: str) -> str:
+    """Resolve a Google News RSS wrapper to the publisher page when available."""
+    match = GOOGLE_NEWS_URL.match(url)
+    if not match:
+        return url
+    article_id = match.group(1)
+    try:
+        article_page = request("https://news.google.com/articles/" + article_id).decode("utf-8", "ignore")
+        signature = re.search(r'data-n-a-sg="([^"]+)"', article_page)
+        timestamp = re.search(r'data-n-a-ts="([^"]+)"', article_page)
+        if not signature or not timestamp:
+            return url
+        request_body = [
+            [
+                "Fbv4je",
+                json.dumps([
+                    "garturlreq",
+                    [
+                        [
+                            "en-US", "US", ["FINANCE_TOP_INDICES", "WEB_TEST_1_0_0"],
+                            None, None, 1, 1, "US:en", None, 1, None, None, None,
+                            None, None, 0, 1,
+                        ],
+                        "en-US", "US", 1, [1, 1, 1], 1, 1, None, 0, 0, None, 0,
+                    ],
+                    article_id,
+                    timestamp.group(1),
+                    signature.group(1),
+                ], separators=(",", ":")),
+            ]
+        ]
+        body = urllib.parse.urlencode({"f.req": json.dumps([request_body], separators=(",", ":"))}).encode()
+        response = post(
+            "https://news.google.com/_/DotsSplashUi/data/batchexecute?rpcids=Fbv4je",
+            body,
+        ).decode("utf-8", "ignore")
+        payload = json.loads(response.split("\n\n", 1)[1])
+        decoded = json.loads(payload[0][2])
+        return decoded[1] if isinstance(decoded, list) and len(decoded) > 1 else url
+    except Exception as error:
+        print(f"Article URL unavailable: {error}")
+        return url
+
+
+def page_summary(url: str) -> str:
+    """Read only a publisher's public metadata description, not the article body."""
+    if not url or "news.google.com" in urllib.parse.urlparse(url).netloc:
+        return ""
+    try:
+        page = request(url).decode("utf-8", "ignore")
+        matches = re.findall(
+            r'<meta[^>]+(?:name|property)=["\'](?:description|og:description)["\'][^>]+content=["\']([^"\']+)["\']',
+            page,
+            flags=re.IGNORECASE,
+        )
+        if not matches:
+            matches = re.findall(
+                r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+(?:name|property)=["\'](?:description|og:description)["\']',
+                page,
+                flags=re.IGNORECASE,
+            )
+        summary = strip_html(matches[0]) if matches else ""
+        return summary[:360].rsplit(" ", 1)[0] if len(summary) > 360 else summary
+    except Exception as error:
+        print(f"Article summary unavailable: {error}")
+        return ""
 
 
 def is_domestic_media_source(source_name: str) -> bool:
@@ -240,7 +346,57 @@ def format_market(label: str, value: float) -> str:
     return f"{value:,.2f}"
 
 
-def story_from_topic(topic: dict, now: datetime) -> dict:
+def market_context(markets: list[dict]) -> str:
+    changes = {market["label"]: market["change"] for market in markets}
+    parts = []
+    for label in ("标普 500", "BTC", "美元/人民币"):
+        if label in changes:
+            change = changes[label]
+            direction = "上涨" if change > 0 else ("下跌" if change < 0 else "持平")
+            parts.append(label + direction + f"{abs(change):.2f}%")
+    return "；".join(parts)
+
+
+def insight_for(topic: dict, headline: str, markets: list[dict]) -> dict:
+    snapshot = market_context(markets)
+    topic_id = topic["id"]
+    if topic_id == "china-policy":
+        return {
+            "summary": "一句话：这是一项中国经济运行或政策线索。比“总体向好”的表述更重要的是消费、制造业投资、地产和就业分项是否同步改善。",
+            "why": "这类综合表述主要影响市场对增长下限和政策加码必要性的判断。对投资者而言，关键是把总量信号拆成内需、地产、出口和价格四条线来看。",
+            "impact": "若消费和制造业投资分项继续改善，内需与顺周期板块的预期更容易得到支持；若改善主要依赖单一分项，市场反应通常不会持续。",
+            "uncertain": "下一步看消费、固定资产投资、地产销售与就业的分项数据，以及是否出现更具体的财政或货币政策安排。",
+        }
+    if topic_id == "us-macro":
+        return {
+            "summary": "一句话：联储系统对通胀、就业和货币政策作出沟通。它会影响利率预期，但单位官员讲话不等同于 FOMC 的正式决定。",
+            "why": "市场真正交易的是“通胀回落是否足以允许更宽松的利率路径”。讲话若强调通胀风险，通常会让降息预期更谨慎；若强调就业转弱，方向可能相反。",
+            "impact": "对美股和 BTC，最直接的传导是美债收益率与美元。当前页面市场快照为：" + snapshot + "；应把该变动与利率、美元是否同向一起看。",
+            "uncertain": "下一步看 CPI、PCE、非农就业、失业率，以及下一次 FOMC 声明和点阵图，而不是只根据一次讲话下注。",
+        }
+    if topic_id == "trade-chain":
+        return {
+            "summary": "一句话：标题反映企业正通过产地、物流或供应链布局来应对美国关税。关税的影响正在从政策层面传导到具体采购与制造决策。",
+            "why": "这类案例的价值在于观察企业是否真的迁移订单和产能，而不只是宣布计划。若更多企业采取相似做法，关税成本会改变区域贸易流和部分行业的利润率。",
+            "impact": "汽车零部件、电子、航运和北美制造链更值得跟踪。对中国相关资产，重点不是单一公司，而是转口、海外产能和订单转移是否形成趋势。",
+            "uncertain": "下一步看关税生效范围、原产地规则、豁免条款，以及企业是否披露资本开支、库存或交付地的实质调整。",
+        }
+    if topic_id == "us-markets":
+        return {
+            "summary": "一句话：指数层面出现分化时，往往意味着盈利或宏观数据的利好不足以覆盖权重行业的压力。",
+            "why": "如果芯片或大型科技股走弱，即便整体盈利不错，指数也可能承压，因为这些公司对标普和纳指的权重很高。要区分“市场整体变差”和“少数权重股拖累”。",
+            "impact": "观察半导体、云计算资本开支和大盘成长股的相对表现。当前页面市场快照为：" + snapshot + "；若收益率同步上行，高估值板块通常更脆弱。",
+            "uncertain": "下一步看公司业绩指引、利润率和资本开支，而不是只看单季是否超预期；同时留意市场下跌是否扩散到非科技板块。",
+        }
+    return {
+        "summary": "一句话：ETF 资金变化与加密资产内部相对强弱同时出现，说明资金不仅在判断方向，也在选择配置对象。",
+        "why": "ETF 净流入可以反映配置型需求，但不能单独解释价格。若以太坊跑赢比特币，可能代表资金在加密资产内部轮动，而不是整个风险偏好普遍升温。",
+        "impact": "BTC 更需要与美元、实际利率和美股风险偏好一起看。当前页面市场快照为：" + snapshot + "；单日 ETF 流量应视为确认信号，而不是交易指令。",
+        "uncertain": "下一步看 ETF 连续多日净流、主要发行方资金占比、BTC 与 ETH 的相对强弱，以及美债收益率和美元是否反向变化。",
+    }
+
+
+def story_from_topic(topic: dict, now: datetime, markets: list[dict]) -> dict:
     item = google_news_item(
         topic["query"],
         topic["fallback_query"],
@@ -250,11 +406,15 @@ def story_from_topic(topic: dict, now: datetime) -> dict:
         topic["required_keywords"],
         topic["minimum_keyword_hits"],
     )
-    title = item["title"] if item else "今日暂未取得主题相关的公开线索"
+    original_title = clean_headline(item["title"], item["publisher"]) if item else ""
+    title = translate_to_chinese(original_title) if item else "今日暂未取得主题相关的公开线索"
     publisher = item["publisher"] if item else "待核查"
     source_level = item["source_level"] if item else "暂无"
-    url = item["url"] if item else ""
-    summary = ("来源等级：" + source_level + "。这是自动筛出的短线索；打开原文核对背景、数据口径与完整表述。") if item else (
+    url = decode_google_news_url(item["url"]) if item else ""
+    source_summary = page_summary(url) if item else ""
+    summary_translation = translate_to_chinese(source_summary)
+    insight = insight_for(topic, title, markets)
+    summary = (summary_translation or insight["summary"]) if item else (
         "自动采集未找到同时满足主题相关性和最低来源要求的条目，下一轮更新会重新检索。"
     )
     published = item.get("published", "") if item else ""
@@ -269,16 +429,17 @@ def story_from_topic(topic: dict, now: datetime) -> dict:
         "section": topic["section"],
         "source": topic["source"] + " · " + publisher + ((" · " + source_level) if item else ""),
         "title": title,
+        "original_title": original_title,
         "summary": summary,
         "time": time_label,
         "minutes": topic["minutes"],
         "tags": topic["tags"],
-        "fact": ("来源 " + publisher + " 的公开标题指出：" + title + "。来源等级为" + source_level + "；此处保留的是短线索，完整事实与措辞请以原文为准。") if item else (
+        "fact": (("来源摘要：" + summary_translation + " ") if summary_translation else "") + "标题线索：" + title + "。完整事实、数字与条件请以原文为准。" if item else (
             "今日尚无可展示的主题线索。市场数据仍可作为背景参考，但不应被当作该主题的新闻结论。"
         ),
-        "why": topic["why"],
-        "impact": topic["impact"],
-        "uncertain": topic["uncertain"],
+        "why": insight["why"],
+        "impact": insight["impact"],
+        "uncertain": insight["uncertain"],
         "url": url,
         "sources": ("原始来源：" + publisher + "（" + source_level + "）") if item else "等待下一轮公开来源更新",
     }
@@ -286,7 +447,6 @@ def story_from_topic(topic: dict, now: datetime) -> dict:
 
 def build() -> dict:
     now = datetime.now(BEIJING)
-    stories = [story_from_topic(topic, now) for topic in TOPICS]
     market_data = []
     for label, symbol in MARKETS:
         result = quote(symbol)
@@ -298,6 +458,7 @@ def build() -> dict:
             })
         else:
             market_data.append({"label": label, "value": "--", "change": 0})
+    stories = [story_from_topic(topic, now, market_data) for topic in TOPICS]
 
     by_id = {story["id"]: story for story in stories}
     topics = [
