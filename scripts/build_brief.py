@@ -79,6 +79,24 @@ TOPICS = [
         "uncertain": "最终文本、谈判进展与企业应对节奏可能改变初始判断，需以原始公告为准。",
     },
     {
+        "id": "china-risk",
+        "query": "China economy risks property debt deflation jobs yuan",
+        "fallback_query": "中国 宏观 风险 房地产 地方债 通缩 就业 人民币 资本流动",
+        "source": "中国宏观风险",
+        "priority_publishers": ["Reuters", "Bloomberg", "Financial Times", "Nikkei Asia", "Wall Street Journal", "Associated Press", "AP", "BBC News", "The Economist"],
+        "publishers": ["Reuters", "Bloomberg", "Financial Times", "Nikkei Asia", "Wall Street Journal", "Associated Press", "AP", "BBC News", "The Economist", "South China Morning Post", "CNBC"],
+        "keywords": ["中国", "经济", "风险", "房地产", "地方债", "债务", "通缩", "就业", "青年失业", "人民币", "资本", "china", "property", "debt", "deflation", "jobs", "yuan", "capital outflow"],
+        "required_keywords": ["风险", "房地产", "地方债", "债务", "通缩", "就业", "青年失业", "人民币", "资本", "property", "debt", "deflation", "jobs", "yuan", "capital outflow"],
+        "minimum_keyword_hits": 1,
+        "allow_unlisted_source": True,
+        "section": "update",
+        "minutes": 2,
+        "tags": [["中国经济", "china"], ["宏观风险", "risk"], ["人民币", "market"]],
+        "why": "中国宏观风险往往不是由一个总量数据触发，而是地产、地方财政、价格、就业和资本流动之间的相互强化。应判断新闻反映的是个案、政策信号还是更广的趋势。",
+        "impact": "风险若持续扩散，通常会先影响人民币预期、内需与银行相关资产的风险偏好，也可能通过全球需求和供应链传导到海外市场。",
+        "uncertain": "要继续核对地产销售和价格、地方融资与财政安排、核心价格、就业数据及人民币汇率；政策工具的规模和落地速度同样关键。",
+    },
+    {
         "id": "us-markets",
         "query": "US stock market earnings technology shares",
         "fallback_query": "美股 财报 科技股 标普 纳斯达克",
@@ -263,6 +281,7 @@ def google_news_item(
     keywords: list[str],
     required_keywords: list[str],
     minimum_keyword_hits: int,
+    allow_unlisted_source: bool = False,
 ) -> dict | None:
     try:
         priority_candidates = []
@@ -297,7 +316,7 @@ def google_news_item(
                 selected_source = priority_source or any(publisher_matches(source_text, publisher) for publisher in publishers)
                 # A source outside the selected list is only used as a clearly marked
                 # fallback when its headline has a stronger-than-minimum topic match.
-                if not selected_source and keyword_hits < 2:
+                if not selected_source and (not allow_unlisted_source or keyword_hits < minimum_keyword_hits):
                     continue
                 candidate = {
                     "title": title,
@@ -381,6 +400,13 @@ def insight_for(topic: dict, headline: str, markets: list[dict]) -> dict:
             "impact": "汽车零部件、电子、航运和北美制造链更值得跟踪。对中国相关资产，重点不是单一公司，而是转口、海外产能和订单转移是否形成趋势。",
             "uncertain": "下一步看关税生效范围、原产地规则、豁免条款，以及企业是否披露资本开支、库存或交付地的实质调整。",
         }
+    if topic_id == "china-risk":
+        return {
+            "summary": "一句话：这是一条中国宏观风险线索。判断重点不在于标题是否悲观，而在于地产、地方财政、价格、就业或资本流动中是否有更多指标朝同一方向变化。",
+            "why": "这些风险会相互传导：地产走弱影响地方收入和居民预期，价格偏弱影响企业利润，就业压力又会压低消费。单一指标转弱不必然构成系统性风险，但多项指标共振值得提高关注。",
+            "impact": "对人民币和中国资产，风险信号若持续，通常会提高防御性需求并压低内需预期；对海外资产，重点看它是否影响全球需求、原材料和供应链订单。",
+            "uncertain": "下一步看地产销售与价格、地方融资和财政支持、核心通胀、就业及人民币汇率；也要看政策是否给出规模、时点和执行主体明确的安排。",
+        }
     if topic_id == "us-markets":
         return {
             "summary": "一句话：指数层面出现分化时，往往意味着盈利或宏观数据的利好不足以覆盖权重行业的压力。",
@@ -405,6 +431,7 @@ def story_from_topic(topic: dict, now: datetime, markets: list[dict]) -> dict:
         topic["keywords"],
         topic["required_keywords"],
         topic["minimum_keyword_hits"],
+        topic.get("allow_unlisted_source", False),
     )
     original_title = clean_headline(item["title"], item["publisher"]) if item else ""
     title = translate_to_chinese(original_title) if item else "今日暂未取得主题相关的公开线索"
@@ -477,6 +504,13 @@ def build() -> dict:
             "story_id": "us-macro",
         },
         {
+            "title": "中国宏观风险",
+            "status": "每日更新",
+            "update": by_id["china-risk"]["title"],
+            "next": "地产、地方财政、价格、就业与人民币是否出现共振。",
+            "story_id": "china-risk",
+        },
+        {
             "title": "BTC 与流动性",
             "status": "每日更新",
             "update": by_id["bitcoin"]["title"],
@@ -488,9 +522,9 @@ def build() -> dict:
     return {
         "edition_title": now.strftime("%-m 月 %-d 日，") + "星期" + "一二三四五六日"[now.weekday()],
         "updated_label": now.strftime("%Y-%m-%d %H:%M 北京时间"),
-        "estimated_minutes": 8,
+        "estimated_minutes": 10,
         "market_label": "收盘或最近可得报价 · 非实时",
-        "theme": "先分清事实、阅读框架和市场反应。对政策与宏观数据，优先等待执行细则和后续数据，不追逐单日情绪。",
+        "theme": "先分清事实、阅读框架和市场反应。政策利好与宏观风险可以并存；对中国经济尤其要观察地产、地方财政、价格、就业和人民币是否出现同向变化。",
         "stories": stories,
         "markets": market_data,
         "calendar": [
