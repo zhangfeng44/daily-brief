@@ -1,0 +1,223 @@
+{
+  "edition_title": "7 月 17 日，星期五",
+  "updated_label": "2026-07-17 11:31 北京时间",
+  "estimated_minutes": 8,
+  "market_label": "收盘或最近可得报价 · 非实时",
+  "theme": "先分清事实、阅读框架和市场反应。对政策与宏观数据，优先等待执行细则和后续数据，不追逐单日情绪。",
+  "stories": [
+    {
+      "id": "china-policy",
+      "section": "lead",
+      "source": "中国经济 · ndrc.gov.cn",
+      "title": "中华人民共和国国民经济和社会发展第十五个五年规划纲要 - ndrc.gov.cn",
+      "summary": "来自 ndrc.gov.cn 的最新线索。打开原文核对背景与完整表述，再将它与数据和后续公告放在一起判断。",
+      "time": "19:01",
+      "minutes": 2,
+      "tags": [
+        [
+          "中国经济",
+          "china"
+        ],
+        [
+          "政策",
+          "market"
+        ],
+        [
+          "中影响",
+          "risk"
+        ]
+      ],
+      "fact": "来源 ndrc.gov.cn 的公开标题指出：中华人民共和国国民经济和社会发展第十五个五年规划纲要 - ndrc.gov.cn。此处保留的是短线索，完整事实与措辞请以原文为准。",
+      "why": "政策标题只能说明方向。更有用的是继续确认资金规模、落地细则和随后的消费、就业或投资数据。",
+      "impact": "中国增长预期、内需相关行业和人民币风险偏好可能首先反应；持续性仍取决于执行与数据验证。",
+      "uncertain": "单一表态不能直接代表政策效果，需等待正式文件、部门执行口径和后续数据。",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOQ090eEdIbFM2cmtmcXB5S3dGcU1wcHBlRnA0NG1UNWkzeTQyRTFsUm04azQ3eEZyMi1UcWVzT1VRQUg1RXhfM0t6d0lZWW9sX3hSTWFTSC1UNkc4YWRtQlpOMXFCT0hGZjBWRnRybjY2SXVPN2Rob1Q4WXQ0bDFNS1B3?oc=5",
+      "sources": "原始来源：ndrc.gov.cn"
+    },
+    {
+      "id": "us-macro",
+      "section": "lead",
+      "source": "美国宏观 · 待核查",
+      "title": "暂未取得符合来源筛选条件的最新公开标题",
+      "summary": "本次自动采集没有找到符合来源筛选条件的标题，因此不以其他来源补位。",
+      "time": "更新",
+      "minutes": 3,
+      "tags": [
+        [
+          "美联储",
+          "us"
+        ],
+        [
+          "美股",
+          "market"
+        ],
+        [
+          "BTC",
+          "crypto"
+        ]
+      ],
+      "fact": "来源 待核查 的公开标题指出：暂未取得符合来源筛选条件的最新公开标题。此处保留的是短线索，完整事实与措辞请以原文为准。",
+      "why": "通胀、就业和美联储表态共同决定利率预期，而利率预期是美股估值、美元和 BTC 风险偏好的共同变量。",
+      "impact": "若数据显著高于预期，收益率和美元通常更易走强；反之可能支持风险资产。实际反应取决于市场此前定价。",
+      "uncertain": "单一数据经常被修正，且美联储会综合多项指标判断，不能把标题等同于政策结论。",
+      "url": "",
+      "sources": "原始来源：待核查"
+    },
+    {
+      "id": "trade-chain",
+      "section": "lead",
+      "source": "全球贸易 · 待核查",
+      "title": "暂未取得符合来源筛选条件的最新公开标题",
+      "summary": "本次自动采集没有找到符合来源筛选条件的标题，因此不以其他来源补位。",
+      "time": "更新",
+      "minutes": 3,
+      "tags": [
+        [
+          "中国",
+          "china"
+        ],
+        [
+          "美国",
+          "us"
+        ],
+        [
+          "政策风险",
+          "risk"
+        ]
+      ],
+      "fact": "来源 待核查 的公开标题指出：暂未取得符合来源筛选条件的最新公开标题。此处保留的是短线索，完整事实与措辞请以原文为准。",
+      "why": "贸易政策从新闻标题走向盈利影响，需要拆分生效日期、豁免范围、库存周期和企业的成本传导能力。",
+      "impact": "出口链、进口依赖度较高的企业以及部分制造和消费行业的预期可能变化；指数层面的影响取决于权重行业暴露。",
+      "uncertain": "最终文本、谈判进展与企业应对节奏可能改变初始判断，需以原始公告为准。",
+      "url": "",
+      "sources": "原始来源：待核查"
+    },
+    {
+      "id": "us-markets",
+      "section": "update",
+      "source": "美国市场 · 待核查",
+      "title": "暂未取得符合来源筛选条件的最新公开标题",
+      "summary": "本次自动采集没有找到符合来源筛选条件的标题，因此不以其他来源补位。",
+      "time": "更新",
+      "minutes": 1,
+      "tags": [
+        [
+          "美股",
+          "us"
+        ],
+        [
+          "企业盈利",
+          "market"
+        ]
+      ],
+      "fact": "来源 待核查 的公开标题指出：暂未取得符合来源筛选条件的最新公开标题。此处保留的是短线索，完整事实与措辞请以原文为准。",
+      "why": "市场交易的是未来预期，指引、利润率和资本开支往往比单季结果更能改变估值。",
+      "impact": "大型科技公司的业绩与资本开支会对指数、供应链和成长风格估值产生较大影响。",
+      "uncertain": "股价反应同时受估值和投资者仓位影响，业绩超预期也不必然意味着上涨。",
+      "url": "",
+      "sources": "原始来源：待核查"
+    },
+    {
+      "id": "bitcoin",
+      "section": "update",
+      "source": "加密资产 · CoinDesk",
+      "title": "比特币价格分析：分析师称BTC反弹缺乏信心 - CoinDesk",
+      "summary": "来自 CoinDesk 的最新线索。打开原文核对背景与完整表述，再将它与数据和后续公告放在一起判断。",
+      "time": "15:00",
+      "minutes": 1,
+      "tags": [
+        [
+          "BTC",
+          "crypto"
+        ],
+        [
+          "资金流",
+          "market"
+        ]
+      ],
+      "fact": "来源 CoinDesk 的公开标题指出：比特币价格分析：分析师称BTC反弹缺乏信心 - CoinDesk。此处保留的是短线索，完整事实与措辞请以原文为准。",
+      "why": "BTC 同时受链上和 ETF 资金、美元流动性、实际利率与风险情绪影响，单一指标的解释力有限。",
+      "impact": "持续配置型资金流入可能改善边际买盘预期；利率上行或风险资产走弱也可能抵消这种支持。",
+      "uncertain": "短期波动常由多因素共同驱动，单日流入流出不能独立预测价格趋势。",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNdTNYTkFTXzZKZWNXNUlVRXhxZng0ckNrYWpPLTdaVlE3SWFpZ1dNek1QYlk5WDhlRmFpTVRWT3NDQjlVdElXeXAwZ3lvMzA5VU1wdmhtdVJleWsxU05malhIY1Y2NFRqZGtOejF2OEt6bFRxT2dCVHN0UmRSSVd4akFtWGRnbno4Y3d1S0dWREl3eXlUN252RWRlLXhteTRGYU5MQUN5SGhXV3dHdS1IdlA5U1FBQkcwUEpFY1ZscnFycC1l?oc=5",
+      "sources": "原始来源：CoinDesk"
+    }
+  ],
+  "markets": [
+    {
+      "label": "沪深 300",
+      "value": "--",
+      "change": 0
+    },
+    {
+      "label": "标普 500",
+      "value": "7,533.77",
+      "change": -0.51
+    },
+    {
+      "label": "美元/人民币",
+      "value": "6.7741",
+      "change": 0.09
+    },
+    {
+      "label": "BTC",
+      "value": "$63.6k",
+      "change": -1.67
+    }
+  ],
+  "calendar": [
+    {
+      "time": "每日",
+      "event": "中国政策与经济数据",
+      "note": "优先核对官方发布与统计口径",
+      "grade": "重点"
+    },
+    {
+      "time": "美盘前",
+      "event": "美国宏观与公司公告",
+      "note": "关注预期偏离和利率反应",
+      "grade": "重点"
+    },
+    {
+      "time": "全天",
+      "event": "BTC 与市场流动性",
+      "note": "将资金流与美元、利率一起看",
+      "grade": "跟进"
+    }
+  ],
+  "topics": [
+    {
+      "title": "中国内需与政策传导",
+      "status": "每日更新",
+      "update": "中华人民共和国国民经济和社会发展第十五个五年规划纲要 - ndrc.gov.cn",
+      "next": "正式文件、资金安排，以及消费和就业的后续数据。",
+      "story_id": "china-policy"
+    },
+    {
+      "title": "美联储与风险资产",
+      "status": "每日更新",
+      "update": "暂未取得符合来源筛选条件的最新公开标题",
+      "next": "通胀、就业、收益率及美联储沟通是否形成同一方向。",
+      "story_id": "us-macro"
+    },
+    {
+      "title": "BTC 与流动性",
+      "status": "每日更新",
+      "update": "比特币价格分析：分析师称BTC反弹缺乏信心 - CoinDesk",
+      "next": "ETF 资金、美元与实际利率、风险资产波动。",
+      "story_id": "bitcoin"
+    }
+  ],
+  "sources": [
+    "中国政府网",
+    "国家统计局",
+    "美联储",
+    "BLS",
+    "SEC",
+    "Reuters",
+    "AP",
+    "财新",
+    "Nikkei Asia",
+    "Google 新闻索引"
+  ]
+}

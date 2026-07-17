@@ -681,6 +681,14 @@
       line-height: 1.5;
     }
 
+    .source-text a {
+      color: var(--blue);
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .source-text a:hover { text-decoration: underline; }
+
     .toast {
       position: fixed;
       right: 24px;
@@ -776,8 +784,8 @@
     <main>
       <section class="edition-bar">
         <div>
-          <p class="edition-kicker">MORNING BRIEF / 演示数据</p>
-          <h1 class="edition-title">7 月 17 日，星期五</h1>
+          <p class="edition-kicker" id="editionKicker">MORNING BRIEF / 正在读取最新数据</p>
+          <h1 class="edition-title" id="editionTitle">每日政治经济简报</h1>
         </div>
         <div class="edition-meta">
           <span class="read-note" id="readNote">已读 1 / 3</span>
@@ -790,9 +798,10 @@
           <div class="main-column">
             <div class="section-head">
               <h2>今日判断</h2>
-              <p>3 条必读 · 约 8 分钟</p>
+              <p id="mustReadMeta">3 条必读 · 约 8 分钟</p>
             </div>
 
+            <div id="leadStories">
             <article class="lead-story" data-story="china-policy">
               <div class="story-no">01</div>
               <div class="story-copy">
@@ -846,17 +855,18 @@
                 <button class="icon-button save-button" aria-label="稍后阅读" title="稍后读" data-story="trade-chain"><i data-lucide="bookmark"></i></button>
               </div>
             </article>
+            </div>
 
             <div class="insight-note">
               <span class="insight-index">·</span>
-              <p><strong>今天的主线：</strong>市场的注意力正从“政策会不会出台”转向“执行力度能否改变增长与利率预期”。观察数据，不急于跟随单日情绪。</p>
+              <p id="dailyTheme"><strong>今天的主线：</strong>市场的注意力正从“政策会不会出台”转向“执行力度能否改变增长与利率预期”。观察数据，不急于跟随单日情绪。</p>
             </div>
 
             <div class="section-head">
               <h2>市场脉搏</h2>
-              <p>示意行情 · 非实时</p>
+              <p id="marketMeta">加载中</p>
             </div>
-            <div class="pulse" aria-label="市场脉搏">
+            <div class="pulse" id="marketPulse" aria-label="市场脉搏">
               <div class="market-item">
                 <div class="market-label">沪深 300</div>
                 <div class="market-value">3,982</div>
@@ -883,7 +893,7 @@
               <h2>重要动态</h2>
               <p>只收录值得跟进的变化</p>
             </div>
-            <div class="news-list">
+            <div class="news-list" id="newsList">
               <button class="news-item open-detail" data-story="yuan">
                 <span class="news-time">09:40</span>
                 <span><span class="news-title">人民币中间价与美元走势出现短线背离</span><span class="news-meta">汇率 · 关注外资流向与结售汇数据</span></span>
@@ -910,6 +920,7 @@
           <aside class="side-column">
             <section class="side-section">
               <h2 class="side-title">今日日历 <button class="side-link">全部</button></h2>
+              <div id="calendarList">
               <div class="calendar-row">
                 <span class="calendar-time">10:00</span>
                 <div><p class="calendar-event">中国宏观数据发布</p><p class="calendar-sub">观察：消费、工业、地产分项</p></div>
@@ -925,10 +936,12 @@
                 <div><p class="calendar-event">监管与公司公告</p><p class="calendar-sub">来源：官方机构与公司 IR</p></div>
                 <span class="event-grade">跟进</span>
               </div>
+              </div>
             </section>
 
             <section class="side-section">
               <h2 class="side-title">专题追踪 <button class="side-link" data-view-link="topics">查看</button></h2>
+              <div id="topicSidebar">
               <div class="topic-row">
                 <div class="topic-head"><h3 class="topic-name">美联储降息路径</h3><span class="topic-status">3 个更新</span></div>
                 <p class="topic-update">下一观察点：核心通胀、就业与会议措辞是否同步放缓。</p>
@@ -941,11 +954,12 @@
                 <div class="topic-head"><h3 class="topic-name">BTC 资金流与宏观</h3><span class="topic-status">1 个更新</span></div>
                 <p class="topic-update">下一观察点：ETF 净流入能否抵消美元和实际利率的压力。</p>
               </div>
+              </div>
             </section>
 
             <section class="side-section">
               <h2 class="side-title">已选来源</h2>
-              <div class="source-list">
+              <div class="source-list" id="sourceList">
                 <span class="source-chip">Reuters</span>
                 <span class="source-chip">AP</span>
                 <span class="source-chip">财新</span>
@@ -965,7 +979,7 @@
           <p>跨日保留真正还在演变的事件</p>
         </div>
         <p class="topics-intro">用少量专题替代重复新闻。每个专题只保留最新状态、下一观察点与影响范围。</p>
-        <div class="topic-board">
+        <div class="topic-board" id="topicsBoard">
           <article class="topic-board-row">
             <h3>美联储降息路径</h3>
             <p><strong>最新状态：</strong>市场正在根据通胀和就业数据重估降息节奏。<br><strong>下一观察点：</strong>核心服务通胀及 FOMC 表述。</p>
@@ -1021,7 +1035,7 @@
 
   <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js"></script>
   <script>
-    const stories = {
+    let stories = {
       "china-policy": {
         source: "政策观察 · 演示解读",
         title: "扩大消费的政策信号加密，关注实际执行与居民收入预期",
@@ -1116,7 +1130,92 @@
     }
 
     function tagMarkup(tags) {
-      return tags.map(([label, type]) => '<span class="tag ' + type + '">' + label + "</span>").join("");
+      return tags.map(([label, type]) => '<span class="tag ' + escapeHtml(type) + '">' + escapeHtml(label) + "</span>").join("");
+    }
+
+    function escapeHtml(value) {
+      return String(value || "").replace(/[&<>"']/g, (character) => ({
+        "&": "&amp;",
+        "<": "&lt;",
+        ">": "&gt;",
+        '"': "&quot;",
+        "'": "&#039;"
+      })[character]);
+    }
+
+    function storyMarkup(story, index) {
+      return '<article class="lead-story" data-story="' + escapeHtml(story.id) + '">' +
+        '<div class="story-no">0' + (index + 1) + '</div>' +
+        '<div class="story-copy">' +
+          '<div class="story-kicker"><span class="source-dot"></span>' + escapeHtml(story.source) + ' · ' + escapeHtml(story.minutes || 2) + ' 分钟</div>' +
+          '<h3 class="story-title">' + escapeHtml(story.title) + '</h3>' +
+          '<p class="story-summary">' + escapeHtml(story.summary) + '</p>' +
+          '<div class="story-tags">' + tagMarkup(story.tags || []) + '</div>' +
+        '</div>' +
+        '<div class="story-actions">' +
+          '<button class="text-button open-detail" data-story="' + escapeHtml(story.id) + '"><i data-lucide="book-open"></i>读解读</button>' +
+          '<button class="icon-button save-button" aria-label="稍后阅读" title="稍后读" data-story="' + escapeHtml(story.id) + '"><i data-lucide="bookmark"></i></button>' +
+        '</div>' +
+      '</article>';
+    }
+
+    function marketMarkup(market) {
+      const direction = market.change > 0 ? "up" : market.change < 0 ? "down" : "flat";
+      const sign = market.change > 0 ? "+" : "";
+      return '<div class="market-item">' +
+        '<div class="market-label">' + escapeHtml(market.label) + '</div>' +
+        '<div class="market-value">' + escapeHtml(market.value) + '</div>' +
+        '<div class="market-change ' + direction + '">' + sign + escapeHtml(market.change.toFixed(2)) + '%</div>' +
+      '</div>';
+    }
+
+    function renderBrief(brief) {
+      const dailyStories = Array.isArray(brief.stories) ? brief.stories : [];
+      const leadStories = dailyStories.filter((story) => story.section === "lead").slice(0, 3);
+      const updateStories = dailyStories.filter((story) => story.section !== "lead").slice(0, 5);
+      if (!leadStories.length) return;
+
+      stories = Object.fromEntries(dailyStories.map((story) => [story.id, story]));
+      document.getElementById("editionKicker").textContent = "MORNING BRIEF / 更新至 " + brief.updated_label;
+      document.getElementById("editionTitle").textContent = brief.edition_title;
+      document.getElementById("mustReadMeta").textContent = leadStories.length + " 条必读 · 约 " + (brief.estimated_minutes || 8) + " 分钟";
+      document.getElementById("leadStories").innerHTML = leadStories.map(storyMarkup).join("");
+      document.getElementById("dailyTheme").innerHTML = "<strong>今天的主线：</strong>" + escapeHtml(brief.theme);
+      document.getElementById("marketMeta").textContent = brief.market_label || "收盘或最近可得报价";
+      document.getElementById("marketPulse").innerHTML = (brief.markets || []).map(marketMarkup).join("");
+      document.getElementById("newsList").innerHTML = updateStories.map((story) =>
+        '<button class="news-item open-detail" data-story="' + escapeHtml(story.id) + '">' +
+          '<span class="news-time">' + escapeHtml(story.time || "更新") + '</span>' +
+          '<span><span class="news-title">' + escapeHtml(story.title) + '</span><span class="news-meta">' + escapeHtml(story.summary) + '</span></span>' +
+          tagMarkup((story.tags || []).slice(0, 1)) +
+        '</button>'
+      ).join("");
+      document.getElementById("calendarList").innerHTML = (brief.calendar || []).map((item) =>
+        '<div class="calendar-row"><span class="calendar-time">' + escapeHtml(item.time) + '</span>' +
+        '<div><p class="calendar-event">' + escapeHtml(item.event) + '</p><p class="calendar-sub">' + escapeHtml(item.note) + '</p></div>' +
+        '<span class="event-grade">' + escapeHtml(item.grade) + '</span></div>'
+      ).join("");
+      document.getElementById("topicSidebar").innerHTML = (brief.topics || []).map((topic) =>
+        '<div class="topic-row"><div class="topic-head"><h3 class="topic-name">' + escapeHtml(topic.title) + '</h3><span class="topic-status">' + escapeHtml(topic.status) + '</span></div>' +
+        '<p class="topic-update">' + escapeHtml(topic.update) + '</p></div>'
+      ).join("");
+      document.getElementById("topicsBoard").innerHTML = (brief.topics || []).map((topic) =>
+        '<article class="topic-board-row"><h3>' + escapeHtml(topic.title) + '</h3><p><strong>最新状态：</strong>' + escapeHtml(topic.update) + '<br><strong>下一观察点：</strong>' + escapeHtml(topic.next) + '</p>' +
+        '<button class="text-button open-detail" data-story="' + escapeHtml(topic.story_id) + '"><i data-lucide="arrow-up-right"></i>查看更新</button></article>'
+      ).join("");
+      document.getElementById("sourceList").innerHTML = (brief.sources || []).map((source) => '<span class="source-chip">' + escapeHtml(source) + '</span>').join("");
+      updateReading();
+      renderIcons();
+    }
+
+    async function loadBrief() {
+      try {
+        const response = await fetch("./data/brief.json", { cache: "no-store" });
+        if (!response.ok) throw new Error("Brief data unavailable");
+        renderBrief(await response.json());
+      } catch (error) {
+        document.getElementById("editionKicker").textContent = "MORNING BRIEF / 内置示例数据";
+      }
     }
 
     function openDetail(id) {
@@ -1132,7 +1231,9 @@
       document.getElementById("detailWhy").textContent = story.why;
       document.getElementById("detailImpact").textContent = story.impact;
       document.getElementById("detailUncertain").textContent = story.uncertain;
-      document.getElementById("detailSources").textContent = story.sources;
+      document.getElementById("detailSources").innerHTML = story.url
+        ? '原始来源：<a href="' + escapeHtml(story.url) + '" target="_blank" rel="noopener noreferrer">' + escapeHtml(story.source) + ' · 打开原文</a>'
+        : escapeHtml(story.sources);
       const saveText = saved.has(id) ? "已在稍后读" : "稍后读";
       document.getElementById("detailSave").innerHTML = '<i data-lucide="' + (saved.has(id) ? "check" : "bookmark") + '"></i>' + saveText;
       renderIcons();
@@ -1203,6 +1304,7 @@
 
     renderIcons();
     updateReading();
+    loadBrief();
   </script>
 </body>
 </html>
