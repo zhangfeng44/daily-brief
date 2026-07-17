@@ -1,6 +1,6 @@
 {
   "edition_title": "7 月 17 日，星期五",
-  "updated_label": "2026-07-17 11:59 北京时间",
+  "updated_label": "2026-07-17 12:16 北京时间",
   "estimated_minutes": 8,
   "market_label": "收盘或最近可得报价 · 非实时",
   "theme": "先分清事实、阅读框架和市场反应。对政策与宏观数据，优先等待执行细则和后续数据，不追逐单日情绪。",
@@ -8,9 +8,9 @@
     {
       "id": "china-policy",
       "section": "lead",
-      "source": "中国经济 · stats.gov.cn · 优先来源",
+      "source": "中国经济 · stats.gov.cn · 扩展来源",
       "title": "上半年经济运行在合理区间 新动能快速成长 - stats.gov.cn",
-      "summary": "来源等级：优先来源。这是自动筛出的短线索；打开原文核对背景、数据口径与完整表述。",
+      "summary": "来源等级：扩展来源。这是自动筛出的短线索；打开原文核对背景、数据口径与完整表述。",
       "time": "10:00",
       "minutes": 2,
       "tags": [
@@ -27,20 +27,20 @@
           "risk"
         ]
       ],
-      "fact": "来源 stats.gov.cn 的公开标题指出：上半年经济运行在合理区间 新动能快速成长 - stats.gov.cn。来源等级为优先来源；此处保留的是短线索，完整事实与措辞请以原文为准。",
+      "fact": "来源 stats.gov.cn 的公开标题指出：上半年经济运行在合理区间 新动能快速成长 - stats.gov.cn。来源等级为扩展来源；此处保留的是短线索，完整事实与措辞请以原文为准。",
       "why": "政策标题只能说明方向。更有用的是继续确认资金规模、落地细则和随后的消费、就业或投资数据。",
       "impact": "中国增长预期、内需相关行业和人民币风险偏好可能首先反应；持续性仍取决于执行与数据验证。",
       "uncertain": "单一表态不能直接代表政策效果，需等待正式文件、部门执行口径和后续数据。",
       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBjSVVBdjhnVkllcy1uRkVXVVBUMEgxX2c0NW9Tcm1HUV9ERHMzeldFMk1FLWdDMEd6dTRNU0s4OEdpYlpYRDdGckZhUmlYTFp0SkJaR0ZwWEtmVlVDVHZTQmwzZVUwUElHNGZvcWJFUQ?oc=5",
-      "sources": "原始来源：stats.gov.cn（优先来源）"
+      "sources": "原始来源：stats.gov.cn（扩展来源）"
     },
     {
       "id": "us-macro",
       "section": "lead",
-      "source": "美国宏观 · 汇通网 Fx678 · 聚合线索，需核对",
-      "title": "单月通胀降温不足以松懈，美联储高官直言年内仍需适度加息_外汇动态报道 - 汇通网 Fx678",
-      "summary": "来源等级：聚合线索，需核对。这是自动筛出的短线索；打开原文核对背景、数据口径与完整表述。",
-      "time": "09:48",
+      "source": "美国宏观 · Federal Reserve Bank of Dallas · 优先来源",
+      "title": "Remarks on inflation, employment and monetary policy - Federal Reserve Bank of Dallas",
+      "summary": "来源等级：优先来源。这是自动筛出的短线索；打开原文核对背景、数据口径与完整表述。",
+      "time": "03:25",
       "minutes": 3,
       "tags": [
         [
@@ -56,20 +56,20 @@
           "crypto"
         ]
       ],
-      "fact": "来源 汇通网 Fx678 的公开标题指出：单月通胀降温不足以松懈，美联储高官直言年内仍需适度加息_外汇动态报道 - 汇通网 Fx678。来源等级为聚合线索，需核对；此处保留的是短线索，完整事实与措辞请以原文为准。",
+      "fact": "来源 Federal Reserve Bank of Dallas 的公开标题指出：Remarks on inflation, employment and monetary policy - Federal Reserve Bank of Dallas。来源等级为优先来源；此处保留的是短线索，完整事实与措辞请以原文为准。",
       "why": "通胀、就业和美联储表态共同决定利率预期，而利率预期是美股估值、美元和 BTC 风险偏好的共同变量。",
       "impact": "若数据显著高于预期，收益率和美元通常更易走强；反之可能支持风险资产。实际反应取决于市场此前定价。",
       "uncertain": "单一数据经常被修正，且美联储会综合多项指标判断，不能把标题等同于政策结论。",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9BUUx1N2xrWGYxWHd4eHhyMmZxMkp2NmdFa3EzV2tldk15UHI0aFhqbE8zdFYtNUJyeHJuRXdqZ0V2R0R6anZESUZaWHQ2Z04teXMwaFp3RnZqUQ?oc=5",
-      "sources": "原始来源：汇通网 Fx678（聚合线索，需核对）"
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1PMGkwNXZubFJsX0F4SjRBazVNamk5TTQ0aGpiV1FVQWdaYy1rZTZWZ3pBNzlZZGlaX1Q1X00yc1V5cHlnb1BzSDJVZ085YUdMS0dWSmdfMEVaY1BRMV94M0tPMHdRT2pkYWlITQ?oc=5",
+      "sources": "原始来源：Federal Reserve Bank of Dallas（优先来源）"
     },
     {
       "id": "trade-chain",
       "section": "lead",
-      "source": "全球贸易 · 手机网易网 · 聚合线索，需核对",
-      "title": "退路已找好！印度直接对美国摊牌：关税必须优于中国，否则免谈 - 手机网易网",
-      "summary": "来源等级：聚合线索，需核对。这是自动筛出的短线索；打开原文核对背景、数据口径与完整表述。",
-      "time": "23:05",
+      "source": "全球贸易 · Nikkei Asia · 优先来源",
+      "title": "Toyota Tsusho ships auto parts to Mexico and Canada, cutting out US tariff - Nikkei Asia",
+      "summary": "来源等级：优先来源。这是自动筛出的短线索；打开原文核对背景、数据口径与完整表述。",
+      "time": "04:34",
       "minutes": 3,
       "tags": [
         [
@@ -85,20 +85,20 @@
           "risk"
         ]
       ],
-      "fact": "来源 手机网易网 的公开标题指出：退路已找好！印度直接对美国摊牌：关税必须优于中国，否则免谈 - 手机网易网。来源等级为聚合线索，需核对；此处保留的是短线索，完整事实与措辞请以原文为准。",
+      "fact": "来源 Nikkei Asia 的公开标题指出：Toyota Tsusho ships auto parts to Mexico and Canada, cutting out US tariff - Nikkei Asia。来源等级为优先来源；此处保留的是短线索，完整事实与措辞请以原文为准。",
       "why": "贸易政策从新闻标题走向盈利影响，需要拆分生效日期、豁免范围、库存周期和企业的成本传导能力。",
       "impact": "出口链、进口依赖度较高的企业以及部分制造和消费行业的预期可能变化；指数层面的影响取决于权重行业暴露。",
       "uncertain": "最终文本、谈判进展与企业应对节奏可能改变初始判断，需以原始公告为准。",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5lNmVCSkVZQkctNGt0OG9Jdk5SSmtKalpKU1k4R0tKTGJoLVdPNjRvS3V2ZVllYlp4XzJrdlFkUlh0T3VWNFU1LVFsVGtkOTNJajRxb3RvRUxHU0xpTTlzMmZ3?oc=5",
-      "sources": "原始来源：手机网易网（聚合线索，需核对）"
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPb3ZaVXo4NkR3Y3BFYmtiamZWVUZvTlJrUEFkYkVqYy1xb3U4dXBkWEg5VU8zN2pKQWVDa1lyeVNTT2NJLTQtV2NXOGRSLU9rOTN1eGU0bHJHQkRLOFlEdEhHb3BTWjNUY1pPbk81d0UzcEs0MnM3ZlFKYU4za01kUDFBRDJlRE1IVUNvSXlhWDBTUGRzQkc2dUd6NmxSX1BqSkZLUExicmE2amZkUUFJQmRtOU1kZ1FzMm5NRA?oc=5",
+      "sources": "原始来源：Nikkei Asia（优先来源）"
     },
     {
       "id": "us-markets",
       "section": "update",
-      "source": "美国市场 · Moomoo · 聚合线索，需核对",
-      "title": "华尔街今日：道指、标普500和纳斯达克综合指数上涨，苹果、谷歌、微软涨幅盖过SK海力士和美光跌幅 - Moomoo",
-      "summary": "来源等级：聚合线索，需核对。这是自动筛出的短线索；打开原文核对背景、数据口径与完整表述。",
-      "time": "00:32",
+      "source": "美国市场 · Reuters · 优先来源",
+      "title": "Wall Street ends lower as chip weakness offsets solid earnings, economic data - Reuters",
+      "summary": "来源等级：优先来源。这是自动筛出的短线索；打开原文核对背景、数据口径与完整表述。",
+      "time": "04:18",
       "minutes": 1,
       "tags": [
         [
@@ -110,20 +110,20 @@
           "market"
         ]
       ],
-      "fact": "来源 Moomoo 的公开标题指出：华尔街今日：道指、标普500和纳斯达克综合指数上涨，苹果、谷歌、微软涨幅盖过SK海力士和美光跌幅 - Moomoo。来源等级为聚合线索，需核对；此处保留的是短线索，完整事实与措辞请以原文为准。",
+      "fact": "来源 Reuters 的公开标题指出：Wall Street ends lower as chip weakness offsets solid earnings, economic data - Reuters。来源等级为优先来源；此处保留的是短线索，完整事实与措辞请以原文为准。",
       "why": "市场交易的是未来预期，指引、利润率和资本开支往往比单季结果更能改变估值。",
       "impact": "大型科技公司的业绩与资本开支会对指数、供应链和成长风格估值产生较大影响。",
       "uncertain": "股价反应同时受估值和投资者仓位影响，业绩超预期也不必然意味着上涨。",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQS3g5c0FKTUpxa09fSl9GR0hYaU9SbGFKaktoQzlpazRhTUhCZ3hKSFRlT0ZuU0Y1bElUcWd2UHdBMTFZRGR5SzVucHpDZVZ3SkE5aWdlMm9LOFJhemJsY2pSSzVBd3c2eVpTeVZ6bWQwTjdhLXBOZTZTTW9LVm9IQlV6NF8wcTNDTHM2eFJmRnRKbGVGQVBKdWtVVnA0LVRsYWhZRnNIWEU?oc=5",
-      "sources": "原始来源：Moomoo（聚合线索，需核对）"
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPWGU5QUxvUmRMUXgzYmxBbXIxRnM5aTE2Q014TV9HeVlIdVQ0RGV4aWx3a0RMQ2djdUdvSEwtX2diaDZ2QkhfaWE4WmFpb1pWTzlsajhWaTdqYWp4N0hnSjRRWGVIQU93VnA1czVqOGZYekhOMDNWMmZFSnVxTmxybHhxR2NLTVJDR3NxWVE5ZDFEUC11N2NvU0NXSTJrbTJXbXNsQjZsZklUb19vVy1wMi1mU1YxSGc?oc=5",
+      "sources": "原始来源：Reuters（优先来源）"
     },
     {
       "id": "bitcoin",
       "section": "update",
       "source": "加密资产 · CoinDesk · 优先来源",
-      "title": "资产管理规模达1.9万亿美元的T. Rowe Price通过首个多代币加密货币ETF押注主动管理 - CoinDesk",
+      "title": "Ether outruns bitcoin as ETF money returns, almost all of from BlackRock's fund - CoinDesk",
       "summary": "来源等级：优先来源。这是自动筛出的短线索；打开原文核对背景、数据口径与完整表述。",
-      "time": "11:38",
+      "time": "12:56",
       "minutes": 1,
       "tags": [
         [
@@ -135,11 +135,11 @@
           "market"
         ]
       ],
-      "fact": "来源 CoinDesk 的公开标题指出：资产管理规模达1.9万亿美元的T. Rowe Price通过首个多代币加密货币ETF押注主动管理 - CoinDesk。来源等级为优先来源；此处保留的是短线索，完整事实与措辞请以原文为准。",
+      "fact": "来源 CoinDesk 的公开标题指出：Ether outruns bitcoin as ETF money returns, almost all of from BlackRock's fund - CoinDesk。来源等级为优先来源；此处保留的是短线索，完整事实与措辞请以原文为准。",
       "why": "BTC 同时受链上和 ETF 资金、美元流动性、实际利率与风险情绪影响，单一指标的解释力有限。",
       "impact": "持续配置型资金流入可能改善边际买盘预期；利率上行或风险资产走弱也可能抵消这种支持。",
       "uncertain": "短期波动常由多因素共同驱动，单日流入流出不能独立预测价格趋势。",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPcXkwM0N2aVUtUHF5VVl2bHlpVDVJYTM1WVQySVkxVWY3ZGRobFBvR1ZQWUJ1a3Z3aGhRbEY2RGttYVNHc2p1bUkzV05JUW5qb2JiNFk3X1poSkxVRm5LT0laZ2hXbENVazlLNUlYa1JpckdZSmdGVmhOa2VLcmVPWElOa0VKQS01UTg0bjJDSTEtLUFadUxjVWlRTGRXdW44MEZKVUZZM1NYd1k1ZFJNbUJfVnhwWkdLWUVNS00yN3FPamkxWnJGM1BJLWh5V3UyME1LZlBkSDFmNjVjMHFzUkgzNA?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPN0FMeS05X3BQeDhVUzZIeWxEWmszS2FEblg5bU1lUVNtck9mWW1xOVRLTUhwYXpDdlJoeTk0MHhWaU1RYWpqR3EtTzZGYXhRM0tzQ1NkcFdOa3dKT3FZVkRIVE1zTmpDdUJLUjQ4bDdKaE5mNFM4UGNkYWJCREJGWW9XSVdRNkxZWjN6eXk1V042dDVOeHJIdTJES24yZXN3UjNzSG1yQ1lOYnB5ZkJ6VnZDX0o0RnhrWU9CQm4xMA?oc=5",
       "sources": "原始来源：CoinDesk（优先来源）"
     }
   ],
@@ -156,13 +156,13 @@
     },
     {
       "label": "美元/人民币",
-      "value": "6.7739",
-      "change": 0.08
+      "value": "6.7742",
+      "change": 0.09
     },
     {
       "label": "BTC",
       "value": "$63.5k",
-      "change": -1.86
+      "change": -1.91
     }
   ],
   "calendar": [
@@ -196,30 +196,30 @@
     {
       "title": "美联储与风险资产",
       "status": "每日更新",
-      "update": "单月通胀降温不足以松懈，美联储高官直言年内仍需适度加息_外汇动态报道 - 汇通网 Fx678",
+      "update": "Remarks on inflation, employment and monetary policy - Federal Reserve Bank of Dallas",
       "next": "通胀、就业、收益率及美联储沟通是否形成同一方向。",
       "story_id": "us-macro"
     },
     {
       "title": "BTC 与流动性",
       "status": "每日更新",
-      "update": "资产管理规模达1.9万亿美元的T. Rowe Price通过首个多代币加密货币ETF押注主动管理 - CoinDesk",
+      "update": "Ether outruns bitcoin as ETF money returns, almost all of from BlackRock's fund - CoinDesk",
       "next": "ETF 资金、美元与实际利率、风险资产波动。",
       "story_id": "bitcoin"
     }
   ],
   "sources": [
-    "中国政府网",
-    "国家统计局",
+    "Reuters",
+    "Bloomberg",
+    "Financial Times",
+    "Nikkei Asia",
+    "Wall Street Journal",
+    "AP",
+    "BBC News",
+    "CoinDesk",
     "美联储",
     "BLS",
     "SEC",
-    "Reuters",
-    "AP",
-    "Bloomberg",
-    "Financial Times",
-    "财新",
-    "Nikkei Asia",
-    "Google 新闻索引"
+    "中国官方原始发布（仅核对）"
   ]
 }
