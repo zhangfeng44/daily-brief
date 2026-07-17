@@ -21,12 +21,13 @@ BEIJING = timezone(timedelta(hours=8))
 TOPICS = [
     {
         "id": "china-policy",
-        "query": "(site:gov.cn OR site:stats.gov.cn OR site:pbc.gov.cn) 中国经济 政策",
+        "query": "中国经济 政策 消费 金融 数据",
         "source": "中国经济",
-        "publishers": ["gov.cn", "国家统计局", "中国政府网", "中国人民银行", "新华社", "Reuters", "财新"],
-        "keywords": ["中国", "经济", "政策", "消费", "统计", "国民", "金融"],
-        "required_keywords": ["经济", "政策", "消费", "统计", "国民", "金融"],
-        "minimum_keyword_hits": 2,
+        "priority_publishers": ["gov.cn", "国家统计局", "中国政府网", "中国人民银行", "国家发展改革委", "新华社", "Reuters", "财新"],
+        "publishers": ["gov.cn", "国家统计局", "中国政府网", "中国人民银行", "国家发展改革委", "新华社", "Reuters", "财新", "第一财经", "证券时报", "上海证券报", "经济观察报", "界面新闻", "澎湃新闻", "Bloomberg", "Financial Times"],
+        "keywords": ["中国", "经济", "政策", "消费", "统计", "国民", "金融", "财政", "货币", "投资", "就业", "地产", "制造业", "人民币", "pmi"],
+        "required_keywords": ["经济", "政策", "消费", "统计", "国民", "金融", "财政", "货币", "投资", "就业", "地产", "制造业", "人民币", "pmi"],
+        "minimum_keyword_hits": 1,
         "section": "lead",
         "minutes": 2,
         "tags": [["中国经济", "china"], ["政策", "market"], ["中影响", "risk"]],
@@ -36,12 +37,13 @@ TOPICS = [
     },
     {
         "id": "us-macro",
-        "query": "(site:federalreserve.gov OR site:bls.gov OR site:bea.gov OR site:reuters.com) U.S. inflation jobs Federal Reserve",
+        "query": "美国 通胀 就业 美联储 利率",
         "source": "美国宏观",
-        "publishers": ["Federal Reserve", "Bureau of Labor Statistics", "BLS", "BEA", "Reuters", "Associated Press", "AP"],
-        "keywords": ["美国", "美联储", "通胀", "就业", "cpi", "inflation", "federal reserve", "fed", "jobs", "gdp"],
-        "required_keywords": ["美联储", "通胀", "就业", "cpi", "inflation", "federal reserve", "fed", "jobs", "gdp"],
-        "minimum_keyword_hits": 2,
+        "priority_publishers": ["Federal Reserve", "Bureau of Labor Statistics", "BLS", "BEA", "Reuters", "Associated Press", "AP"],
+        "publishers": ["Federal Reserve", "Bureau of Labor Statistics", "BLS", "BEA", "Reuters", "Associated Press", "AP", "Bloomberg", "Financial Times", "Wall Street Journal", "CNBC", "MarketWatch", "Yahoo Finance", "BBC News", "The New York Times"],
+        "keywords": ["美国", "美联储", "通胀", "就业", "cpi", "inflation", "federal reserve", "fed", "jobs", "gdp", "利率", "降息", "加息", "收益率", "国债", "鲍威尔", "powell", "fomc", "零售销售"],
+        "required_keywords": ["美联储", "通胀", "就业", "cpi", "inflation", "federal reserve", "fed", "jobs", "gdp", "利率", "降息", "加息", "收益率", "国债", "鲍威尔", "powell", "fomc", "零售销售"],
+        "minimum_keyword_hits": 1,
         "section": "lead",
         "minutes": 3,
         "tags": [["美联储", "us"], ["美股", "market"], ["BTC", "crypto"]],
@@ -51,12 +53,13 @@ TOPICS = [
     },
     {
         "id": "trade-chain",
-        "query": "(site:reuters.com OR site:asia.nikkei.com OR site:mofcom.gov.cn) U.S. China trade tariffs supply chain",
+        "query": "中美贸易 关税 供应链 出口",
         "source": "全球贸易",
-        "publishers": ["Reuters", "Nikkei Asia", "商务部", "MOFCOM", "Associated Press", "AP"],
-        "keywords": ["中美", "美国", "中国", "贸易", "关税", "供应链", "出口", "wto", "tariff", "trade"],
-        "required_keywords": ["中美", "贸易", "关税", "供应链", "出口", "wto", "tariff", "trade"],
-        "minimum_keyword_hits": 2,
+        "priority_publishers": ["Reuters", "Nikkei Asia", "商务部", "MOFCOM", "Associated Press", "AP"],
+        "publishers": ["Reuters", "Nikkei Asia", "商务部", "MOFCOM", "Associated Press", "AP", "Bloomberg", "Financial Times", "Wall Street Journal", "South China Morning Post", "BBC News", "CNBC", "财新"],
+        "keywords": ["中美", "美国", "中国", "贸易", "关税", "供应链", "出口", "进口", "wto", "tariff", "trade", "export", "import", "制裁", "芯片", "航运"],
+        "required_keywords": ["中美", "美国", "中国", "贸易", "关税", "wto", "tariff", "trade", "制裁"],
+        "minimum_keyword_hits": 1,
         "section": "lead",
         "minutes": 3,
         "tags": [["中国", "china"], ["美国", "us"], ["政策风险", "risk"]],
@@ -66,12 +69,13 @@ TOPICS = [
     },
     {
         "id": "us-markets",
-        "query": "(site:reuters.com OR site:sec.gov OR site:apnews.com) U.S. stocks earnings",
+        "query": "美股 财报 科技股 标普 纳斯达克",
         "source": "美国市场",
-        "publishers": ["Reuters", "SEC", "Associated Press", "AP"],
-        "keywords": ["美股", "美国", "标普", "华尔街", "财报", "科技股", "股市", "earnings", "stocks", "wall street"],
-        "required_keywords": ["美股", "标普", "华尔街", "财报", "科技股", "earnings", "stocks", "wall street"],
-        "minimum_keyword_hits": 2,
+        "priority_publishers": ["Reuters", "SEC", "Associated Press", "AP"],
+        "publishers": ["Reuters", "SEC", "Associated Press", "AP", "Bloomberg", "Financial Times", "Wall Street Journal", "CNBC", "MarketWatch", "Yahoo Finance", "Barron's"],
+        "keywords": ["美股", "美国", "标普", "纳斯达克", "华尔街", "财报", "科技股", "股市", "earnings", "stocks", "wall street", "s&p", "nasdaq", "道琼斯", "英伟达", "苹果", "微软", "指数"],
+        "required_keywords": ["美股", "标普", "纳斯达克", "华尔街", "财报", "科技股", "earnings", "stocks", "wall street", "s&p", "nasdaq", "道琼斯", "英伟达", "苹果", "微软", "指数"],
+        "minimum_keyword_hits": 1,
         "section": "update",
         "minutes": 1,
         "tags": [["美股", "us"], ["企业盈利", "market"]],
@@ -81,12 +85,13 @@ TOPICS = [
     },
     {
         "id": "bitcoin",
-        "query": "(site:reuters.com OR site:sec.gov OR site:coindesk.com) bitcoin ETF macro",
+        "query": "比特币 BTC ETF 加密市场",
         "source": "加密资产",
-        "publishers": ["Reuters", "SEC", "CoinDesk"],
+        "priority_publishers": ["Reuters", "SEC", "CoinDesk"],
+        "publishers": ["Reuters", "SEC", "CoinDesk", "Bloomberg", "Financial Times", "CNBC", "The Block", "Blockworks", "Decrypt", "Cointelegraph"],
         "keywords": ["比特币", "btc", "bitcoin", "加密", "etf"],
         "required_keywords": ["比特币", "btc", "bitcoin", "加密", "etf"],
-        "minimum_keyword_hits": 2,
+        "minimum_keyword_hits": 1,
         "section": "update",
         "minutes": 1,
         "tags": [["BTC", "crypto"], ["资金流", "market"]],
@@ -116,39 +121,56 @@ def strip_html(value: str) -> str:
 
 def google_news_item(
     query: str,
+    priority_publishers: list[str],
     publishers: list[str],
     keywords: list[str],
     required_keywords: list[str],
     minimum_keyword_hits: int,
 ) -> dict | None:
     params = urllib.parse.urlencode({
-        "q": query,
+        "q": query + " when:3d",
         "hl": "zh-CN",
         "gl": "CN",
         "ceid": "CN:zh-Hans",
     })
     try:
         root = ET.fromstring(request("https://news.google.com/rss/search?" + params))
+        selected_candidates = []
+        fallback_candidates = []
         for item in root.findall("./channel/item"):
             title = strip_html(item.findtext("title", ""))
             link = item.findtext("link", "")
             source = item.find("source")
             source_name = source.text if source is not None else "Google 新闻"
             source_text = source_name.lower()
-            if not any(publisher.lower() in source_text for publisher in publishers):
-                continue
             if not any(keyword.lower() in title.lower() for keyword in keywords):
                 continue
             keyword_hits = sum(keyword.lower() in title.lower() for keyword in required_keywords)
             if keyword_hits < minimum_keyword_hits:
                 continue
-            return {
+            priority_source = any(publisher.lower() in source_text for publisher in priority_publishers)
+            selected_source = priority_source or any(publisher.lower() in source_text for publisher in publishers)
+            # A source outside the selected list is only used as a clearly marked
+            # fallback when its headline has a stronger-than-minimum topic match.
+            if not selected_source and keyword_hits < 2:
+                continue
+            candidate = {
                 "title": title,
                 "url": link,
                 "publisher": source_name,
                 "published": item.findtext("pubDate", ""),
+                "source_level": "优先来源" if priority_source else ("扩展来源" if selected_source else "聚合线索，需核对"),
+                "score": keyword_hits * 10 + (3 if priority_source else (2 if selected_source else 0)),
             }
-        return None
+            if selected_source:
+                selected_candidates.append(candidate)
+            else:
+                fallback_candidates.append(candidate)
+        # Relevance still orders candidates within a tier, but a selected source
+        # should not be displaced by an unknown outlet merely because its title
+        # repeats more matching keywords.
+        candidates = selected_candidates or fallback_candidates
+        return max(candidates, key=lambda item: item["score"]) if candidates else None
     except Exception as error:
         print(f"Feed unavailable for {query}: {error}")
         return None
@@ -180,16 +202,18 @@ def format_market(label: str, value: float) -> str:
 def story_from_topic(topic: dict, now: datetime) -> dict:
     item = google_news_item(
         topic["query"],
+        topic["priority_publishers"],
         topic["publishers"],
         topic["keywords"],
         topic["required_keywords"],
         topic["minimum_keyword_hits"],
     )
-    title = item["title"] if item else "暂未取得符合来源筛选条件的最新公开标题"
+    title = item["title"] if item else "今日暂未取得主题相关的公开线索"
     publisher = item["publisher"] if item else "待核查"
+    source_level = item["source_level"] if item else "暂无"
     url = item["url"] if item else ""
-    summary = ("来自 " + publisher + " 的最新线索。打开原文核对背景与完整表述，再将它与数据和后续公告放在一起判断。") if item else (
-        "本次自动采集没有找到符合来源筛选条件的标题，因此不以其他来源补位。"
+    summary = ("来源等级：" + source_level + "。这是自动筛出的短线索；打开原文核对背景、数据口径与完整表述。") if item else (
+        "自动采集未找到同时满足主题相关性和最低来源要求的条目，下一轮更新会重新检索。"
     )
     published = item.get("published", "") if item else ""
     time_label = "更新"
@@ -201,18 +225,20 @@ def story_from_topic(topic: dict, now: datetime) -> dict:
     return {
         "id": topic["id"],
         "section": topic["section"],
-        "source": topic["source"] + " · " + publisher,
+        "source": topic["source"] + " · " + publisher + ((" · " + source_level) if item else ""),
         "title": title,
         "summary": summary,
         "time": time_label,
         "minutes": topic["minutes"],
         "tags": topic["tags"],
-        "fact": "来源 " + publisher + " 的公开标题指出：" + title + "。此处保留的是短线索，完整事实与措辞请以原文为准。",
+        "fact": ("来源 " + publisher + " 的公开标题指出：" + title + "。来源等级为" + source_level + "；此处保留的是短线索，完整事实与措辞请以原文为准。") if item else (
+            "今日尚无可展示的主题线索。市场数据仍可作为背景参考，但不应被当作该主题的新闻结论。"
+        ),
         "why": topic["why"],
         "impact": topic["impact"],
         "uncertain": topic["uncertain"],
         "url": url,
-        "sources": "原始来源：" + publisher,
+        "sources": ("原始来源：" + publisher + "（" + source_level + "）") if item else "等待下一轮公开来源更新",
     }
 
 
@@ -270,7 +296,7 @@ def build() -> dict:
             {"time": "全天", "event": "BTC 与市场流动性", "note": "将资金流与美元、利率一起看", "grade": "跟进"},
         ],
         "topics": topics,
-        "sources": ["中国政府网", "国家统计局", "美联储", "BLS", "SEC", "Reuters", "AP", "财新", "Nikkei Asia", "Google 新闻索引"],
+        "sources": ["中国政府网", "国家统计局", "美联储", "BLS", "SEC", "Reuters", "AP", "Bloomberg", "Financial Times", "财新", "Nikkei Asia", "Google 新闻索引"],
     }
 
 
