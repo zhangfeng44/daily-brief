@@ -1,0 +1,1208 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4f5f1">
+  <title>早知 - 每日政治经济简报</title>
+  <style>
+    :root {
+      --canvas: #f4f5f1;
+      --paper: #fbfbf8;
+      --ink: #1c2320;
+      --muted: #69726c;
+      --faint: #a8afa9;
+      --line: #d9ddd7;
+      --line-strong: #c6cdc5;
+      --evergreen: #1d5c47;
+      --evergreen-soft: #e0eee5;
+      --blue: #215d78;
+      --blue-soft: #deedf3;
+      --amber: #9b601d;
+      --amber-soft: #f7ebd8;
+      --red: #a44036;
+      --red-soft: #f5e2df;
+      --shadow: 0 20px 50px rgba(31, 45, 37, 0.08);
+      --sans: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+      --serif: "Songti SC", "STSong", "Noto Serif CJK SC", Georgia, serif;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-width: 320px;
+      background: var(--canvas);
+      color: var(--ink);
+      font-family: var(--sans);
+      letter-spacing: 0;
+    }
+
+    button, a { font: inherit; }
+    button { color: inherit; }
+
+    button:focus-visible, a:focus-visible {
+      outline: 3px solid rgba(33, 93, 120, 0.28);
+      outline-offset: 2px;
+    }
+
+    .app-shell {
+      width: min(1440px, calc(100% - 40px));
+      margin: 0 auto;
+    }
+
+    .topbar {
+      min-height: 76px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+      border-bottom: 1px solid var(--line-strong);
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 11px;
+      color: var(--ink);
+      text-decoration: none;
+      flex: 0 0 auto;
+    }
+
+    .brand-mark {
+      width: 30px;
+      height: 30px;
+      display: grid;
+      place-items: center;
+      border-radius: 7px;
+      background: var(--evergreen);
+      color: white;
+      font-family: var(--serif);
+      font-size: 17px;
+      font-weight: 700;
+    }
+
+    .brand-word {
+      font-family: var(--serif);
+      font-size: 21px;
+      font-weight: 700;
+      line-height: 1;
+    }
+
+    .primary-nav {
+      display: flex;
+      align-items: stretch;
+      height: 76px;
+      margin-left: auto;
+    }
+
+    .nav-tab {
+      position: relative;
+      min-width: 88px;
+      border: 0;
+      border-bottom: 2px solid transparent;
+      background: transparent;
+      color: var(--muted);
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: 700;
+    }
+
+    .nav-tab:hover { color: var(--ink); }
+    .nav-tab.active {
+      color: var(--ink);
+      border-bottom-color: var(--evergreen);
+    }
+
+    .nav-count {
+      display: inline-grid;
+      place-items: center;
+      min-width: 18px;
+      height: 18px;
+      margin-left: 5px;
+      border-radius: 50%;
+      background: var(--evergreen-soft);
+      color: var(--evergreen);
+      font-size: 11px;
+    }
+
+    .header-actions {
+      display: flex;
+      gap: 6px;
+      padding-left: 10px;
+      border-left: 1px solid var(--line);
+    }
+
+    .icon-button {
+      display: inline-grid;
+      place-items: center;
+      width: 38px;
+      height: 38px;
+      padding: 0;
+      border: 1px solid transparent;
+      border-radius: 7px;
+      background: transparent;
+      color: var(--muted);
+      cursor: pointer;
+    }
+
+    .icon-button:hover, .icon-button.active {
+      border-color: var(--line);
+      background: var(--paper);
+      color: var(--ink);
+    }
+
+    .icon-button svg { width: 18px; height: 18px; stroke-width: 1.8; }
+
+    .edition-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      padding: 22px 0 19px;
+    }
+
+    .edition-kicker {
+      margin: 0 0 4px;
+      color: var(--evergreen);
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+    }
+
+    .edition-title {
+      margin: 0;
+      font-family: var(--serif);
+      font-size: 28px;
+      line-height: 1.1;
+      letter-spacing: 0;
+    }
+
+    .edition-meta {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      color: var(--muted);
+      font-size: 13px;
+      white-space: nowrap;
+    }
+
+    .progress {
+      width: 126px;
+      height: 4px;
+      overflow: hidden;
+      border-radius: 2px;
+      background: #dce1db;
+    }
+
+    .progress > span {
+      display: block;
+      width: 34%;
+      height: 100%;
+      background: var(--evergreen);
+      transition: width 220ms ease;
+    }
+
+    .read-note { min-width: 76px; }
+
+    .brief-layout {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 330px;
+      gap: 48px;
+      padding-bottom: 50px;
+    }
+
+    .main-column { min-width: 0; }
+
+    .section-head {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 16px;
+      border-top: 2px solid var(--ink);
+      padding: 14px 0 12px;
+    }
+
+    .section-head h2 {
+      margin: 0;
+      font-size: 15px;
+      font-weight: 800;
+    }
+
+    .section-head p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .lead-story {
+      display: grid;
+      grid-template-columns: 50px minmax(0, 1fr) auto;
+      gap: 16px;
+      align-items: start;
+      padding: 20px 0 22px;
+      border-bottom: 1px solid var(--line-strong);
+    }
+
+    .story-no {
+      color: var(--evergreen);
+      font-family: var(--serif);
+      font-size: 34px;
+      line-height: 1;
+    }
+
+    .story-copy { min-width: 0; }
+
+    .story-kicker {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    .source-dot {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: var(--blue);
+    }
+
+    .story-title {
+      margin: 8px 0 8px;
+      font-family: var(--serif);
+      font-size: 25px;
+      line-height: 1.32;
+      letter-spacing: 0;
+    }
+
+    .story-summary {
+      max-width: 690px;
+      margin: 0;
+      color: #38423d;
+      font-size: 14px;
+      line-height: 1.72;
+    }
+
+    .story-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 7px;
+      margin-top: 13px;
+    }
+
+    .tag {
+      display: inline-flex;
+      align-items: center;
+      min-height: 22px;
+      border: 1px solid transparent;
+      border-radius: 4px;
+      padding: 2px 7px;
+      font-size: 11px;
+      font-weight: 750;
+      white-space: nowrap;
+    }
+
+    .tag.china { background: var(--evergreen-soft); color: var(--evergreen); }
+    .tag.us { background: var(--blue-soft); color: var(--blue); }
+    .tag.market { background: #eceeea; color: #59635d; }
+    .tag.risk { background: var(--amber-soft); color: var(--amber); }
+    .tag.crypto { background: var(--red-soft); color: var(--red); }
+
+    .story-actions {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .text-button {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      min-height: 34px;
+      padding: 0 10px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: var(--paper);
+      color: #445049;
+      cursor: pointer;
+      font-size: 12px;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+
+    .text-button:hover { border-color: #96aaa0; color: var(--evergreen); }
+    .text-button svg { width: 15px; height: 15px; }
+
+    .insight-note {
+      display: flex;
+      gap: 12px;
+      margin: 0;
+      padding: 15px 0;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .insight-index {
+      color: var(--amber);
+      font-family: var(--serif);
+      font-size: 18px;
+      line-height: 1.2;
+    }
+
+    .insight-note p {
+      margin: 0;
+      color: #465049;
+      font-size: 13px;
+      line-height: 1.65;
+    }
+
+    .pulse {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      border-top: 1px solid var(--line-strong);
+      border-bottom: 1px solid var(--line-strong);
+    }
+
+    .market-item {
+      min-width: 0;
+      padding: 16px 15px 17px;
+      border-right: 1px solid var(--line);
+    }
+
+    .market-item:last-child { border-right: 0; }
+
+    .market-label {
+      color: var(--muted);
+      font-size: 11px;
+      font-weight: 800;
+    }
+
+    .market-value {
+      margin-top: 7px;
+      font-size: 18px;
+      font-weight: 760;
+      line-height: 1;
+    }
+
+    .market-change {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      margin-top: 7px;
+      font-size: 12px;
+      font-weight: 750;
+    }
+
+    .market-change.up { color: var(--evergreen); }
+    .market-change.down { color: var(--red); }
+    .market-change.flat { color: var(--muted); }
+    .spark { width: 44px; height: 14px; }
+
+    .news-list { border-top: 1px solid var(--line-strong); }
+
+    .news-item {
+      display: grid;
+      grid-template-columns: 88px minmax(0, 1fr) auto;
+      gap: 14px;
+      align-items: center;
+      width: 100%;
+      padding: 15px 0;
+      border: 0;
+      border-bottom: 1px solid var(--line);
+      background: transparent;
+      text-align: left;
+      cursor: pointer;
+    }
+
+    .news-item:hover .news-title { color: var(--evergreen); }
+    .news-time {
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    .news-title {
+      overflow: hidden;
+      margin: 0;
+      color: var(--ink);
+      font-size: 14px;
+      font-weight: 760;
+      line-height: 1.45;
+      text-overflow: ellipsis;
+    }
+
+    .news-meta {
+      margin-top: 3px;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.35;
+    }
+
+    .news-item .tag { justify-self: end; }
+
+    .side-column {
+      min-width: 0;
+      border-left: 1px solid var(--line);
+      padding-left: 24px;
+    }
+
+    .side-section + .side-section { margin-top: 32px; }
+    .side-title {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      min-height: 37px;
+      margin: 0;
+      border-top: 2px solid var(--ink);
+      border-bottom: 1px solid var(--line);
+      font-size: 14px;
+      font-weight: 800;
+    }
+
+    .side-link {
+      border: 0;
+      padding: 0;
+      background: transparent;
+      color: var(--evergreen);
+      cursor: pointer;
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    .calendar-row {
+      display: grid;
+      grid-template-columns: 45px minmax(0, 1fr) auto;
+      gap: 10px;
+      padding: 13px 0;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .calendar-time {
+      color: var(--evergreen);
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .calendar-event {
+      margin: 0;
+      font-size: 13px;
+      font-weight: 720;
+      line-height: 1.4;
+    }
+
+    .calendar-sub {
+      margin: 3px 0 0;
+      color: var(--muted);
+      font-size: 11px;
+      line-height: 1.35;
+    }
+
+    .event-grade {
+      align-self: start;
+      color: var(--amber);
+      font-size: 11px;
+      font-weight: 800;
+    }
+
+    .topic-row {
+      padding: 15px 0 14px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .topic-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 8px;
+    }
+
+    .topic-name {
+      margin: 0;
+      font-size: 13px;
+      font-weight: 780;
+    }
+
+    .topic-status {
+      color: var(--muted);
+      font-size: 11px;
+      white-space: nowrap;
+    }
+
+    .topic-update {
+      margin: 7px 0 0;
+      color: #4a554f;
+      font-size: 12px;
+      line-height: 1.55;
+    }
+
+    .source-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 7px;
+      padding-top: 13px;
+    }
+
+    .source-chip {
+      border: 1px solid var(--line);
+      border-radius: 4px;
+      padding: 4px 7px;
+      color: var(--muted);
+      font-size: 11px;
+      font-weight: 700;
+    }
+
+    .view { display: none; }
+    .view.active { display: block; }
+
+    .topics-intro {
+      max-width: 700px;
+      margin: 4px 0 25px;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.65;
+    }
+
+    .topic-board { border-top: 2px solid var(--ink); }
+    .topic-board-row {
+      display: grid;
+      grid-template-columns: minmax(220px, 0.7fr) minmax(0, 1.5fr) 120px;
+      gap: 20px;
+      align-items: center;
+      padding: 20px 0;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .topic-board-row h3 {
+      margin: 0;
+      font-family: var(--serif);
+      font-size: 20px;
+      line-height: 1.35;
+    }
+
+    .topic-board-row p {
+      margin: 0;
+      color: #4b5650;
+      font-size: 13px;
+      line-height: 1.6;
+    }
+
+    .topic-board-row .text-button { justify-self: end; }
+
+    .saved-empty {
+      display: grid;
+      place-items: center;
+      min-height: 300px;
+      border-top: 2px solid var(--ink);
+      border-bottom: 1px solid var(--line);
+      color: var(--muted);
+      text-align: center;
+    }
+
+    .saved-empty svg { width: 24px; height: 24px; margin-bottom: 10px; }
+    .saved-empty p { margin: 0; font-size: 14px; }
+
+    dialog {
+      width: min(760px, calc(100vw - 32px));
+      max-height: min(760px, calc(100vh - 32px));
+      margin: auto;
+      padding: 0;
+      border: 1px solid var(--line-strong);
+      border-radius: 8px;
+      background: var(--paper);
+      box-shadow: 0 28px 90px rgba(20, 36, 28, 0.22);
+      color: var(--ink);
+    }
+
+    dialog::backdrop { background: rgba(25, 35, 29, 0.38); }
+
+    .detail-header {
+      display: flex;
+      justify-content: space-between;
+      gap: 14px;
+      padding: 18px 22px 16px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .detail-source {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin: 0 0 7px;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    .detail-body {
+      overflow-y: auto;
+      max-height: calc(min(760px, 100vh - 32px) - 74px);
+      padding: 24px 28px 30px;
+    }
+
+    .detail-body h2 {
+      margin: 0;
+      font-family: var(--serif);
+      font-size: 28px;
+      line-height: 1.38;
+    }
+
+    .detail-body .story-tags { margin-bottom: 22px; }
+    .detail-block { padding: 16px 0; border-top: 1px solid var(--line); }
+    .detail-block h3 {
+      margin: 0 0 7px;
+      font-size: 13px;
+      font-weight: 850;
+    }
+
+    .detail-block p {
+      margin: 0;
+      color: #3f4b44;
+      font-size: 14px;
+      line-height: 1.72;
+    }
+
+    .detail-callout {
+      padding: 14px 15px;
+      border-left: 3px solid var(--amber);
+      background: #fbf5eb;
+    }
+
+    .detail-foot {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      padding-top: 20px;
+    }
+
+    .source-text {
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.5;
+    }
+
+    .toast {
+      position: fixed;
+      right: 24px;
+      bottom: 24px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      transform: translateY(120px);
+      padding: 11px 14px;
+      border: 1px solid #b8d3c2;
+      border-radius: 7px;
+      background: #eff8f1;
+      box-shadow: 0 12px 30px rgba(30, 60, 40, 0.12);
+      color: var(--evergreen);
+      font-size: 13px;
+      font-weight: 700;
+      opacity: 0;
+      transition: transform 220ms ease, opacity 220ms ease;
+      z-index: 5;
+    }
+
+    .toast.show { transform: translateY(0); opacity: 1; }
+    .toast svg { width: 16px; height: 16px; }
+
+    @media (max-width: 1000px) {
+      .brief-layout { grid-template-columns: minmax(0, 1fr) 280px; gap: 28px; }
+      .pulse { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .market-item:nth-child(2) { border-right: 0; }
+      .market-item:nth-child(-n+2) { border-bottom: 1px solid var(--line); }
+    }
+
+    @media (max-width: 780px) {
+      .app-shell { width: min(100% - 28px, 640px); }
+      .topbar { min-height: 64px; gap: 8px; }
+      .primary-nav { height: 64px; }
+      .nav-tab { min-width: 62px; font-size: 13px; }
+      .header-actions { padding-left: 4px; }
+      .header-actions .icon-button:first-child { display: none; }
+      .edition-bar { align-items: flex-end; padding: 18px 0 17px; }
+      .edition-title { font-size: 23px; }
+      .edition-meta { display: block; text-align: right; }
+      .progress { width: 92px; margin: 7px 0 0 auto; }
+      .brief-layout { display: block; padding-bottom: 32px; }
+      .side-column { margin-top: 32px; border-left: 0; padding-left: 0; }
+      .lead-story { grid-template-columns: 31px minmax(0, 1fr); gap: 11px; padding: 17px 0; }
+      .lead-story > .story-actions { grid-column: 2; }
+      .story-title { font-size: 21px; }
+      .story-summary { font-size: 13px; line-height: 1.65; }
+      .news-item { grid-template-columns: 53px minmax(0, 1fr); gap: 9px; }
+      .news-item .tag { display: none; }
+      .topic-board-row { grid-template-columns: 1fr; gap: 9px; }
+      .topic-board-row .text-button { justify-self: start; }
+      .detail-body { padding: 20px 20px 26px; }
+      .detail-body h2 { font-size: 23px; }
+    }
+
+    @media (max-width: 430px) {
+      .brand-word { display: none; }
+      .nav-tab { min-width: 54px; }
+      .nav-tab:nth-child(2) { display: none; }
+      .edition-meta .read-note { display: none; }
+      .pulse { grid-template-columns: 1fr 1fr; }
+      .market-item { padding: 13px 11px; }
+      .market-value { font-size: 16px; }
+      .spark { width: 30px; }
+      .story-actions { flex-wrap: wrap; }
+      .text-button { min-height: 32px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <a class="brand" href="#" aria-label="早知首页">
+        <span class="brand-mark">早</span>
+        <span class="brand-word">早知</span>
+      </a>
+      <nav class="primary-nav" aria-label="主导航">
+        <button class="nav-tab active" data-view="brief">今日简报</button>
+        <button class="nav-tab" data-view="topics">专题追踪</button>
+        <button class="nav-tab" data-view="saved">稍后读 <span class="nav-count" id="savedCount">0</span></button>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-button" aria-label="搜索" title="搜索">
+          <i data-lucide="search"></i>
+        </button>
+        <button class="icon-button" aria-label="显示设置" title="显示设置">
+          <i data-lucide="sliders-horizontal"></i>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="edition-bar">
+        <div>
+          <p class="edition-kicker">MORNING BRIEF / 演示数据</p>
+          <h1 class="edition-title">7 月 17 日，星期五</h1>
+        </div>
+        <div class="edition-meta">
+          <span class="read-note" id="readNote">已读 1 / 3</span>
+          <div class="progress" aria-label="必读完成进度"><span id="readProgress"></span></div>
+        </div>
+      </section>
+
+      <section class="view active" id="briefView" aria-label="今日简报">
+        <div class="brief-layout">
+          <div class="main-column">
+            <div class="section-head">
+              <h2>今日判断</h2>
+              <p>3 条必读 · 约 8 分钟</p>
+            </div>
+
+            <article class="lead-story" data-story="china-policy">
+              <div class="story-no">01</div>
+              <div class="story-copy">
+                <div class="story-kicker"><span class="source-dot"></span>政策观察 · 2 分钟</div>
+                <h3 class="story-title">扩大消费的政策信号加密，关注实际执行与居民收入预期</h3>
+                <p class="story-summary">政策方向进一步明确，但市场真正会定价的是资金规模、地方落地速度，以及消费是否从耐用品扩散到服务业。</p>
+                <div class="story-tags">
+                  <span class="tag china">中国经济</span>
+                  <span class="tag market">消费</span>
+                  <span class="tag risk">中影响</span>
+                </div>
+              </div>
+              <div class="story-actions">
+                <button class="text-button open-detail" data-story="china-policy"><i data-lucide="book-open"></i>读解读</button>
+                <button class="icon-button save-button" aria-label="稍后阅读" title="稍后读" data-story="china-policy"><i data-lucide="bookmark"></i></button>
+              </div>
+            </article>
+
+            <article class="lead-story" data-story="us-inflation">
+              <div class="story-no">02</div>
+              <div class="story-copy">
+                <div class="story-kicker"><span class="source-dot"></span>美国宏观 · 3 分钟</div>
+                <h3 class="story-title">通胀数据将决定市场对降息路径的下一次修正</h3>
+                <p class="story-summary">市场不只看单一读数，更看核心服务项与预期的偏离程度；利率预期的重新定价通常会先传导到成长股、美元与比特币。</p>
+                <div class="story-tags">
+                  <span class="tag us">美联储</span>
+                  <span class="tag market">美股</span>
+                  <span class="tag crypto">BTC</span>
+                </div>
+              </div>
+              <div class="story-actions">
+                <button class="text-button open-detail" data-story="us-inflation"><i data-lucide="book-open"></i>读解读</button>
+                <button class="icon-button save-button" aria-label="稍后阅读" title="稍后读" data-story="us-inflation"><i data-lucide="bookmark"></i></button>
+              </div>
+            </article>
+
+            <article class="lead-story" data-story="trade-chain">
+              <div class="story-no">03</div>
+              <div class="story-copy">
+                <div class="story-kicker"><span class="source-dot"></span>全球贸易 · 3 分钟</div>
+                <h3 class="story-title">供应链政策进入细则阶段，企业盈利影响仍需拆分行业观察</h3>
+                <p class="story-summary">同一项贸易措施对出口商、进口商和终端消费者的影响并不相同。先区分政策生效日、豁免范围与企业库存周期。</p>
+                <div class="story-tags">
+                  <span class="tag china">中国</span>
+                  <span class="tag us">美国</span>
+                  <span class="tag risk">政策风险</span>
+                </div>
+              </div>
+              <div class="story-actions">
+                <button class="text-button open-detail" data-story="trade-chain"><i data-lucide="book-open"></i>读解读</button>
+                <button class="icon-button save-button" aria-label="稍后阅读" title="稍后读" data-story="trade-chain"><i data-lucide="bookmark"></i></button>
+              </div>
+            </article>
+
+            <div class="insight-note">
+              <span class="insight-index">·</span>
+              <p><strong>今天的主线：</strong>市场的注意力正从“政策会不会出台”转向“执行力度能否改变增长与利率预期”。观察数据，不急于跟随单日情绪。</p>
+            </div>
+
+            <div class="section-head">
+              <h2>市场脉搏</h2>
+              <p>示意行情 · 非实时</p>
+            </div>
+            <div class="pulse" aria-label="市场脉搏">
+              <div class="market-item">
+                <div class="market-label">沪深 300</div>
+                <div class="market-value">3,982</div>
+                <div class="market-change up">+0.42% <svg class="spark" viewBox="0 0 44 14" aria-hidden="true"><path d="M1 11L9 10L15 5L22 8L30 4L43 2" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></div>
+              </div>
+              <div class="market-item">
+                <div class="market-label">标普 500</div>
+                <div class="market-value">6,214</div>
+                <div class="market-change down">-0.18% <svg class="spark" viewBox="0 0 44 14" aria-hidden="true"><path d="M1 3L9 5L16 4L23 9L31 8L43 12" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></div>
+              </div>
+              <div class="market-item">
+                <div class="market-label">美元指数</div>
+                <div class="market-value">104.2</div>
+                <div class="market-change up">+0.16% <svg class="spark" viewBox="0 0 44 14" aria-hidden="true"><path d="M1 12L10 10L17 11L25 6L34 7L43 2" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></div>
+              </div>
+              <div class="market-item">
+                <div class="market-label">BTC</div>
+                <div class="market-value">$104.6k</div>
+                <div class="market-change flat">+0.03% <svg class="spark" viewBox="0 0 44 14" aria-hidden="true"><path d="M1 7L10 6L18 8L26 5L34 7L43 6" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></div>
+              </div>
+            </div>
+
+            <div class="section-head">
+              <h2>重要动态</h2>
+              <p>只收录值得跟进的变化</p>
+            </div>
+            <div class="news-list">
+              <button class="news-item open-detail" data-story="yuan">
+                <span class="news-time">09:40</span>
+                <span><span class="news-title">人民币中间价与美元走势出现短线背离</span><span class="news-meta">汇率 · 关注外资流向与结售汇数据</span></span>
+                <span class="tag china">中国</span>
+              </button>
+              <button class="news-item open-detail" data-story="earnings">
+                <span class="news-time">08:55</span>
+                <span><span class="news-title">美股财报季开场，指引比单季业绩更关键</span><span class="news-meta">企业盈利 · 估值与资本开支</span></span>
+                <span class="tag us">美股</span>
+              </button>
+              <button class="news-item open-detail" data-story="etf-flow">
+                <span class="news-time">08:10</span>
+                <span><span class="news-title">现货 ETF 资金流恢复平稳，价格波动仍主要受宏观驱动</span><span class="news-meta">加密资产 · 资金流与风险偏好</span></span>
+                <span class="tag crypto">BTC</span>
+              </button>
+              <button class="news-item open-detail" data-story="property">
+                <span class="news-time">07:35</span>
+                <span><span class="news-title">地产高频数据分化，政策效果需按城市层级观察</span><span class="news-meta">中国经济 · 需求端与库存</span></span>
+                <span class="tag market">宏观</span>
+              </button>
+            </div>
+          </div>
+
+          <aside class="side-column">
+            <section class="side-section">
+              <h2 class="side-title">今日日历 <button class="side-link">全部</button></h2>
+              <div class="calendar-row">
+                <span class="calendar-time">10:00</span>
+                <div><p class="calendar-event">中国宏观数据发布</p><p class="calendar-sub">观察：消费、工业、地产分项</p></div>
+                <span class="event-grade">重点</span>
+              </div>
+              <div class="calendar-row">
+                <span class="calendar-time">20:30</span>
+                <div><p class="calendar-event">美国经济数据窗口</p><p class="calendar-sub">观察：市场预期偏离程度</p></div>
+                <span class="event-grade">重点</span>
+              </div>
+              <div class="calendar-row">
+                <span class="calendar-time">待定</span>
+                <div><p class="calendar-event">监管与公司公告</p><p class="calendar-sub">来源：官方机构与公司 IR</p></div>
+                <span class="event-grade">跟进</span>
+              </div>
+            </section>
+
+            <section class="side-section">
+              <h2 class="side-title">专题追踪 <button class="side-link" data-view-link="topics">查看</button></h2>
+              <div class="topic-row">
+                <div class="topic-head"><h3 class="topic-name">美联储降息路径</h3><span class="topic-status">3 个更新</span></div>
+                <p class="topic-update">下一观察点：核心通胀、就业与会议措辞是否同步放缓。</p>
+              </div>
+              <div class="topic-row">
+                <div class="topic-head"><h3 class="topic-name">中国内需修复</h3><span class="topic-status">2 个更新</span></div>
+                <p class="topic-update">下一观察点：政策细则、居民收入与服务消费的传导。</p>
+              </div>
+              <div class="topic-row">
+                <div class="topic-head"><h3 class="topic-name">BTC 资金流与宏观</h3><span class="topic-status">1 个更新</span></div>
+                <p class="topic-update">下一观察点：ETF 净流入能否抵消美元和实际利率的压力。</p>
+              </div>
+            </section>
+
+            <section class="side-section">
+              <h2 class="side-title">已选来源</h2>
+              <div class="source-list">
+                <span class="source-chip">Reuters</span>
+                <span class="source-chip">AP</span>
+                <span class="source-chip">财新</span>
+                <span class="source-chip">Nikkei Asia</span>
+                <span class="source-chip">国家统计局</span>
+                <span class="source-chip">美联储</span>
+                <span class="source-chip">SEC</span>
+              </div>
+            </section>
+          </aside>
+        </div>
+      </section>
+
+      <section class="view" id="topicsView" aria-label="专题追踪">
+        <div class="section-head">
+          <h2>专题追踪</h2>
+          <p>跨日保留真正还在演变的事件</p>
+        </div>
+        <p class="topics-intro">用少量专题替代重复新闻。每个专题只保留最新状态、下一观察点与影响范围。</p>
+        <div class="topic-board">
+          <article class="topic-board-row">
+            <h3>美联储降息路径</h3>
+            <p><strong>最新状态：</strong>市场正在根据通胀和就业数据重估降息节奏。<br><strong>下一观察点：</strong>核心服务通胀及 FOMC 表述。</p>
+            <button class="text-button open-detail" data-story="us-inflation"><i data-lucide="arrow-up-right"></i>查看更新</button>
+          </article>
+          <article class="topic-board-row">
+            <h3>中国内需修复</h3>
+            <p><strong>最新状态：</strong>政策信号强化，仍需确认财政传导和居民端响应。<br><strong>下一观察点：</strong>消费、地产、就业的后续高频数据。</p>
+            <button class="text-button open-detail" data-story="china-policy"><i data-lucide="arrow-up-right"></i>查看更新</button>
+          </article>
+          <article class="topic-board-row">
+            <h3>BTC 与流动性</h3>
+            <p><strong>最新状态：</strong>资金流平稳，短期价格仍对美元和利率敏感。<br><strong>下一观察点：</strong>ETF 净流、实际利率、风险资产波动。</p>
+            <button class="text-button open-detail" data-story="etf-flow"><i data-lucide="arrow-up-right"></i>查看更新</button>
+          </article>
+        </div>
+      </section>
+
+      <section class="view" id="savedView" aria-label="稍后读">
+        <div class="section-head">
+          <h2>稍后读</h2>
+          <p id="savedSubtitle">暂时没有保存的内容</p>
+        </div>
+        <div id="savedContent">
+          <div class="saved-empty">
+            <div><i data-lucide="bookmark"></i><p>把需要晚些时候读的内容放在这里</p></div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <dialog id="detailDialog" aria-labelledby="detailTitle">
+    <div class="detail-header">
+      <div><p class="detail-source" id="detailSource"></p></div>
+      <button class="icon-button" id="closeDetail" aria-label="关闭解读" title="关闭"><i data-lucide="x"></i></button>
+    </div>
+    <div class="detail-body">
+      <h2 id="detailTitle"></h2>
+      <div class="story-tags" id="detailTags"></div>
+      <section class="detail-block"><h3>发生了什么</h3><p id="detailFact"></p></section>
+      <section class="detail-block"><h3>为什么重要</h3><p id="detailWhy"></p></section>
+      <section class="detail-block"><h3>可能影响</h3><p id="detailImpact"></p></section>
+      <section class="detail-block detail-callout"><h3>仍不确定</h3><p id="detailUncertain"></p></section>
+      <div class="detail-foot">
+        <span class="source-text" id="detailSources"></span>
+        <button class="text-button save-button" id="detailSave"><i data-lucide="bookmark"></i>稍后读</button>
+      </div>
+    </div>
+  </dialog>
+
+  <div class="toast" id="toast" role="status"><i data-lucide="check"></i><span id="toastText">已加入稍后读</span></div>
+
+  <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js"></script>
+  <script>
+    const stories = {
+      "china-policy": {
+        source: "政策观察 · 演示解读",
+        title: "扩大消费的政策信号加密，关注实际执行与居民收入预期",
+        tags: [["中国经济", "china"], ["消费", "market"], ["中影响", "risk"]],
+        fact: "这是用于演示信息结构的样例事件。重点不是政策标题本身，而是其后续细则、资金来源、地方执行范围和可验证的数据反馈。",
+        why: "政策表态能改善预期，但对宏观增长和企业盈利的实际传导往往有滞后。把“方向”与“效果”分开，有助于避免只根据单次新闻过度判断。",
+        impact: "对中国资产而言，消费、服务业和部分可选消费板块可能先受关注；对全球市场的直接影响通常有限，但若内需数据持续改善，可能改变对中国增长的预期。",
+        uncertain: "补贴或支持的具体范围、持续时间、地方财政配套和居民端响应速度，均需要后续文件与数据确认。",
+        sources: "建议来源：国务院部门公告 · 国家统计局 · Reuters / 财新交叉报道"
+      },
+      "us-inflation": {
+        source: "美国宏观 · 演示解读",
+        title: "通胀数据将决定市场对降息路径的下一次修正",
+        tags: [["美联储", "us"], ["美股", "market"], ["BTC", "crypto"]],
+        fact: "这是用于演示信息结构的样例事件。市场会把新通胀数据与此前预期、就业报告和美联储最近一次表态放在一起判断。",
+        why: "利率预期会影响无风险利率和估值折现率，是美股、美元和高波动资产的共同变量。单项数据不能决定政策，但会改变下一次会议前的概率定价。",
+        impact: "若数据明显偏热，短期通常利多美元和收益率，并对高估值成长股和 BTC 的风险偏好形成压力；若低于预期，方向可能相反。",
+        uncertain: "核心服务项是否具有持续性、美联储如何解读数据、以及就业是否同步降温，都会改变结论强度。",
+        sources: "建议来源：BLS 原始数据 · 美联储公告 · Reuters / AP 交叉报道"
+      },
+      "trade-chain": {
+        source: "全球贸易 · 演示解读",
+        title: "供应链政策进入细则阶段，企业盈利影响仍需拆分行业观察",
+        tags: [["中国", "china"], ["美国", "us"], ["政策风险", "risk"]],
+        fact: "这是一个演示专题。贸易与供应链政策进入细则阶段后，关键变量会变成生效日期、豁免条款、适用品类与企业的库存周期。",
+        why: "政策公布与盈利兑现之间往往隔着采购合同、库存消化和价格传导。行业间影响差异很大，因此不宜把宏观叙事直接等同于所有公司的业绩结论。",
+        impact: "出口链、进口依赖度较高的企业、部分制造业与消费品行业可能需要重新评估成本和需求；对整体指数的影响取决于权重行业暴露度。",
+        uncertain: "最后的执行口径、谈判进展、企业是否提前备货，以及消费者是否接受价格变化，都尚待观察。",
+        sources: "建议来源：政府部门公告 · 公司财报电话会 · Reuters / Nikkei Asia"
+      },
+      "yuan": {
+        source: "汇率 · 演示解读",
+        title: "人民币中间价与美元走势出现短线背离",
+        tags: [["中国", "china"], ["汇率", "market"]],
+        fact: "这是一条演示动态。中间价、即期汇率与美元指数并非总是同步，背离本身需要结合结售汇、外资流向和政策表态理解。",
+        why: "汇率会影响外资风险偏好、进口成本以及跨境资产配置预期。",
+        impact: "短期主要影响出口、航空、资源品和外资敏感板块；对美股和 BTC 的直接解释力通常较弱。",
+        uncertain: "单日变动可能只是流动性与定价机制结果，不能直接推导趋势。",
+        sources: "建议来源：中国外汇交易中心 · 国家外汇管理局 · Reuters"
+      },
+      "earnings": {
+        source: "企业盈利 · 演示解读",
+        title: "美股财报季开场，指引比单季业绩更关键",
+        tags: [["美股", "us"], ["企业盈利", "market"]],
+        fact: "这是演示内容。财报季的关注点通常包括收入、利润率、资本开支及管理层对下一季度的指引。",
+        why: "市场交易的是未来预期。业绩超过预期但下调指引，仍可能导致股价承压。",
+        impact: "大型科技与半导体公司的资本开支预期会影响指数权重、供应链和 AI 相关资产估值。",
+        uncertain: "财报后的市场反应还取决于估值位置与投资者此前仓位。",
+        sources: "建议来源：公司 IR · SEC EDGAR · Reuters"
+      },
+      "etf-flow": {
+        source: "加密资产 · 演示解读",
+        title: "现货 ETF 资金流恢复平稳，价格波动仍主要受宏观驱动",
+        tags: [["BTC", "crypto"], ["资金流", "market"]],
+        fact: "这是演示内容。ETF 净申购赎回是观察配置型资金的一项信号，但并不解释所有短期价格波动。",
+        why: "BTC 同时受到加密市场内部资金、美元流动性、实际利率和风险情绪影响，需要把数据放在更大的宏观环境中。",
+        impact: "持续净流入通常改善边际买盘预期；利率快速上行或风险资产转弱，则可能压过资金流的支持。",
+        uncertain: "资金流是滞后数据还是领先信号、以及大额链上转移是否对应真实卖压，不能只凭单日数据判断。",
+        sources: "建议来源：ETF 发行方 · SEC 文件 · 交易所公告 · Reuters"
+      },
+      "property": {
+        source: "中国经济 · 演示解读",
+        title: "地产高频数据分化，政策效果需按城市层级观察",
+        tags: [["中国经济", "china"], ["地产", "market"]],
+        fact: "这是演示内容。地产数据常在一线、核心二线与低线城市之间出现分化，成交、价格、库存和融资指标也未必同步。",
+        why: "地产影响居民财富感受、地方财政和部分产业链，因此是判断内需修复的重要背景变量。",
+        impact: "对银行、建材、家居和地方财政相关预期存在影响，也会间接影响消费信心。",
+        uncertain: "高频样本是否有代表性、政策是否扩大覆盖范围、库存去化速度仍需后续数据验证。",
+        sources: "建议来源：国家统计局 · 地方住建部门 · 财新 / Reuters"
+      }
+    };
+
+    const saved = new Set();
+    let currentStory = null;
+    let readStories = new Set(["china-policy"]);
+
+    function renderIcons() {
+      if (window.lucide) window.lucide.createIcons({ attrs: { "stroke-width": 1.8 } });
+    }
+
+    function setView(viewName) {
+      document.querySelectorAll(".view").forEach((view) => view.classList.toggle("active", view.id === viewName + "View"));
+      document.querySelectorAll(".nav-tab").forEach((tab) => tab.classList.toggle("active", tab.dataset.view === viewName));
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+
+    function updateReading() {
+      const total = 3;
+      const count = Math.min(readStories.size, total);
+      document.getElementById("readNote").textContent = "已读 " + count + " / " + total;
+      document.getElementById("readProgress").style.width = (count / total * 100) + "%";
+    }
+
+    function tagMarkup(tags) {
+      return tags.map(([label, type]) => '<span class="tag ' + type + '">' + label + "</span>").join("");
+    }
+
+    function openDetail(id) {
+      const story = stories[id];
+      if (!story) return;
+      currentStory = id;
+      readStories.add(id);
+      updateReading();
+      document.getElementById("detailSource").innerHTML = '<span class="source-dot"></span>' + story.source;
+      document.getElementById("detailTitle").textContent = story.title;
+      document.getElementById("detailTags").innerHTML = tagMarkup(story.tags);
+      document.getElementById("detailFact").textContent = story.fact;
+      document.getElementById("detailWhy").textContent = story.why;
+      document.getElementById("detailImpact").textContent = story.impact;
+      document.getElementById("detailUncertain").textContent = story.uncertain;
+      document.getElementById("detailSources").textContent = story.sources;
+      const saveText = saved.has(id) ? "已在稍后读" : "稍后读";
+      document.getElementById("detailSave").innerHTML = '<i data-lucide="' + (saved.has(id) ? "check" : "bookmark") + '"></i>' + saveText;
+      renderIcons();
+      document.getElementById("detailDialog").showModal();
+    }
+
+    function showToast(message) {
+      const toast = document.getElementById("toast");
+      document.getElementById("toastText").textContent = message;
+      toast.classList.add("show");
+      clearTimeout(window.toastTimeout);
+      window.toastTimeout = setTimeout(() => toast.classList.remove("show"), 2300);
+    }
+
+    function saveStory(id) {
+      if (!id) return;
+      if (saved.has(id)) {
+        saved.delete(id);
+        showToast("已从稍后读移除");
+      } else {
+        saved.add(id);
+        showToast("已加入稍后读");
+      }
+      updateSaved();
+      document.querySelectorAll('.save-button[data-story="' + id + '"]').forEach((button) => {
+        button.classList.toggle("active", saved.has(id));
+        button.setAttribute("title", saved.has(id) ? "移出稍后读" : "稍后读");
+        button.setAttribute("aria-label", saved.has(id) ? "移出稍后读" : "稍后阅读");
+        if (button.classList.contains("icon-button")) {
+          button.innerHTML = '<i data-lucide="' + (saved.has(id) ? "bookmark-check" : "bookmark") + '"></i>';
+        }
+      });
+      if (currentStory === id) {
+        document.getElementById("detailSave").innerHTML = '<i data-lucide="' + (saved.has(id) ? "check" : "bookmark") + '"></i>' + (saved.has(id) ? "已在稍后读" : "稍后读");
+      }
+      renderIcons();
+    }
+
+    function updateSaved() {
+      const items = Array.from(saved);
+      document.getElementById("savedCount").textContent = items.length;
+      document.getElementById("savedSubtitle").textContent = items.length ? "已保存 " + items.length + " 条内容" : "暂时没有保存的内容";
+      const container = document.getElementById("savedContent");
+      if (!items.length) {
+        container.innerHTML = '<div class="saved-empty"><div><i data-lucide="bookmark"></i><p>把需要晚些时候读的内容放在这里</p></div></div>';
+        renderIcons();
+        return;
+      }
+      container.innerHTML = '<div class="news-list">' + items.map((id) => {
+        const story = stories[id];
+        return '<button class="news-item open-detail" data-story="' + id + '"><span class="news-time">已保存</span><span><span class="news-title">' + story.title + '</span><span class="news-meta">' + story.source + '</span></span><span class="tag market">查看</span></button>';
+      }).join("") + "</div>";
+    }
+
+    document.querySelectorAll(".nav-tab").forEach((tab) => tab.addEventListener("click", () => setView(tab.dataset.view)));
+    document.querySelectorAll("[data-view-link]").forEach((button) => button.addEventListener("click", () => setView(button.dataset.viewLink)));
+    document.addEventListener("click", (event) => {
+      const detailButton = event.target.closest(".open-detail");
+      if (detailButton) openDetail(detailButton.dataset.story);
+      const saveButton = event.target.closest(".save-button");
+      if (saveButton && !saveButton.id) saveStory(saveButton.dataset.story);
+    });
+    document.getElementById("closeDetail").addEventListener("click", () => document.getElementById("detailDialog").close());
+    document.getElementById("detailSave").addEventListener("click", () => saveStory(currentStory));
+    document.getElementById("detailDialog").addEventListener("click", (event) => {
+      if (event.target === event.currentTarget) event.currentTarget.close();
+    });
+
+    renderIcons();
+    updateReading();
+  </script>
+</body>
+</html>
