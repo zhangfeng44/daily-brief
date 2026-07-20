@@ -1,6 +1,6 @@
 {
-  "edition_title": "7 月 19 日，星期日",
-  "updated_label": "2026-07-19 11:47 北京时间",
+  "edition_title": "7 月 20 日，星期一",
+  "updated_label": "2026-07-20 11:58 北京时间",
   "estimated_minutes": 10,
   "market_label": "收盘或最近可得报价 · 非实时",
   "theme": "先分清事实、阅读框架和市场反应。政策利好与宏观风险可以并存；对中国经济尤其要观察地产、地方财政、价格、就业和人民币是否出现同向变化。",
@@ -38,11 +38,11 @@
     {
       "id": "us-macro",
       "section": "lead",
-      "source": "美国宏观 · Federal Reserve Bank of Dallas · 优先来源",
-      "title": "关于通胀、就业和货币政策的评论",
-      "original_title": "Remarks on inflation, employment and monetary policy",
-      "summary": "达拉斯联储主席洛里·洛根分享了她对经济和货币政策前景的看法。",
-      "time": "03:25",
+      "source": "美国宏观 · The New York Times · 扩展来源",
+      "title": "通胀降温可能不足以阻止美联储加息",
+      "original_title": "Cooler Inflation May Not Be Enough to Stave Off Fed Rate Increases",
+      "summary": "一句话：联储系统对通胀、就业和货币政策作出沟通。它会影响利率预期，但单位官员讲话不等同于 FOMC 的正式决定。",
+      "time": "17:02",
       "minutes": 3,
       "tags": [
         [
@@ -58,21 +58,21 @@
           "crypto"
         ]
       ],
-      "fact": "来源摘要：达拉斯联储主席洛里·洛根分享了她对经济和货币政策前景的看法。 标题线索：关于通胀、就业和货币政策的评论。完整事实、数字与条件请以原文为准。",
+      "fact": "标题线索：通胀降温可能不足以阻止美联储加息。完整事实、数字与条件请以原文为准。",
       "why": "市场真正交易的是“通胀回落是否足以允许更宽松的利率路径”。讲话若强调通胀风险，通常会让降息预期更谨慎；若强调就业转弱，方向可能相反。",
-      "impact": "对美股和 BTC，最直接的传导是美债收益率与美元。当前页面市场快照为：标普 500下跌1.01%；BTC上涨1.13%；美元/人民币上涨0.06%；应把该变动与利率、美元是否同向一起看。",
+      "impact": "对美股和 BTC，最直接的传导是美债收益率与美元。当前页面市场快照为：标普 500下跌1.01%；BTC下跌0.10%；美元/人民币下跌0.03%；应把该变动与利率、美元是否同向一起看。",
       "uncertain": "下一步看 CPI、PCE、非农就业、失业率，以及下一次 FOMC 声明和点阵图，而不是只根据一次讲话下注。",
-      "url": "https://www.dallasfed.org/news/speeches/logan/2026/lkl260716",
-      "sources": "原始来源：Federal Reserve Bank of Dallas（优先来源）"
+      "url": "https://www.nytimes.com/2026/07/17/business/cooler-inflation-federal-reserve-interest-rates.html",
+      "sources": "原始来源：The New York Times（扩展来源）"
     },
     {
       "id": "trade-chain",
       "section": "lead",
-      "source": "全球贸易 · Nikkei Asia · 优先来源",
-      "title": "丰田通商向墨西哥和加拿大运送汽车零部件，免除美国关税",
-      "original_title": "Toyota Tsusho ships auto parts to Mexico and Canada, cutting out US tariff",
-      "summary": "东京——日本贸易公司丰田通商已开始为汽车零部件供应商提供从日本到加拿大和墨西哥的直接运输服务，允许小型汽车零部件供应商直接运输。",
-      "time": "04:34",
+      "source": "全球贸易 · 待核查",
+      "title": "今日暂未取得主题相关的公开线索",
+      "original_title": "",
+      "summary": "自动采集未找到同时满足主题相关性和最低来源要求的条目，下一轮更新会重新检索。",
+      "time": "更新",
       "minutes": 3,
       "tags": [
         [
@@ -88,12 +88,12 @@
           "risk"
         ]
       ],
-      "fact": "来源摘要：东京——日本贸易公司丰田通商已开始为汽车零部件供应商提供从日本到加拿大和墨西哥的直接运输服务，允许小型汽车零部件供应商直接运输。 标题线索：丰田通商向墨西哥和加拿大运送汽车零部件，免除美国关税。完整事实、数字与条件请以原文为准。",
+      "fact": "今日尚无可展示的主题线索。市场数据仍可作为背景参考，但不应被当作该主题的新闻结论。",
       "why": "这类案例的价值在于观察企业是否真的迁移订单和产能，而不只是宣布计划。若更多企业采取相似做法，关税成本会改变区域贸易流和部分行业的利润率。",
       "impact": "汽车零部件、电子、航运和北美制造链更值得跟踪。对中国相关资产，重点不是单一公司，而是转口、海外产能和订单转移是否形成趋势。",
       "uncertain": "下一步看关税生效范围、原产地规则、豁免条款，以及企业是否披露资本开支、库存或交付地的实质调整。",
-      "url": "https://asia.nikkei.com/spotlight/supply-chain/toyota-tsusho-ships-auto-parts-to-mexico-and-canada-cutting-out-us-tariff",
-      "sources": "原始来源：Nikkei Asia（优先来源）"
+      "url": "",
+      "sources": "等待下一轮公开来源更新"
     },
     {
       "id": "china-risk",
@@ -128,11 +128,11 @@
     {
       "id": "us-markets",
       "section": "update",
-      "source": "美国市场 · Reuters · 优先来源",
-      "title": "由于芯片疲软抵消了稳健的盈利和经济数据，华尔街收低",
-      "original_title": "Wall Street ends lower as chip weakness offsets solid earnings, economic data",
+      "source": "美国市场 · MarketWatch · 扩展来源",
+      "title": "观点：亿万富翁正在买入这些优质股票。为什么追随他们的钱是值得的。",
+      "original_title": "Opinion: Billionaires are loading up on these superior stocks. Why it pays to follow their money.",
       "summary": "一句话：指数层面出现分化时，往往意味着盈利或宏观数据的利好不足以覆盖权重行业的压力。",
-      "time": "04:18",
+      "time": "21:58",
       "minutes": 1,
       "tags": [
         [
@@ -144,21 +144,21 @@
           "market"
         ]
       ],
-      "fact": "标题线索：由于芯片疲软抵消了稳健的盈利和经济数据，华尔街收低。完整事实、数字与条件请以原文为准。",
+      "fact": "标题线索：观点：亿万富翁正在买入这些优质股票。为什么追随他们的钱是值得的。。完整事实、数字与条件请以原文为准。",
       "why": "如果芯片或大型科技股走弱，即便整体盈利不错，指数也可能承压，因为这些公司对标普和纳指的权重很高。要区分“市场整体变差”和“少数权重股拖累”。",
-      "impact": "观察半导体、云计算资本开支和大盘成长股的相对表现。当前页面市场快照为：标普 500下跌1.01%；BTC上涨1.13%；美元/人民币上涨0.06%；若收益率同步上行，高估值板块通常更脆弱。",
+      "impact": "观察半导体、云计算资本开支和大盘成长股的相对表现。当前页面市场快照为：标普 500下跌1.01%；BTC下跌0.10%；美元/人民币下跌0.03%；若收益率同步上行，高估值板块通常更脆弱。",
       "uncertain": "下一步看公司业绩指引、利润率和资本开支，而不是只看单季是否超预期；同时留意市场下跌是否扩散到非科技板块。",
-      "url": "https://www.reuters.com/business/wall-st-futures-pause-after-two-day-rally-investors-await-data-earnings-2026-07-16/",
-      "sources": "原始来源：Reuters（优先来源）"
+      "url": "https://www.marketwatch.com/story/billionaires-are-loading-up-on-these-superior-stocks-why-it-pays-to-follow-their-money-9120c242",
+      "sources": "原始来源：MarketWatch（扩展来源）"
     },
     {
       "id": "bitcoin",
       "section": "update",
       "source": "加密资产 · CoinDesk · 优先来源",
-      "title": "以太坊超过比特币，ETF资金回报几乎全部来自贝莱德基金",
-      "original_title": "Ether outruns bitcoin as ETF money returns, almost all of from BlackRock's fund",
-      "summary": "这并不是一次广泛的反弹，因为比特币在同一时期上涨了 4%，而 solana、TRON 和 hyperliquid 的价格均较低。",
-      "time": "12:56",
+      "title": "AI热潮渐退，导致比特币价格波动性低于韩国综合股价指数Kospi：加密每日",
+      "original_title": "AI热潮渐退，导致比特币价格波动性低于韩国综合股价指数Kospi：加密每日",
+      "summary": "加密货币前瞻：2026年7月17日",
+      "time": "19:55",
       "minutes": 1,
       "tags": [
         [
@@ -170,19 +170,19 @@
           "market"
         ]
       ],
-      "fact": "来源摘要：这并不是一次广泛的反弹，因为比特币在同一时期上涨了 4%，而 solana、TRON 和 hyperliquid 的价格均较低。 标题线索：以太坊超过比特币，ETF资金回报几乎全部来自贝莱德基金。完整事实、数字与条件请以原文为准。",
+      "fact": "来源摘要：加密货币前瞻：2026年7月17日 标题线索：AI热潮渐退，导致比特币价格波动性低于韩国综合股价指数Kospi：加密每日。完整事实、数字与条件请以原文为准。",
       "why": "ETF 净流入可以反映配置型需求，但不能单独解释价格。若以太坊跑赢比特币，可能代表资金在加密资产内部轮动，而不是整个风险偏好普遍升温。",
-      "impact": "BTC 更需要与美元、实际利率和美股风险偏好一起看。当前页面市场快照为：标普 500下跌1.01%；BTC上涨1.13%；美元/人民币上涨0.06%；单日 ETF 流量应视为确认信号，而不是交易指令。",
+      "impact": "BTC 更需要与美元、实际利率和美股风险偏好一起看。当前页面市场快照为：标普 500下跌1.01%；BTC下跌0.10%；美元/人民币下跌0.03%；单日 ETF 流量应视为确认信号，而不是交易指令。",
       "uncertain": "下一步看 ETF 连续多日净流、主要发行方资金占比、BTC 与 ETH 的相对强弱，以及美债收益率和美元是否反向变化。",
-      "url": "https://www.coindesk.com/markets/2026/07/16/ether-outruns-bitcoin-as-etf-money-returns-almost-all-of-from-blackrock-s-fund",
+      "url": "https://www.coindesk.com/zh/daybook-us/2026/07/17/ai-frenzy-losing-steam-leaves-bitcoin-less-volatile-than-south-korean-stocks",
       "sources": "原始来源：CoinDesk（优先来源）"
     }
   ],
   "markets": [
     {
       "label": "沪深 300",
-      "value": "--",
-      "change": 0
+      "value": "4,599.32",
+      "change": 1.55
     },
     {
       "label": "标普 500",
@@ -191,13 +191,13 @@
     },
     {
       "label": "美元/人民币",
-      "value": "6.7768",
-      "change": 0.06
+      "value": "6.7706",
+      "change": -0.03
     },
     {
       "label": "BTC",
-      "value": "$64.6k",
-      "change": 1.13
+      "value": "$64.7k",
+      "change": -0.1
     }
   ],
   "calendar": [
@@ -231,7 +231,7 @@
     {
       "title": "美联储与风险资产",
       "status": "每日更新",
-      "update": "关于通胀、就业和货币政策的评论",
+      "update": "通胀降温可能不足以阻止美联储加息",
       "next": "通胀、就业、收益率及美联储沟通是否形成同一方向。",
       "story_id": "us-macro"
     },
@@ -245,7 +245,7 @@
     {
       "title": "BTC 与流动性",
       "status": "每日更新",
-      "update": "以太坊超过比特币，ETF资金回报几乎全部来自贝莱德基金",
+      "update": "AI热潮渐退，导致比特币价格波动性低于韩国综合股价指数Kospi：加密每日",
       "next": "ETF 资金、美元与实际利率、风险资产波动。",
       "story_id": "bitcoin"
     }
