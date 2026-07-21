@@ -1,6 +1,6 @@
 {
-  "edition_title": "7 月 20 日，星期一",
-  "updated_label": "2026-07-20 11:58 北京时间",
+  "edition_title": "7 月 21 日，星期二",
+  "updated_label": "2026-07-21 11:38 北京时间",
   "estimated_minutes": 10,
   "market_label": "收盘或最近可得报价 · 非实时",
   "theme": "先分清事实、阅读框架和市场反应。政策利好与宏观风险可以并存；对中国经济尤其要观察地产、地方财政、价格、就业和人民币是否出现同向变化。",
@@ -38,11 +38,11 @@
     {
       "id": "us-macro",
       "section": "lead",
-      "source": "美国宏观 · The New York Times · 扩展来源",
-      "title": "通胀降温可能不足以阻止美联储加息",
-      "original_title": "Cooler Inflation May Not Be Enough to Stave Off Fed Rate Increases",
-      "summary": "一句话：联储系统对通胀、就业和货币政策作出沟通。它会影响利率预期，但单位官员讲话不等同于 FOMC 的正式决定。",
-      "time": "17:02",
+      "source": "美国宏观 · Yahoo Finance · 扩展来源",
+      "title": "伊丽莎白·沃伦 (Elizabeth Warren) 就斯坦利·德鲁肯米勒 (Stanley Druckenmiller) 关系问题质问美联储主席凯文·沃什 (Kevin Warsh)：“谁给了你 1 亿美元？”",
+      "original_title": "Elizabeth Warren Grills Fed Chair Kevin Warsh Over Stanley Druckenmiller Ties: 'Who Gave You $100 Million?'",
+      "summary": "美联储主席凯文·沃什（Kevin Warsh）受到参议员伊丽莎白·沃伦（马萨诸塞州民主党人）关于可能违反道德规范的强烈质疑。周三，即沃什在国会山作货币政策证词的第二天，沃什受到了沃伦关于 1 亿美元问题的盘问……",
+      "time": "06:31",
       "minutes": 3,
       "tags": [
         [
@@ -58,21 +58,21 @@
           "crypto"
         ]
       ],
-      "fact": "标题线索：通胀降温可能不足以阻止美联储加息。完整事实、数字与条件请以原文为准。",
+      "fact": "来源摘要：美联储主席凯文·沃什（Kevin Warsh）受到参议员伊丽莎白·沃伦（马萨诸塞州民主党人）关于可能违反道德规范的强烈质疑。周三，即沃什在国会山作货币政策证词的第二天，沃什受到了沃伦关于 1 亿美元问题的盘问…… 标题线索：伊丽莎白·沃伦 (Elizabeth Warren) 就斯坦利·德鲁肯米勒 (Stanley Druckenmiller) 关系问题质问美联储主席凯文·沃什 (Kevin Warsh)：“谁给了你 1 亿美元？”。完整事实、数字与条件请以原文为准。",
       "why": "市场真正交易的是“通胀回落是否足以允许更宽松的利率路径”。讲话若强调通胀风险，通常会让降息预期更谨慎；若强调就业转弱，方向可能相反。",
-      "impact": "对美股和 BTC，最直接的传导是美债收益率与美元。当前页面市场快照为：标普 500下跌1.01%；BTC下跌0.10%；美元/人民币下跌0.03%；应把该变动与利率、美元是否同向一起看。",
+      "impact": "对美股和 BTC，最直接的传导是美债收益率与美元。当前页面市场快照为：标普 500下跌0.19%；BTC上涨1.19%；美元/人民币下跌0.08%；应把该变动与利率、美元是否同向一起看。",
       "uncertain": "下一步看 CPI、PCE、非农就业、失业率，以及下一次 FOMC 声明和点阵图，而不是只根据一次讲话下注。",
-      "url": "https://www.nytimes.com/2026/07/17/business/cooler-inflation-federal-reserve-interest-rates.html",
-      "sources": "原始来源：The New York Times（扩展来源）"
+      "url": "https://finance.yahoo.com/economy/policy/articles/elizabeth-warren-grills-fed-chair-223136189.html",
+      "sources": "原始来源：Yahoo Finance（扩展来源）"
     },
     {
       "id": "trade-chain",
       "section": "lead",
-      "source": "全球贸易 · 待核查",
-      "title": "今日暂未取得主题相关的公开线索",
-      "original_title": "",
-      "summary": "自动采集未找到同时满足主题相关性和最低来源要求的条目，下一轮更新会重新检索。",
-      "time": "更新",
+      "source": "全球贸易 · South China Morning Post · 扩展来源",
+      "title": "特朗普以汽车、酒精和奶酪争端为由对加拿大征收50%的关税",
+      "original_title": "Trump slaps 50% tariffs on Canada, citing disputes over cars, alcohol and cheese",
+      "summary": "美国表示，加拿大是除中国之外唯一对特朗普此前征收关税进行反击的国家之一，必须追究其责任。",
+      "time": "05:59",
       "minutes": 3,
       "tags": [
         [
@@ -88,12 +88,12 @@
           "risk"
         ]
       ],
-      "fact": "今日尚无可展示的主题线索。市场数据仍可作为背景参考，但不应被当作该主题的新闻结论。",
+      "fact": "来源摘要：美国表示，加拿大是除中国之外唯一对特朗普此前征收关税进行反击的国家之一，必须追究其责任。 标题线索：特朗普以汽车、酒精和奶酪争端为由对加拿大征收50%的关税。完整事实、数字与条件请以原文为准。",
       "why": "这类案例的价值在于观察企业是否真的迁移订单和产能，而不只是宣布计划。若更多企业采取相似做法，关税成本会改变区域贸易流和部分行业的利润率。",
       "impact": "汽车零部件、电子、航运和北美制造链更值得跟踪。对中国相关资产，重点不是单一公司，而是转口、海外产能和订单转移是否形成趋势。",
       "uncertain": "下一步看关税生效范围、原产地规则、豁免条款，以及企业是否披露资本开支、库存或交付地的实质调整。",
-      "url": "",
-      "sources": "等待下一轮公开来源更新"
+      "url": "https://amp.scmp.com/news/world/united-states-canada/article/3361268/trump-imposes-50-tariffs-canadian-goods-citing-disputes-over-cars-alcohol-and-cheese",
+      "sources": "原始来源：South China Morning Post（扩展来源）"
     },
     {
       "id": "china-risk",
@@ -128,11 +128,11 @@
     {
       "id": "us-markets",
       "section": "update",
-      "source": "美国市场 · MarketWatch · 扩展来源",
-      "title": "观点：亿万富翁正在买入这些优质股票。为什么追随他们的钱是值得的。",
-      "original_title": "Opinion: Billionaires are loading up on these superior stocks. Why it pays to follow their money.",
+      "source": "美国市场 · Reuters · 优先来源",
+      "title": "华尔街股指下跌，伊朗和财报季成为焦点",
+      "original_title": "Wall Street indexes fall, with Iran and earnings season in focus",
       "summary": "一句话：指数层面出现分化时，往往意味着盈利或宏观数据的利好不足以覆盖权重行业的压力。",
-      "time": "21:58",
+      "time": "06:56",
       "minutes": 1,
       "tags": [
         [
@@ -144,21 +144,21 @@
           "market"
         ]
       ],
-      "fact": "标题线索：观点：亿万富翁正在买入这些优质股票。为什么追随他们的钱是值得的。。完整事实、数字与条件请以原文为准。",
+      "fact": "标题线索：华尔街股指下跌，伊朗和财报季成为焦点。完整事实、数字与条件请以原文为准。",
       "why": "如果芯片或大型科技股走弱，即便整体盈利不错，指数也可能承压，因为这些公司对标普和纳指的权重很高。要区分“市场整体变差”和“少数权重股拖累”。",
-      "impact": "观察半导体、云计算资本开支和大盘成长股的相对表现。当前页面市场快照为：标普 500下跌1.01%；BTC下跌0.10%；美元/人民币下跌0.03%；若收益率同步上行，高估值板块通常更脆弱。",
+      "impact": "观察半导体、云计算资本开支和大盘成长股的相对表现。当前页面市场快照为：标普 500下跌0.19%；BTC上涨1.19%；美元/人民币下跌0.08%；若收益率同步上行，高估值板块通常更脆弱。",
       "uncertain": "下一步看公司业绩指引、利润率和资本开支，而不是只看单季是否超预期；同时留意市场下跌是否扩散到非科技板块。",
-      "url": "https://www.marketwatch.com/story/billionaires-are-loading-up-on-these-superior-stocks-why-it-pays-to-follow-their-money-9120c242",
-      "sources": "原始来源：MarketWatch（扩展来源）"
+      "url": "https://www.reuters.com/business/autos-transportation/wall-st-futures-edge-higher-ahead-this-weeks-megacap-earnings-2026-07-20/",
+      "sources": "原始来源：Reuters（优先来源）"
     },
     {
       "id": "bitcoin",
       "section": "update",
       "source": "加密资产 · CoinDesk · 优先来源",
-      "title": "AI热潮渐退，导致比特币价格波动性低于韩国综合股价指数Kospi：加密每日",
-      "original_title": "AI热潮渐退，导致比特币价格波动性低于韩国综合股价指数Kospi：加密每日",
-      "summary": "加密货币前瞻：2026年7月17日",
-      "time": "19:55",
+      "title": "BTC ETF 在两周内吸引了 2.73 亿美元。与最近的出逃相比，这只是微不足道的事情",
+      "original_title": "BTC ETFs attract $273 million in two weeks. That's peanuts compared to recent exodus",
+      "summary": "比特币ETF回来了吗？新数据显示，每周资金流入量为 2.73 亿美元，但与今年早些时候的大规模资金流出相比，这些资金仍然“微不足道”。探究为什么现在称其为市场逆转还为时过早。",
+      "time": "13:47",
       "minutes": 1,
       "tags": [
         [
@@ -170,34 +170,34 @@
           "market"
         ]
       ],
-      "fact": "来源摘要：加密货币前瞻：2026年7月17日 标题线索：AI热潮渐退，导致比特币价格波动性低于韩国综合股价指数Kospi：加密每日。完整事实、数字与条件请以原文为准。",
+      "fact": "来源摘要：比特币ETF回来了吗？新数据显示，每周资金流入量为 2.73 亿美元，但与今年早些时候的大规模资金流出相比，这些资金仍然“微不足道”。探究为什么现在称其为市场逆转还为时过早。 标题线索：BTC ETF 在两周内吸引了 2.73 亿美元。与最近的出逃相比，这只是微不足道的事情。完整事实、数字与条件请以原文为准。",
       "why": "ETF 净流入可以反映配置型需求，但不能单独解释价格。若以太坊跑赢比特币，可能代表资金在加密资产内部轮动，而不是整个风险偏好普遍升温。",
-      "impact": "BTC 更需要与美元、实际利率和美股风险偏好一起看。当前页面市场快照为：标普 500下跌1.01%；BTC下跌0.10%；美元/人民币下跌0.03%；单日 ETF 流量应视为确认信号，而不是交易指令。",
+      "impact": "BTC 更需要与美元、实际利率和美股风险偏好一起看。当前页面市场快照为：标普 500下跌0.19%；BTC上涨1.19%；美元/人民币下跌0.08%；单日 ETF 流量应视为确认信号，而不是交易指令。",
       "uncertain": "下一步看 ETF 连续多日净流、主要发行方资金占比、BTC 与 ETH 的相对强弱，以及美债收益率和美元是否反向变化。",
-      "url": "https://www.coindesk.com/zh/daybook-us/2026/07/17/ai-frenzy-losing-steam-leaves-bitcoin-less-volatile-than-south-korean-stocks",
+      "url": "https://www.coindesk.com/markets/2026/07/20/bitcoin-etfs-see-new-money-again-but-inflows-remain-peanuts-relative-to-the-recent-exodus",
       "sources": "原始来源：CoinDesk（优先来源）"
     }
   ],
   "markets": [
     {
       "label": "沪深 300",
-      "value": "4,599.32",
-      "change": 1.55
+      "value": "4,660.43",
+      "change": 2.9
     },
     {
       "label": "标普 500",
-      "value": "7,457.69",
-      "change": -1.01
+      "value": "7,443.28",
+      "change": -0.19
     },
     {
       "label": "美元/人民币",
-      "value": "6.7706",
-      "change": -0.03
+      "value": "6.7668",
+      "change": -0.08
     },
     {
       "label": "BTC",
-      "value": "$64.7k",
-      "change": -0.1
+      "value": "$65.5k",
+      "change": 1.19
     }
   ],
   "calendar": [
@@ -231,7 +231,7 @@
     {
       "title": "美联储与风险资产",
       "status": "每日更新",
-      "update": "通胀降温可能不足以阻止美联储加息",
+      "update": "伊丽莎白·沃伦 (Elizabeth Warren) 就斯坦利·德鲁肯米勒 (Stanley Druckenmiller) 关系问题质问美联储主席凯文·沃什 (Kevin Warsh)：“谁给了你 1 亿美元？”",
       "next": "通胀、就业、收益率及美联储沟通是否形成同一方向。",
       "story_id": "us-macro"
     },
@@ -245,7 +245,7 @@
     {
       "title": "BTC 与流动性",
       "status": "每日更新",
-      "update": "AI热潮渐退，导致比特币价格波动性低于韩国综合股价指数Kospi：加密每日",
+      "update": "BTC ETF 在两周内吸引了 2.73 亿美元。与最近的出逃相比，这只是微不足道的事情",
       "next": "ETF 资金、美元与实际利率、风险资产波动。",
       "story_id": "bitcoin"
     }
