@@ -1,6 +1,6 @@
 {
-  "edition_title": "7 月 22 日，星期三",
-  "updated_label": "2026-07-22 11:39 北京时间",
+  "edition_title": "7 月 23 日，星期四",
+  "updated_label": "2026-07-23 11:38 北京时间",
   "estimated_minutes": 10,
   "market_label": "收盘或最近可得报价 · 非实时",
   "theme": "先分清事实、阅读框架和市场反应。政策利好与宏观风险可以并存；对中国经济尤其要观察地产、地方财政、价格、就业和人民币是否出现同向变化。",
@@ -38,11 +38,11 @@
     {
       "id": "us-macro",
       "section": "lead",
-      "source": "美国宏观 · Yahoo Finance · 扩展来源",
-      "title": "美联储主席凯文·沃什在首次国会作证时誓言要结束五年高通胀",
-      "original_title": "Fed Chair Kevin Warsh Vowed to End 5 Years of High Inflation in First Congressional Testimony",
-      "summary": "不可预测的地缘政治局势可能会让事情比预期困难得多。",
-      "time": "12:50",
+      "source": "美国宏观 · Reuters · 优先来源",
+      "title": "周中的三个想法——就业、美联储目标和波动性",
+      "original_title": "Three midweek thoughts - jobs, Fed targets and volatility",
+      "summary": "一句话：联储系统对通胀、就业和货币政策作出沟通。它会影响利率预期，但单位官员讲话不等同于 FOMC 的正式决定。",
+      "time": "14:00",
       "minutes": 3,
       "tags": [
         [
@@ -58,12 +58,12 @@
           "crypto"
         ]
       ],
-      "fact": "来源摘要：不可预测的地缘政治局势可能会让事情比预期困难得多。 标题线索：美联储主席凯文·沃什在首次国会作证时誓言要结束五年高通胀。完整事实、数字与条件请以原文为准。",
+      "fact": "标题线索：周中的三个想法——就业、美联储目标和波动性。完整事实、数字与条件请以原文为准。",
       "why": "市场真正交易的是“通胀回落是否足以允许更宽松的利率路径”。讲话若强调通胀风险，通常会让降息预期更谨慎；若强调就业转弱，方向可能相反。",
-      "impact": "对美股和 BTC，最直接的传导是美债收益率与美元。当前页面市场快照为：标普 500上涨0.89%；BTC上涨1.51%；美元/人民币下跌0.03%；应把该变动与利率、美元是否同向一起看。",
+      "impact": "对美股和 BTC，最直接的传导是美债收益率与美元。当前页面市场快照为：标普 500下跌0.14%；BTC下跌1.29%；美元/人民币上涨0.02%；应把该变动与利率、美元是否同向一起看。",
       "uncertain": "下一步看 CPI、PCE、非农就业、失业率，以及下一次 FOMC 声明和点阵图，而不是只根据一次讲话下注。",
-      "url": "https://finance.yahoo.com/economy/policy/articles/fed-chair-kevin-warsh-vowed-045000919.html",
-      "sources": "原始来源：Yahoo Finance（扩展来源）"
+      "url": "https://www.reuters.com/commentary/reuters-open-interest/three-midweek-thoughts-jobs-fed-targets-volatility-2026-07-22/",
+      "sources": "原始来源：Reuters（优先来源）"
     },
     {
       "id": "trade-chain",
@@ -72,7 +72,7 @@
       "title": "特朗普对加拿大征收新关税后，美国和墨西哥恢复了 USMCA 贸易谈判",
       "original_title": "US, Mexico resume USMCA trade talks as Trump hits Canada with new tariffs",
       "summary": "一句话：标题反映企业正通过产地、物流或供应链布局来应对美国关税。关税的影响正在从政策层面传导到具体采购与制造决策。",
-      "time": "07:46",
+      "time": "18:06",
       "minutes": 3,
       "tags": [
         [
@@ -98,11 +98,11 @@
     {
       "id": "china-risk",
       "section": "update",
-      "source": "中国宏观风险 · 待核查",
-      "title": "今日暂未取得主题相关的公开线索",
-      "original_title": "",
-      "summary": "自动采集未找到同时满足主题相关性和最低来源要求的条目，下一轮更新会重新检索。",
-      "time": "更新",
+      "source": "中国宏观风险 · Kavout | AI · 聚合线索，需核对",
+      "title": "中国终于摆脱通货紧缩了吗",
+      "original_title": "Has China Finally Escaped Deflation's Grip",
+      "summary": "中国12月CPI触及34个月高点0.8%，可能预示着摆脱通货紧缩。生产者价格也显示通货紧缩有所缓解。政府刺激措施旨在在持续的需求和产能过剩挑战中重新平衡经济。",
+      "time": "12:54",
       "minutes": 2,
       "tags": [
         [
@@ -118,21 +118,21 @@
           "market"
         ]
       ],
-      "fact": "今日尚无可展示的主题线索。市场数据仍可作为背景参考，但不应被当作该主题的新闻结论。",
+      "fact": "来源摘要：中国12月CPI触及34个月高点0.8%，可能预示着摆脱通货紧缩。生产者价格也显示通货紧缩有所缓解。政府刺激措施旨在在持续的需求和产能过剩挑战中重新平衡经济。 标题线索：中国终于摆脱通货紧缩了吗。完整事实、数字与条件请以原文为准。",
       "why": "这些风险会相互传导：地产走弱影响地方收入和居民预期，价格偏弱影响企业利润，就业压力又会压低消费。单一指标转弱不必然构成系统性风险，但多项指标共振值得提高关注。",
       "impact": "对人民币和中国资产，风险信号若持续，通常会提高防御性需求并压低内需预期；对海外资产，重点看它是否影响全球需求、原材料和供应链订单。",
       "uncertain": "下一步看地产销售与价格、地方融资和财政支持、核心通胀、就业及人民币汇率；也要看政策是否给出规模、时点和执行主体明确的安排。",
-      "url": "",
-      "sources": "等待下一轮公开来源更新"
+      "url": "https://www.kavout.com/market-lens/has-china-finally-escaped-deflation-s-grip",
+      "sources": "原始来源：Kavout | AI（聚合线索，需核对）"
     },
     {
       "id": "us-markets",
       "section": "update",
       "source": "美国市场 · Reuters · 优先来源",
-      "title": "芯片股复苏，华尔街收高；盈利成为焦点",
-      "original_title": "Wall St ends higher on chip stocks recovery; earnings in focus",
+      "title": "美国科技财报公布后亚洲股市上涨，油价创六周高位",
+      "original_title": "Asian stocks rise after US tech earnings, oil at six-week highs",
       "summary": "一句话：指数层面出现分化时，往往意味着盈利或宏观数据的利好不足以覆盖权重行业的压力。",
-      "time": "07:24",
+      "time": "09:43",
       "minutes": 1,
       "tags": [
         [
@@ -144,11 +144,11 @@
           "market"
         ]
       ],
-      "fact": "标题线索：芯片股复苏，华尔街收高；盈利成为焦点。完整事实、数字与条件请以原文为准。",
+      "fact": "标题线索：美国科技财报公布后亚洲股市上涨，油价创六周高位。完整事实、数字与条件请以原文为准。",
       "why": "如果芯片或大型科技股走弱，即便整体盈利不错，指数也可能承压，因为这些公司对标普和纳指的权重很高。要区分“市场整体变差”和“少数权重股拖累”。",
-      "impact": "观察半导体、云计算资本开支和大盘成长股的相对表现。当前页面市场快照为：标普 500上涨0.89%；BTC上涨1.51%；美元/人民币下跌0.03%；若收益率同步上行，高估值板块通常更脆弱。",
+      "impact": "观察半导体、云计算资本开支和大盘成长股的相对表现。当前页面市场快照为：标普 500下跌0.14%；BTC下跌1.29%；美元/人民币上涨0.02%；若收益率同步上行，高估值板块通常更脆弱。",
       "uncertain": "下一步看公司业绩指引、利润率和资本开支，而不是只看单季是否超预期；同时留意市场下跌是否扩散到非科技板块。",
-      "url": "https://www.reuters.com/business/wall-st-futures-gain-iran-ceasefire-hopes-earnings-focus-2026-07-21/",
+      "url": "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-07-23/",
       "sources": "原始来源：Reuters（优先来源）"
     },
     {
@@ -172,7 +172,7 @@
       ],
       "fact": "来源摘要：比特币ETF回来了吗？新数据显示，每周资金流入量为 2.73 亿美元，但与今年早些时候的大规模资金流出相比，这些资金仍然“微不足道”。探究为什么现在称其为市场逆转还为时过早。 标题线索：BTC ETF 在两周内吸引了 2.73 亿美元。与最近的出逃相比，这只是微不足道的事情。完整事实、数字与条件请以原文为准。",
       "why": "ETF 净流入可以反映配置型需求，但不能单独解释价格。若以太坊跑赢比特币，可能代表资金在加密资产内部轮动，而不是整个风险偏好普遍升温。",
-      "impact": "BTC 更需要与美元、实际利率和美股风险偏好一起看。当前页面市场快照为：标普 500上涨0.89%；BTC上涨1.51%；美元/人民币下跌0.03%；单日 ETF 流量应视为确认信号，而不是交易指令。",
+      "impact": "BTC 更需要与美元、实际利率和美股风险偏好一起看。当前页面市场快照为：标普 500下跌0.14%；BTC下跌1.29%；美元/人民币上涨0.02%；单日 ETF 流量应视为确认信号，而不是交易指令。",
       "uncertain": "下一步看 ETF 连续多日净流、主要发行方资金占比、BTC 与 ETH 的相对强弱，以及美债收益率和美元是否反向变化。",
       "url": "https://www.coindesk.com/markets/2026/07/20/bitcoin-etfs-see-new-money-again-but-inflows-remain-peanuts-relative-to-the-recent-exodus",
       "sources": "原始来源：CoinDesk（优先来源）"
@@ -181,23 +181,23 @@
   "markets": [
     {
       "label": "沪深 300",
-      "value": "4,761.85",
-      "change": 5.14
+      "value": "4,716.56",
+      "change": 4.14
     },
     {
       "label": "标普 500",
-      "value": "7,509.20",
-      "change": 0.89
+      "value": "7,498.96",
+      "change": -0.14
     },
     {
       "label": "美元/人民币",
-      "value": "6.7708",
-      "change": -0.03
+      "value": "6.7670",
+      "change": 0.02
     },
     {
       "label": "BTC",
-      "value": "$66.2k",
-      "change": 1.51
+      "value": "$65.6k",
+      "change": -1.29
     }
   ],
   "calendar": [
@@ -231,14 +231,14 @@
     {
       "title": "美联储与风险资产",
       "status": "每日更新",
-      "update": "美联储主席凯文·沃什在首次国会作证时誓言要结束五年高通胀",
+      "update": "周中的三个想法——就业、美联储目标和波动性",
       "next": "通胀、就业、收益率及美联储沟通是否形成同一方向。",
       "story_id": "us-macro"
     },
     {
       "title": "中国宏观风险",
       "status": "每日更新",
-      "update": "今日暂未取得主题相关的公开线索",
+      "update": "中国终于摆脱通货紧缩了吗",
       "next": "地产、地方财政、价格、就业与人民币是否出现共振。",
       "story_id": "china-risk"
     },
