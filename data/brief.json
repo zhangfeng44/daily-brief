@@ -1,6 +1,6 @@
 {
-  "edition_title": "7 月 23 日，星期四",
-  "updated_label": "2026-07-23 11:38 北京时间",
+  "edition_title": "7 月 24 日，星期五",
+  "updated_label": "2026-07-24 11:38 北京时间",
   "estimated_minutes": 10,
   "market_label": "收盘或最近可得报价 · 非实时",
   "theme": "先分清事实、阅读框架和市场反应。政策利好与宏观风险可以并存；对中国经济尤其要观察地产、地方财政、价格、就业和人民币是否出现同向变化。",
@@ -60,7 +60,7 @@
       ],
       "fact": "标题线索：周中的三个想法——就业、美联储目标和波动性。完整事实、数字与条件请以原文为准。",
       "why": "市场真正交易的是“通胀回落是否足以允许更宽松的利率路径”。讲话若强调通胀风险，通常会让降息预期更谨慎；若强调就业转弱，方向可能相反。",
-      "impact": "对美股和 BTC，最直接的传导是美债收益率与美元。当前页面市场快照为：标普 500下跌0.14%；BTC下跌1.29%；美元/人民币上涨0.02%；应把该变动与利率、美元是否同向一起看。",
+      "impact": "对美股和 BTC，最直接的传导是美债收益率与美元。当前页面市场快照为：标普 500下跌1.21%；BTC下跌1.28%；美元/人民币上涨0.04%；应把该变动与利率、美元是否同向一起看。",
       "uncertain": "下一步看 CPI、PCE、非农就业、失业率，以及下一次 FOMC 声明和点阵图，而不是只根据一次讲话下注。",
       "url": "https://www.reuters.com/commentary/reuters-open-interest/three-midweek-thoughts-jobs-fed-targets-volatility-2026-07-22/",
       "sources": "原始来源：Reuters（优先来源）"
@@ -72,7 +72,7 @@
       "title": "特朗普对加拿大征收新关税后，美国和墨西哥恢复了 USMCA 贸易谈判",
       "original_title": "US, Mexico resume USMCA trade talks as Trump hits Canada with new tariffs",
       "summary": "一句话：标题反映企业正通过产地、物流或供应链布局来应对美国关税。关税的影响正在从政策层面传导到具体采购与制造决策。",
-      "time": "18:06",
+      "time": "07:46",
       "minutes": 3,
       "tags": [
         [
@@ -129,10 +129,10 @@
       "id": "us-markets",
       "section": "update",
       "source": "美国市场 · Reuters · 优先来源",
-      "title": "美国科技财报公布后亚洲股市上涨，油价创六周高位",
-      "original_title": "Asian stocks rise after US tech earnings, oil at six-week highs",
+      "title": "华尔街股指因科技股盈利而下跌，油价上涨成为焦点",
+      "original_title": "Wall Street indexes dip with technology earnings, rising oil in focus",
       "summary": "一句话：指数层面出现分化时，往往意味着盈利或宏观数据的利好不足以覆盖权重行业的压力。",
-      "time": "09:43",
+      "time": "07:47",
       "minutes": 1,
       "tags": [
         [
@@ -144,21 +144,21 @@
           "market"
         ]
       ],
-      "fact": "标题线索：美国科技财报公布后亚洲股市上涨，油价创六周高位。完整事实、数字与条件请以原文为准。",
+      "fact": "标题线索：华尔街股指因科技股盈利而下跌，油价上涨成为焦点。完整事实、数字与条件请以原文为准。",
       "why": "如果芯片或大型科技股走弱，即便整体盈利不错，指数也可能承压，因为这些公司对标普和纳指的权重很高。要区分“市场整体变差”和“少数权重股拖累”。",
-      "impact": "观察半导体、云计算资本开支和大盘成长股的相对表现。当前页面市场快照为：标普 500下跌0.14%；BTC下跌1.29%；美元/人民币上涨0.02%；若收益率同步上行，高估值板块通常更脆弱。",
+      "impact": "观察半导体、云计算资本开支和大盘成长股的相对表现。当前页面市场快照为：标普 500下跌1.21%；BTC下跌1.28%；美元/人民币上涨0.04%；若收益率同步上行，高估值板块通常更脆弱。",
       "uncertain": "下一步看公司业绩指引、利润率和资本开支，而不是只看单季是否超预期；同时留意市场下跌是否扩散到非科技板块。",
-      "url": "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-07-23/",
+      "url": "https://www.reuters.com/legal/transactional/wall-st-futures-edge-lower-caution-builds-ahead-big-tech-earnings-2026-07-22/",
       "sources": "原始来源：Reuters（优先来源）"
     },
     {
       "id": "bitcoin",
       "section": "update",
       "source": "加密资产 · CoinDesk · 优先来源",
-      "title": "BTC ETF 在两周内吸引了 2.73 亿美元。与最近的出逃相比，这只是微不足道的事情",
-      "original_title": "BTC ETFs attract $273 million in two weeks. That's peanuts compared to recent exodus",
-      "summary": "比特币ETF回来了吗？新数据显示，每周资金流入量为 2.73 亿美元，但与今年早些时候的大规模资金流出相比，这些资金仍然“微不足道”。探究为什么现在称其为市场逆转还为时过早。",
-      "time": "13:47",
+      "title": "分析师称，随着“夏季休眠”笼罩加密市场，比特币涨势在68,000美元面临关键考验",
+      "original_title": "分析师称，随着“夏季休眠”笼罩加密市场，比特币涨势在68,000美元面临关键考验",
+      "summary": "BTC 已从 7 月低点反弹 15%，但一些分析师警告称，下一步走势取决于能否突破许多近期买家可能寻求抛售的水平。",
+      "time": "13:05",
       "minutes": 1,
       "tags": [
         [
@@ -170,34 +170,34 @@
           "market"
         ]
       ],
-      "fact": "来源摘要：比特币ETF回来了吗？新数据显示，每周资金流入量为 2.73 亿美元，但与今年早些时候的大规模资金流出相比，这些资金仍然“微不足道”。探究为什么现在称其为市场逆转还为时过早。 标题线索：BTC ETF 在两周内吸引了 2.73 亿美元。与最近的出逃相比，这只是微不足道的事情。完整事实、数字与条件请以原文为准。",
+      "fact": "来源摘要：BTC 已从 7 月低点反弹 15%，但一些分析师警告称，下一步走势取决于能否突破许多近期买家可能寻求抛售的水平。 标题线索：分析师称，随着“夏季休眠”笼罩加密市场，比特币涨势在68,000美元面临关键考验。完整事实、数字与条件请以原文为准。",
       "why": "ETF 净流入可以反映配置型需求，但不能单独解释价格。若以太坊跑赢比特币，可能代表资金在加密资产内部轮动，而不是整个风险偏好普遍升温。",
-      "impact": "BTC 更需要与美元、实际利率和美股风险偏好一起看。当前页面市场快照为：标普 500下跌0.14%；BTC下跌1.29%；美元/人民币上涨0.02%；单日 ETF 流量应视为确认信号，而不是交易指令。",
+      "impact": "BTC 更需要与美元、实际利率和美股风险偏好一起看。当前页面市场快照为：标普 500下跌1.21%；BTC下跌1.28%；美元/人民币上涨0.04%；单日 ETF 流量应视为确认信号，而不是交易指令。",
       "uncertain": "下一步看 ETF 连续多日净流、主要发行方资金占比、BTC 与 ETH 的相对强弱，以及美债收益率和美元是否反向变化。",
-      "url": "https://www.coindesk.com/markets/2026/07/20/bitcoin-etfs-see-new-money-again-but-inflows-remain-peanuts-relative-to-the-recent-exodus",
+      "url": "https://www.coindesk.com/zh/markets/2026/07/21/bitcoin-rally-faces-key-test-at-usd68-000-as-summer-slumber-grips-crypto-analysts-say",
       "sources": "原始来源：CoinDesk（优先来源）"
     }
   ],
   "markets": [
     {
       "label": "沪深 300",
-      "value": "4,716.56",
-      "change": 4.14
+      "value": "--",
+      "change": 0
     },
     {
       "label": "标普 500",
-      "value": "7,498.96",
-      "change": -0.14
+      "value": "7,408.30",
+      "change": -1.21
     },
     {
       "label": "美元/人民币",
-      "value": "6.7670",
-      "change": 0.02
+      "value": "6.7752",
+      "change": 0.04
     },
     {
       "label": "BTC",
-      "value": "$65.6k",
-      "change": -1.29
+      "value": "$65.3k",
+      "change": -1.28
     }
   ],
   "calendar": [
@@ -245,7 +245,7 @@
     {
       "title": "BTC 与流动性",
       "status": "每日更新",
-      "update": "BTC ETF 在两周内吸引了 2.73 亿美元。与最近的出逃相比，这只是微不足道的事情",
+      "update": "分析师称，随着“夏季休眠”笼罩加密市场，比特币涨势在68,000美元面临关键考验",
       "next": "ETF 资金、美元与实际利率、风险资产波动。",
       "story_id": "bitcoin"
     }
