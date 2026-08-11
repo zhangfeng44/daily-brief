@@ -1,6 +1,6 @@
 {
-  "edition_title": "8 月 10 日，星期一",
-  "updated_label": "2026-08-10 10:29 北京时间",
+  "edition_title": "8 月 11 日，星期二",
+  "updated_label": "2026-08-11 10:23 北京时间",
   "estimated_minutes": 10,
   "market_label": "收盘或最近可得报价 · 非实时",
   "theme": "先分清事实、阅读框架和市场反应。政策利好与宏观风险可以并存；对中国经济尤其要观察地产、地方财政、价格、就业和人民币是否出现同向变化。",
@@ -38,11 +38,11 @@
     {
       "id": "us-macro",
       "section": "lead",
-      "source": "美国宏观 · reuters.com · 优先来源",
-      "title": "就业数据公布后，市场降低了美联储加息的可能性，但经济学家仍认为有可能收紧政策",
-      "original_title": "Market cuts odds of Fed hike after jobs data, but economists still see case for tightening",
+      "source": "美国宏观 · Reuters · 优先来源",
+      "title": "失业率仍是美联储劳动力市场的指引",
+      "original_title": "Unemployment rate remains Fed's labor market lodestar",
       "summary": "一句话：联储系统对通胀、就业和货币政策作出沟通。它会影响利率预期，但单位官员讲话不等同于 FOMC 的正式决定。",
-      "time": "02:11",
+      "time": "07:30",
       "minutes": 3,
       "tags": [
         [
@@ -58,12 +58,12 @@
           "crypto"
         ]
       ],
-      "fact": "标题线索：就业数据公布后，市场降低了美联储加息的可能性，但经济学家仍认为有可能收紧政策。完整事实、数字与条件请以原文为准。",
+      "fact": "标题线索：失业率仍是美联储劳动力市场的指引。完整事实、数字与条件请以原文为准。",
       "why": "市场真正交易的是“通胀回落是否足以允许更宽松的利率路径”。讲话若强调通胀风险，通常会让降息预期更谨慎；若强调就业转弱，方向可能相反。",
-      "impact": "对美股和 BTC，最直接的传导是美债收益率与美元。当前页面市场快照为：标普 500上涨0.62%；BTC上涨0.01%；美元/人民币下跌0.05%；应把该变动与利率、美元是否同向一起看。",
+      "impact": "对美股和 BTC，最直接的传导是美债收益率与美元。当前页面市场快照为：标普 500下跌0.06%；BTC下跌1.31%；美元/人民币下跌0.05%；应把该变动与利率、美元是否同向一起看。",
       "uncertain": "下一步看 CPI、PCE、非农就业、失业率，以及下一次 FOMC 声明和点阵图，而不是只根据一次讲话下注。",
-      "url": "https://www.reuters.com/business/us-rate-futures-cut-chances-september-rate-hike-after-jobs-data-2026-08-07/",
-      "sources": "原始来源：reuters.com（优先来源）"
+      "url": "https://www.reuters.com/commentary/reuters-open-interest/unemployment-rate-remains-feds-labor-market-lodestar-2026-08-10/",
+      "sources": "原始来源：Reuters（优先来源）"
     },
     {
       "id": "trade-chain",
@@ -128,11 +128,11 @@
     {
       "id": "us-markets",
       "section": "update",
-      "source": "美国市场 · reuters.com · 优先来源",
-      "title": "受盈利支持和美国就业数据疲软影响，欧洲斯托克 600 指数本周收于历史新高",
-      "original_title": "Europe's STOXX 600 ends week at all-time high on earnings support, soft US jobs data",
+      "source": "美国市场 · Bloomberg.com · 优先来源",
+      "title": "由于焦点转向芯片制造商盈利和通胀，美国期货下跌",
+      "original_title": "US Futures Drop as Focus Turns on Chipmaker Earnings, Inflation",
       "summary": "一句话：指数层面出现分化时，往往意味着盈利或宏观数据的利好不足以覆盖权重行业的压力。",
-      "time": "00:37",
+      "time": "04:42",
       "minutes": 1,
       "tags": [
         [
@@ -144,21 +144,21 @@
           "market"
         ]
       ],
-      "fact": "标题线索：受盈利支持和美国就业数据疲软影响，欧洲斯托克 600 指数本周收于历史新高。完整事实、数字与条件请以原文为准。",
+      "fact": "标题线索：由于焦点转向芯片制造商盈利和通胀，美国期货下跌。完整事实、数字与条件请以原文为准。",
       "why": "如果芯片或大型科技股走弱，即便整体盈利不错，指数也可能承压，因为这些公司对标普和纳指的权重很高。要区分“市场整体变差”和“少数权重股拖累”。",
-      "impact": "观察半导体、云计算资本开支和大盘成长股的相对表现。当前页面市场快照为：标普 500上涨0.62%；BTC上涨0.01%；美元/人民币下跌0.05%；若收益率同步上行，高估值板块通常更脆弱。",
+      "impact": "观察半导体、云计算资本开支和大盘成长股的相对表现。当前页面市场快照为：标普 500下跌0.06%；BTC下跌1.31%；美元/人民币下跌0.05%；若收益率同步上行，高估值板块通常更脆弱。",
       "uncertain": "下一步看公司业绩指引、利润率和资本开支，而不是只看单季是否超预期；同时留意市场下跌是否扩散到非科技板块。",
-      "url": "https://www.reuters.com/markets/europe/healthcare-leads-european-shares-higher-middle-east-focus-2026-08-07/",
-      "sources": "原始来源：reuters.com（优先来源）"
+      "url": "https://www.bloomberg.com/news/articles/2026-08-10/us-futures-drop-as-focus-turns-on-chipmaker-earnings-inflation",
+      "sources": "原始来源：Bloomberg.com（优先来源）"
     },
     {
       "id": "bitcoin",
       "section": "update",
       "source": "加密资产 · CoinDesk · 优先来源",
-      "title": "比特币鲸鱼买入 12 亿美元 BTC，ETF 吸引 7.5 亿美元",
-      "original_title": "Bitcoin whales load up on $1.2 billion in BTC as ETFs attract $750 million",
-      "summary": "比特币鲸鱼本周积累了 12 亿美元的 BTC，而现货 ETF 则筹集了 7.54 亿美元。这就是它的价格含义。",
-      "time": "13:45",
+      "title": "XRP 新闻：XRP 在比特币（BTC）市场反弹中被甩在后面",
+      "original_title": "XRP 新闻：XRP 在比特币（BTC）市场反弹中被甩在后面",
+      "summary": "上周，XRP下跌了5%，而BTC、ETH和SOL则上涨了2–3%。ETF资金流入持续了第四周，但由于《透明法案》延迟以及技术信号趋于平衡，增速明显放缓。",
+      "time": "12:26",
       "minutes": 1,
       "tags": [
         [
@@ -170,11 +170,11 @@
           "market"
         ]
       ],
-      "fact": "来源摘要：比特币鲸鱼本周积累了 12 亿美元的 BTC，而现货 ETF 则筹集了 7.54 亿美元。这就是它的价格含义。 标题线索：比特币鲸鱼买入 12 亿美元 BTC，ETF 吸引 7.5 亿美元。完整事实、数字与条件请以原文为准。",
+      "fact": "来源摘要：上周，XRP下跌了5%，而BTC、ETH和SOL则上涨了2–3%。ETF资金流入持续了第四周，但由于《透明法案》延迟以及技术信号趋于平衡，增速明显放缓。 标题线索：XRP 新闻：XRP 在比特币（BTC）市场反弹中被甩在后面。完整事实、数字与条件请以原文为准。",
       "why": "ETF 净流入可以反映配置型需求，但不能单独解释价格。若以太坊跑赢比特币，可能代表资金在加密资产内部轮动，而不是整个风险偏好普遍升温。",
-      "impact": "BTC 更需要与美元、实际利率和美股风险偏好一起看。当前页面市场快照为：标普 500上涨0.62%；BTC上涨0.01%；美元/人民币下跌0.05%；单日 ETF 流量应视为确认信号，而不是交易指令。",
+      "impact": "BTC 更需要与美元、实际利率和美股风险偏好一起看。当前页面市场快照为：标普 500下跌0.06%；BTC下跌1.31%；美元/人民币下跌0.05%；单日 ETF 流量应视为确认信号，而不是交易指令。",
       "uncertain": "下一步看 ETF 连续多日净流、主要发行方资金占比、BTC 与 ETH 的相对强弱，以及美债收益率和美元是否反向变化。",
-      "url": "https://www.coindesk.com/markets/2026/08/07/bitcoin-whales-load-up-on-usd1-2-billion-in-btc-as-etfs-attract-usd750-million",
+      "url": "https://www.coindesk.com/zh/markets/2026/08/10/xrp-is-getting-left-behind-in-the-crypto-bounce-even-as-etfs-keep-attracting-investor-money",
       "sources": "原始来源：CoinDesk（优先来源）"
     }
   ],
@@ -186,18 +186,18 @@
     },
     {
       "label": "标普 500",
-      "value": "7,757.64",
-      "change": 0.62
+      "value": "7,753.11",
+      "change": -0.06
     },
     {
       "label": "美元/人民币",
-      "value": "6.7454",
+      "value": "6.7439",
       "change": -0.05
     },
     {
       "label": "BTC",
-      "value": "$64.9k",
-      "change": 0.01
+      "value": "$64.0k",
+      "change": -1.31
     }
   ],
   "calendar": [
@@ -231,7 +231,7 @@
     {
       "title": "美联储与风险资产",
       "status": "每日更新",
-      "update": "就业数据公布后，市场降低了美联储加息的可能性，但经济学家仍认为有可能收紧政策",
+      "update": "失业率仍是美联储劳动力市场的指引",
       "next": "通胀、就业、收益率及美联储沟通是否形成同一方向。",
       "story_id": "us-macro"
     },
@@ -245,7 +245,7 @@
     {
       "title": "BTC 与流动性",
       "status": "每日更新",
-      "update": "比特币鲸鱼买入 12 亿美元 BTC，ETF 吸引 7.5 亿美元",
+      "update": "XRP 新闻：XRP 在比特币（BTC）市场反弹中被甩在后面",
       "next": "ETF 资金、美元与实际利率、风险资产波动。",
       "story_id": "bitcoin"
     }
