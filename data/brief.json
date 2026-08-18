@@ -1,6 +1,6 @@
 {
-  "edition_title": "8 月 17 日，星期一",
-  "updated_label": "2026-08-17 09:51 北京时间",
+  "edition_title": "8 月 18 日，星期二",
+  "updated_label": "2026-08-18 09:47 北京时间",
   "estimated_minutes": 10,
   "market_label": "收盘或最近可得报价 · 非实时",
   "theme": "先分清事实、阅读框架和市场反应。政策利好与宏观风险可以并存；对中国经济尤其要观察地产、地方财政、价格、就业和人民币是否出现同向变化。",
@@ -39,10 +39,10 @@
       "id": "us-macro",
       "section": "lead",
       "source": "美国宏观 · FXStreet · 扩展来源",
-      "title": "美元每周预测：美联储鹰派盘旋，但疲软的数据削弱了美元的翅膀",
-      "original_title": "US Dollar Weekly Forecast: Fed hawks circle, but weak data clips the Dollar’s wings",
-      "summary": "对于美元来说，这是奇怪的一周：虽然地缘政治局势基本没有变化，美国、伊朗和偶尔的第三方之间通常会反复出现，但令人失望的国内数据再次出现，降低了人们对美联储可能采取紧缩政策的预期。",
-      "time": "02:25",
+      "title": "随着美联储加息预期消退、英国就业数据迫在眉睫，英镑走强至1.3550附近",
+      "original_title": "British Pound gathers strength to near 1.3550 as Fed hike bets fade, UK jobs data loom",
+      "summary": "周二亚洲早盘时段，英镑/美元汇率上涨至 1.3550 附近。由于美国通胀数据降温促使交易员减少对美联储加息的押注，美元（USD）兑英镑（GBP）走软。",
+      "time": "09:27",
       "minutes": 3,
       "tags": [
         [
@@ -58,21 +58,21 @@
           "crypto"
         ]
       ],
-      "fact": "来源摘要：对于美元来说，这是奇怪的一周：虽然地缘政治局势基本没有变化，美国、伊朗和偶尔的第三方之间通常会反复出现，但令人失望的国内数据再次出现，降低了人们对美联储可能采取紧缩政策的预期。 标题线索：美元每周预测：美联储鹰派盘旋，但疲软的数据削弱了美元的翅膀。完整事实、数字与条件请以原文为准。",
+      "fact": "来源摘要：周二亚洲早盘时段，英镑/美元汇率上涨至 1.3550 附近。由于美国通胀数据降温促使交易员减少对美联储加息的押注，美元（USD）兑英镑（GBP）走软。 标题线索：随着美联储加息预期消退、英国就业数据迫在眉睫，英镑走强至1.3550附近。完整事实、数字与条件请以原文为准。",
       "why": "市场真正交易的是“通胀回落是否足以允许更宽松的利率路径”。讲话若强调通胀风险，通常会让降息预期更谨慎；若强调就业转弱，方向可能相反。",
-      "impact": "对美股和 BTC，最直接的传导是美债收益率与美元。当前页面市场快照为：标普 500下跌0.17%；BTC上涨0.13%；美元/人民币下跌0.03%；应把该变动与利率、美元是否同向一起看。",
+      "impact": "对美股和 BTC，最直接的传导是美债收益率与美元。当前页面市场快照为：标普 500下跌0.52%；BTC上涨2.19%；美元/人民币下跌0.02%；应把该变动与利率、美元是否同向一起看。",
       "uncertain": "下一步看 CPI、PCE、非农就业、失业率，以及下一次 FOMC 声明和点阵图，而不是只根据一次讲话下注。",
-      "url": "https://www.fxstreet.com/analysis/us-dollar-weekly-forecast-fed-hawks-circle-but-weak-data-clips-the-dollars-wings-202608141825",
+      "url": "https://www.fxstreet.com/news/british-pound-gathers-strength-to-near-13550-as-fed-hike-bets-fade-uk-jobs-data-loom-202608180127",
       "sources": "原始来源：FXStreet（扩展来源）"
     },
     {
       "id": "trade-chain",
       "section": "lead",
-      "source": "全球贸易 · Nikkei Asia · 优先来源",
-      "title": "特朗普的关税不均衡地重塑了美国制造业",
-      "original_title": "Trump's tariffs unevenly reshape American manufacturing",
-      "summary": "纽约——美国最古老的铜轧机里维尔铜制品公司(Revere Copper Products)几十年来一直被价格较低的中国铜材夺走市场和客户。",
-      "time": "20:36",
+      "source": "全球贸易 · Financial Times · 优先来源",
+      "title": "马克·卡尼为避免唐纳德·特朗普的最新关税而做出最后努力",
+      "original_title": "Mark Carney in last-ditch effort to avoid Donald Trump’s latest tariffs",
+      "summary": "一句话：标题反映企业正通过产地、物流或供应链布局来应对美国关税。关税的影响正在从政策层面传导到具体采购与制造决策。",
+      "time": "03:42",
       "minutes": 3,
       "tags": [
         [
@@ -88,12 +88,12 @@
           "risk"
         ]
       ],
-      "fact": "来源摘要：纽约——美国最古老的铜轧机里维尔铜制品公司(Revere Copper Products)几十年来一直被价格较低的中国铜材夺走市场和客户。 标题线索：特朗普的关税不均衡地重塑了美国制造业。完整事实、数字与条件请以原文为准。",
+      "fact": "标题线索：马克·卡尼为避免唐纳德·特朗普的最新关税而做出最后努力。完整事实、数字与条件请以原文为准。",
       "why": "这类案例的价值在于观察企业是否真的迁移订单和产能，而不只是宣布计划。若更多企业采取相似做法，关税成本会改变区域贸易流和部分行业的利润率。",
       "impact": "汽车零部件、电子、航运和北美制造链更值得跟踪。对中国相关资产，重点不是单一公司，而是转口、海外产能和订单转移是否形成趋势。",
       "uncertain": "下一步看关税生效范围、原产地规则、豁免条款，以及企业是否披露资本开支、库存或交付地的实质调整。",
-      "url": "https://asia.nikkei.com/economy/trade-war/trump-tariffs/trump-s-tariffs-unevenly-reshape-american-manufacturing",
-      "sources": "原始来源：Nikkei Asia（优先来源）"
+      "url": "https://www.ft.com/content/e15d3b98-47d0-4a26-9dae-f3147815981e?syn-25a6b1a6=1",
+      "sources": "原始来源：Financial Times（优先来源）"
     },
     {
       "id": "china-risk",
@@ -128,11 +128,11 @@
     {
       "id": "us-markets",
       "section": "update",
-      "source": "美国市场 · Financial Times · 优先来源",
-      "title": "随着华尔街回归看涨情绪，投资者纷纷重返美国股市",
-      "original_title": "Investors pile back into US stocks as bullishness returns to Wall Street",
+      "source": "美国市场 · Reuters · 优先来源",
+      "title": "随着油价上涨，华尔街指数下滑，等待零售业绩",
+      "original_title": "Wall Street indexes slip as oil prices rise, retail results awaited",
       "summary": "一句话：指数层面出现分化时，往往意味着盈利或宏观数据的利好不足以覆盖权重行业的压力。",
-      "time": "22:35",
+      "time": "06:44",
       "minutes": 1,
       "tags": [
         [
@@ -144,21 +144,21 @@
           "market"
         ]
       ],
-      "fact": "标题线索：随着华尔街回归看涨情绪，投资者纷纷重返美国股市。完整事实、数字与条件请以原文为准。",
+      "fact": "标题线索：随着油价上涨，华尔街指数下滑，等待零售业绩。完整事实、数字与条件请以原文为准。",
       "why": "如果芯片或大型科技股走弱，即便整体盈利不错，指数也可能承压，因为这些公司对标普和纳指的权重很高。要区分“市场整体变差”和“少数权重股拖累”。",
-      "impact": "观察半导体、云计算资本开支和大盘成长股的相对表现。当前页面市场快照为：标普 500下跌0.17%；BTC上涨0.13%；美元/人民币下跌0.03%；若收益率同步上行，高估值板块通常更脆弱。",
+      "impact": "观察半导体、云计算资本开支和大盘成长股的相对表现。当前页面市场快照为：标普 500下跌0.52%；BTC上涨2.19%；美元/人民币下跌0.02%；若收益率同步上行，高估值板块通常更脆弱。",
       "uncertain": "下一步看公司业绩指引、利润率和资本开支，而不是只看单季是否超预期；同时留意市场下跌是否扩散到非科技板块。",
-      "url": "https://www.ft.com/content/d4897d94-0d69-445a-9466-5150840c801e?syn-25a6b1a6=1",
-      "sources": "原始来源：Financial Times（优先来源）"
+      "url": "https://www.reuters.com/business/nasdaq-futures-gain-tech-stocks-climb-2026-08-17/",
+      "sources": "原始来源：Reuters（优先来源）"
     },
     {
       "id": "bitcoin",
       "section": "update",
-      "source": "加密资产 · CoinDesk · 优先来源",
-      "title": "比特币（BTC）价格下滑，美国生产者价格指数（PPI）未能引发涨幅，ETF迎来八月首个连续两日回调",
-      "original_title": "比特币（BTC）价格下滑，美国生产者价格指数（PPI）未能引发涨幅，ETF迎来八月首个连续两日回调",
-      "summary": "现货比特币ETF自七月底以来首次出现连续资金流出，原因是比特币回吐了上周的涨幅，而山寨币则在寻找方向上表现挣扎。",
-      "time": "19:06",
+      "source": "加密资产 · coindesk.com · 优先来源",
+      "title": "比特币（BTC）价格追随股市反弹走势，而 3.9 亿美元的ETF资金流出一周限制了多头行情",
+      "original_title": "比特币（BTC）价格追随股市反弹走势，而 3.9 亿美元的ETF资金流出一周限制了多头行情",
+      "summary": "比特币跟随股票市场小幅反弹开启本周，但 3.9 亿美元的 ETF 资金连续流出及标志性加密法规通过概率仅为 10%，令市场寻求方向。",
+      "time": "17:59",
       "minutes": 1,
       "tags": [
         [
@@ -170,12 +170,12 @@
           "market"
         ]
       ],
-      "fact": "来源摘要：现货比特币ETF自七月底以来首次出现连续资金流出，原因是比特币回吐了上周的涨幅，而山寨币则在寻找方向上表现挣扎。 标题线索：比特币（BTC）价格下滑，美国生产者价格指数（PPI）未能引发涨幅，ETF迎来八月首个连续两日回调。完整事实、数字与条件请以原文为准。",
+      "fact": "来源摘要：比特币跟随股票市场小幅反弹开启本周，但 3.9 亿美元的 ETF 资金连续流出及标志性加密法规通过概率仅为 10%，令市场寻求方向。 标题线索：比特币（BTC）价格追随股市反弹走势，而 3.9 亿美元的ETF资金流出一周限制了多头行情。完整事实、数字与条件请以原文为准。",
       "why": "ETF 净流入可以反映配置型需求，但不能单独解释价格。若以太坊跑赢比特币，可能代表资金在加密资产内部轮动，而不是整个风险偏好普遍升温。",
-      "impact": "BTC 更需要与美元、实际利率和美股风险偏好一起看。当前页面市场快照为：标普 500下跌0.17%；BTC上涨0.13%；美元/人民币下跌0.03%；单日 ETF 流量应视为确认信号，而不是交易指令。",
+      "impact": "BTC 更需要与美元、实际利率和美股风险偏好一起看。当前页面市场快照为：标普 500下跌0.52%；BTC上涨2.19%；美元/人民币下跌0.02%；单日 ETF 流量应视为确认信号，而不是交易指令。",
       "uncertain": "下一步看 ETF 连续多日净流、主要发行方资金占比、BTC 与 ETH 的相对强弱，以及美债收益率和美元是否反向变化。",
-      "url": "https://www.coindesk.com/zh/markets/2026/08/14/bitcoin-slips-as-u-s-inflation-fails-to-spark-gains-etfs-see-august-s-first-two-day-drawdown",
-      "sources": "原始来源：CoinDesk（优先来源）"
+      "url": "https://www.coindesk.com/zh/markets/2026/08/17/bitcoin-tracks-equity-bounce-but-usd390-million-etf-outflow-week-keeps-bulls-on-back-foot",
+      "sources": "原始来源：coindesk.com（优先来源）"
     }
   ],
   "markets": [
@@ -186,18 +186,18 @@
     },
     {
       "label": "标普 500",
-      "value": "7,785.76",
-      "change": -0.17
+      "value": "7,745.06",
+      "change": -0.52
     },
     {
       "label": "美元/人民币",
-      "value": "6.7407",
-      "change": -0.03
+      "value": "6.7416",
+      "change": -0.02
     },
     {
       "label": "BTC",
-      "value": "$63.1k",
-      "change": 0.13
+      "value": "$64.2k",
+      "change": 2.19
     }
   ],
   "calendar": [
@@ -231,7 +231,7 @@
     {
       "title": "美联储与风险资产",
       "status": "每日更新",
-      "update": "美元每周预测：美联储鹰派盘旋，但疲软的数据削弱了美元的翅膀",
+      "update": "随着美联储加息预期消退、英国就业数据迫在眉睫，英镑走强至1.3550附近",
       "next": "通胀、就业、收益率及美联储沟通是否形成同一方向。",
       "story_id": "us-macro"
     },
@@ -245,7 +245,7 @@
     {
       "title": "BTC 与流动性",
       "status": "每日更新",
-      "update": "比特币（BTC）价格下滑，美国生产者价格指数（PPI）未能引发涨幅，ETF迎来八月首个连续两日回调",
+      "update": "比特币（BTC）价格追随股市反弹走势，而 3.9 亿美元的ETF资金流出一周限制了多头行情",
       "next": "ETF 资金、美元与实际利率、风险资产波动。",
       "story_id": "bitcoin"
     }
