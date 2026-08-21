@@ -1,6 +1,6 @@
 {
-  "edition_title": "8 月 20 日，星期四",
-  "updated_label": "2026-08-20 09:48 北京时间",
+  "edition_title": "8 月 21 日，星期五",
+  "updated_label": "2026-08-21 09:54 北京时间",
   "estimated_minutes": 10,
   "market_label": "收盘或最近可得报价 · 非实时",
   "theme": "先分清事实、阅读框架和市场反应。政策利好与宏观风险可以并存；对中国经济尤其要观察地产、地方财政、价格、就业和人民币是否出现同向变化。",
@@ -38,11 +38,11 @@
     {
       "id": "us-macro",
       "section": "lead",
-      "source": "美国宏观 · fxstreet.com · 扩展来源",
-      "title": "随着美联储暂停押注，是什么让金价保持在 4,200 美元至 4,500 美元之间？",
-      "original_title": "What is keeping Gold between $4,200 and $4,500 as Federal Reserve pause bets build?",
-      "summary": "在美国通胀和就业数据疲软之​​后，美联储将在今年剩余时间内维持利率稳定，这一预期继续为金价提供支撑。",
-      "time": "21:34",
+      "source": "美国宏观 · FXStreet · 扩展来源",
+      "title": "美联储戴利：长期收益率上升是一个全球性问题",
+      "original_title": "Fed's Daly: Rise in long term yields is a global issue",
+      "summary": "周四，旧金山联邦储备银行行长玛丽·戴利在接受彭博电视台采访时表示，长期国债收益率上升是一个全球性问题，并补充说，她并不认为美联储的信誉面临风险。",
+      "time": "21:00",
       "minutes": 3,
       "tags": [
         [
@@ -58,21 +58,21 @@
           "crypto"
         ]
       ],
-      "fact": "来源摘要：在美国通胀和就业数据疲软之​​后，美联储将在今年剩余时间内维持利率稳定，这一预期继续为金价提供支撑。 标题线索：随着美联储暂停押注，是什么让金价保持在 4,200 美元至 4,500 美元之间？。完整事实、数字与条件请以原文为准。",
+      "fact": "来源摘要：周四，旧金山联邦储备银行行长玛丽·戴利在接受彭博电视台采访时表示，长期国债收益率上升是一个全球性问题，并补充说，她并不认为美联储的信誉面临风险。 标题线索：美联储戴利：长期收益率上升是一个全球性问题。完整事实、数字与条件请以原文为准。",
       "why": "市场真正交易的是“通胀回落是否足以允许更宽松的利率路径”。讲话若强调通胀风险，通常会让降息预期更谨慎；若强调就业转弱，方向可能相反。",
-      "impact": "对美股和 BTC，最直接的传导是美债收益率与美元。当前页面市场快照为：标普 500上涨0.21%；BTC上涨7.83%；美元/人民币下跌0.32%；应把该变动与利率、美元是否同向一起看。",
+      "impact": "对美股和 BTC，最直接的传导是美债收益率与美元。当前页面市场快照为：标普 500下跌0.87%；BTC上涨8.86%；美元/人民币下跌0.10%；应把该变动与利率、美元是否同向一起看。",
       "uncertain": "下一步看 CPI、PCE、非农就业、失业率，以及下一次 FOMC 声明和点阵图，而不是只根据一次讲话下注。",
-      "url": "https://www.fxstreet.com/news/gold-expected-to-trade-range-bound-despite-increasing-bets-of-a-fed-rate-pause-202608181334",
-      "sources": "原始来源：fxstreet.com（扩展来源）"
+      "url": "https://www.fxstreet.com/news/feds-daly-rise-in-long-term-yields-is-a-global-issue-202608201300",
+      "sources": "原始来源：FXStreet（扩展来源）"
     },
     {
       "id": "trade-chain",
       "section": "lead",
-      "source": "全球贸易 · Financial Times · 优先来源",
-      "title": "马克·卡尼是加拿大为避免唐纳德·特朗普最新关税而做出的最后努力",
-      "original_title": "Mark Carney in last-ditch Canadian effort to avoid Donald Trump’s latest tariffs",
-      "summary": "一句话：标题反映企业正通过产地、物流或供应链布局来应对美国关税。关税的影响正在从政策层面传导到具体采购与制造决策。",
-      "time": "03:42",
+      "source": "全球贸易 · South China Morning Post · 扩展来源",
+      "title": "北京拒绝美国关税报告，墨西哥计划对中国实施新的贸易限制",
+      "original_title": "Beijing rejects US tariff report as Mexico plans new China trade curbs",
+      "summary": "何亚东表示，美国的征税威胁到供应链，而墨西哥则考虑对中国钢铁和纺织品征收新关税。",
+      "time": "04:01",
       "minutes": 3,
       "tags": [
         [
@@ -88,12 +88,12 @@
           "risk"
         ]
       ],
-      "fact": "标题线索：马克·卡尼是加拿大为避免唐纳德·特朗普最新关税而做出的最后努力。完整事实、数字与条件请以原文为准。",
+      "fact": "来源摘要：何亚东表示，美国的征税威胁到供应链，而墨西哥则考虑对中国钢铁和纺织品征收新关税。 标题线索：北京拒绝美国关税报告，墨西哥计划对中国实施新的贸易限制。完整事实、数字与条件请以原文为准。",
       "why": "这类案例的价值在于观察企业是否真的迁移订单和产能，而不只是宣布计划。若更多企业采取相似做法，关税成本会改变区域贸易流和部分行业的利润率。",
       "impact": "汽车零部件、电子、航运和北美制造链更值得跟踪。对中国相关资产，重点不是单一公司，而是转口、海外产能和订单转移是否形成趋势。",
       "uncertain": "下一步看关税生效范围、原产地规则、豁免条款，以及企业是否披露资本开支、库存或交付地的实质调整。",
-      "url": "https://www.ft.com/content/e15d3b98-47d0-4a26-9dae-f3147815981e?syn-25a6b1a6=1",
-      "sources": "原始来源：Financial Times（优先来源）"
+      "url": "https://www.scmp.com/news/us/article/3364735/beijing-calls-us-tariff-report-false-narrative-named-hub-mexico-plans-new-china-curbs",
+      "sources": "原始来源：South China Morning Post（扩展来源）"
     },
     {
       "id": "china-risk",
@@ -146,7 +146,7 @@
       ],
       "fact": "来源摘要：随着人工智能股票重新陷入下跌，华尔街周二从历史高点进一步回落。标准普尔 500 指数下跌 0.7%，连续第三次小幅下跌。 标题线索：人工智能股的下跌使华尔街进一步远离历史纪录。完整事实、数字与条件请以原文为准。",
       "why": "如果芯片或大型科技股走弱，即便整体盈利不错，指数也可能承压，因为这些公司对标普和纳指的权重很高。要区分“市场整体变差”和“少数权重股拖累”。",
-      "impact": "观察半导体、云计算资本开支和大盘成长股的相对表现。当前页面市场快照为：标普 500上涨0.21%；BTC上涨7.83%；美元/人民币下跌0.32%；若收益率同步上行，高估值板块通常更脆弱。",
+      "impact": "观察半导体、云计算资本开支和大盘成长股的相对表现。当前页面市场快照为：标普 500下跌0.87%；BTC上涨8.86%；美元/人民币下跌0.10%；若收益率同步上行，高估值板块通常更脆弱。",
       "uncertain": "下一步看公司业绩指引、利润率和资本开支，而不是只看单季是否超预期；同时留意市场下跌是否扩散到非科技板块。",
       "url": "https://www.bnnbloomberg.ca/markets/2026/08/18/global-shares-slip-as-worries-about-rising-oil-prices-offset-boost-from-strong-earnings/",
       "sources": "原始来源：BNN Bloomberg（优先来源）"
@@ -155,10 +155,10 @@
       "id": "bitcoin",
       "section": "update",
       "source": "加密资产 · CoinDesk · 优先来源",
-      "title": "比特币（BTC）价格追随股市反弹走势，而 3.9 亿美元的ETF资金流出一周限制了多头行情",
-      "original_title": "比特币（BTC）价格追随股市反弹走势，而 3.9 亿美元的ETF资金流出一周限制了多头行情",
+      "title": "比特币波动性崩溃促使交易者转向他处，因“加密领域没有真正能赚钱的资产”",
+      "original_title": "比特币波动性崩溃促使交易者转向他处，因“加密领域没有真正能赚钱的资产”",
       "summary": "一句话：ETF 资金变化与加密资产内部相对强弱同时出现，说明资金不仅在判断方向，也在选择配置对象。",
-      "time": "17:59",
+      "time": "01:00",
       "minutes": 1,
       "tags": [
         [
@@ -170,11 +170,11 @@
           "market"
         ]
       ],
-      "fact": "标题线索：比特币（BTC）价格追随股市反弹走势，而 3.9 亿美元的ETF资金流出一周限制了多头行情。完整事实、数字与条件请以原文为准。",
+      "fact": "标题线索：比特币波动性崩溃促使交易者转向他处，因“加密领域没有真正能赚钱的资产”。完整事实、数字与条件请以原文为准。",
       "why": "ETF 净流入可以反映配置型需求，但不能单独解释价格。若以太坊跑赢比特币，可能代表资金在加密资产内部轮动，而不是整个风险偏好普遍升温。",
-      "impact": "BTC 更需要与美元、实际利率和美股风险偏好一起看。当前页面市场快照为：标普 500上涨0.21%；BTC上涨7.83%；美元/人民币下跌0.32%；单日 ETF 流量应视为确认信号，而不是交易指令。",
+      "impact": "BTC 更需要与美元、实际利率和美股风险偏好一起看。当前页面市场快照为：标普 500下跌0.87%；BTC上涨8.86%；美元/人民币下跌0.10%；单日 ETF 流量应视为确认信号，而不是交易指令。",
       "uncertain": "下一步看 ETF 连续多日净流、主要发行方资金占比、BTC 与 ETH 的相对强弱，以及美债收益率和美元是否反向变化。",
-      "url": "https://www.coindesk.com/zh/markets/2026/08/17/bitcoin-tracks-equity-bounce-but-usd390-million-etf-outflow-week-keeps-bulls-on-back-foot",
+      "url": "https://www.coindesk.com/zh/markets/2026/08/18/bitcoin-has-gone-quiet-as-traders-chase-5x-or-10x-payoffs-elsewhere",
       "sources": "原始来源：CoinDesk（优先来源）"
     }
   ],
@@ -186,18 +186,18 @@
     },
     {
       "label": "标普 500",
-      "value": "7,707.98",
-      "change": 0.21
+      "value": "7,641.16",
+      "change": -0.87
     },
     {
       "label": "美元/人民币",
-      "value": "6.7209",
-      "change": -0.32
+      "value": "6.7226",
+      "change": -0.1
     },
     {
       "label": "BTC",
-      "value": "$69.7k",
-      "change": 7.83
+      "value": "$75.4k",
+      "change": 8.86
     }
   ],
   "calendar": [
@@ -231,7 +231,7 @@
     {
       "title": "美联储与风险资产",
       "status": "每日更新",
-      "update": "随着美联储暂停押注，是什么让金价保持在 4,200 美元至 4,500 美元之间？",
+      "update": "美联储戴利：长期收益率上升是一个全球性问题",
       "next": "通胀、就业、收益率及美联储沟通是否形成同一方向。",
       "story_id": "us-macro"
     },
@@ -245,7 +245,7 @@
     {
       "title": "BTC 与流动性",
       "status": "每日更新",
-      "update": "比特币（BTC）价格追随股市反弹走势，而 3.9 亿美元的ETF资金流出一周限制了多头行情",
+      "update": "比特币波动性崩溃促使交易者转向他处，因“加密领域没有真正能赚钱的资产”",
       "next": "ETF 资金、美元与实际利率、风险资产波动。",
       "story_id": "bitcoin"
     }
