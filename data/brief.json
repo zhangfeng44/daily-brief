@@ -1,6 +1,6 @@
 {
-  "edition_title": "8 月 22 日，星期六",
-  "updated_label": "2026-08-22 09:47 北京时间",
+  "edition_title": "8 月 23 日，星期日",
+  "updated_label": "2026-08-23 09:56 北京时间",
   "estimated_minutes": 10,
   "market_label": "收盘或最近可得报价 · 非实时",
   "theme": "先分清事实、阅读框架和市场反应。政策利好与宏观风险可以并存；对中国经济尤其要观察地产、地方财政、价格、就业和人民币是否出现同向变化。",
@@ -38,11 +38,11 @@
     {
       "id": "us-macro",
       "section": "lead",
-      "source": "美国宏观 · FXStreet · 扩展来源",
-      "title": "突发新闻：联邦公开市场委员会(FOMC)官员承认通胀仍处于高位",
-      "original_title": "Breaking: FOMC officials acknowledged inflation remained elevated",
-      "summary": "联邦公开市场委员会 (FOMC) 周三公布了 7 月份会议纪要。 “会议召开时掌握的信息表明，通货膨胀率仍然居高不下。",
-      "time": "02:20",
+      "source": "美国宏观 · Yahoo Finance · 扩展来源",
+      "title": "Secretary Bessent just pushed down long-term US bond yields. That could complicate Fed Chairman Warsh’s job.",
+      "original_title": "Secretary Bessent just pushed down long-term US bond yields. That could complicate Fed Chairman Warsh’s job.",
+      "summary": "Treasury Secretary Scott Bessent took action Wednesday to lower long-term government bond yields, a move that complicates Federal Reserve Chairman Kevin Warsh",
+      "time": "17:42",
       "minutes": 3,
       "tags": [
         [
@@ -58,20 +58,20 @@
           "crypto"
         ]
       ],
-      "fact": "来源摘要：联邦公开市场委员会 (FOMC) 周三公布了 7 月份会议纪要。 “会议召开时掌握的信息表明，通货膨胀率仍然居高不下。 标题线索：突发新闻：联邦公开市场委员会(FOMC)官员承认通胀仍处于高位。完整事实、数字与条件请以原文为准。",
+      "fact": "来源摘要：Treasury Secretary Scott Bessent took action Wednesday to lower long-term government bond yields, a move that complicates Federal Reserve Chairman Kevin Warsh 标题线索：Secretary Bessent just pushed down long-term US bond yields. That could complicate Fed Chairman Warsh’s job.。完整事实、数字与条件请以原文为准。",
       "why": "市场真正交易的是“通胀回落是否足以允许更宽松的利率路径”。讲话若强调通胀风险，通常会让降息预期更谨慎；若强调就业转弱，方向可能相反。",
-      "impact": "对美股和 BTC，最直接的传导是美债收益率与美元。当前页面市场快照为：标普 500上涨0.43%；BTC上涨6.72%；美元/人民币下跌0.16%；应把该变动与利率、美元是否同向一起看。",
+      "impact": "对美股和 BTC，最直接的传导是美债收益率与美元。当前页面市场快照为：标普 500上涨0.43%；BTC下跌1.49%；美元/人民币下跌0.16%；应把该变动与利率、美元是否同向一起看。",
       "uncertain": "下一步看 CPI、PCE、非农就业、失业率，以及下一次 FOMC 声明和点阵图，而不是只根据一次讲话下注。",
-      "url": "https://www.fxstreet.com/news/fed-minutes-expected-to-shed-light-on-the-depth-of-fomc-hawkish-split-202608191400",
-      "sources": "原始来源：FXStreet（扩展来源）"
+      "url": "https://finance.yahoo.com/economy/policy/article/the-treasury-department-just-pushed-down-long-term-us-bond-yields-that-could-make-kevin-warshs-job-harder-174238269.html",
+      "sources": "原始来源：Yahoo Finance（扩展来源）"
     },
     {
       "id": "trade-chain",
       "section": "lead",
       "source": "全球贸易 · South China Morning Post · 扩展来源",
-      "title": "北京拒绝美国关税报告，墨西哥计划对中国实施新的贸易限制",
+      "title": "Beijing rejects US tariff report as Mexico plans new China trade curbs",
       "original_title": "Beijing rejects US tariff report as Mexico plans new China trade curbs",
-      "summary": "何亚东表示，美国的关税威胁到供应链，而墨西哥则考虑对中国钢铁和纺织品征收新关税。",
+      "summary": "He Yadong says US levies threaten supply chains, while Mexico considers new duties on Chinese steel and textiles.",
       "time": "04:01",
       "minutes": 3,
       "tags": [
@@ -88,7 +88,7 @@
           "risk"
         ]
       ],
-      "fact": "来源摘要：何亚东表示，美国的关税威胁到供应链，而墨西哥则考虑对中国钢铁和纺织品征收新关税。 标题线索：北京拒绝美国关税报告，墨西哥计划对中国实施新的贸易限制。完整事实、数字与条件请以原文为准。",
+      "fact": "来源摘要：He Yadong says US levies threaten supply chains, while Mexico considers new duties on Chinese steel and textiles. 标题线索：Beijing rejects US tariff report as Mexico plans new China trade curbs。完整事实、数字与条件请以原文为准。",
       "why": "这类案例的价值在于观察企业是否真的迁移订单和产能，而不只是宣布计划。若更多企业采取相似做法，关税成本会改变区域贸易流和部分行业的利润率。",
       "impact": "汽车零部件、电子、航运和北美制造链更值得跟踪。对中国相关资产，重点不是单一公司，而是转口、海外产能和订单转移是否形成趋势。",
       "uncertain": "下一步看关税生效范围、原产地规则、豁免条款，以及企业是否披露资本开支、库存或交付地的实质调整。",
@@ -128,8 +128,8 @@
     {
       "id": "us-markets",
       "section": "update",
-      "source": "美国市场 · Bloomberg.com · 优先来源",
-      "title": "纳斯达克 100 指数有望结束五天暴跌，美国股指期货上涨",
+      "source": "美国市场 · Bloomberg · 优先来源",
+      "title": "US Stock Futures Gain as Nasdaq 100 Looks to Snap Five-Day Slump",
       "original_title": "US Stock Futures Gain as Nasdaq 100 Looks to Snap Five-Day Slump",
       "summary": "一句话：指数层面出现分化时，往往意味着盈利或宏观数据的利好不足以覆盖权重行业的压力。",
       "time": "04:06",
@@ -144,12 +144,12 @@
           "market"
         ]
       ],
-      "fact": "标题线索：纳斯达克 100 指数有望结束五天暴跌，美国股指期货上涨。完整事实、数字与条件请以原文为准。",
+      "fact": "标题线索：US Stock Futures Gain as Nasdaq 100 Looks to Snap Five-Day Slump。完整事实、数字与条件请以原文为准。",
       "why": "如果芯片或大型科技股走弱，即便整体盈利不错，指数也可能承压，因为这些公司对标普和纳指的权重很高。要区分“市场整体变差”和“少数权重股拖累”。",
-      "impact": "观察半导体、云计算资本开支和大盘成长股的相对表现。当前页面市场快照为：标普 500上涨0.43%；BTC上涨6.72%；美元/人民币下跌0.16%；若收益率同步上行，高估值板块通常更脆弱。",
+      "impact": "观察半导体、云计算资本开支和大盘成长股的相对表现。当前页面市场快照为：标普 500上涨0.43%；BTC下跌1.49%；美元/人民币下跌0.16%；若收益率同步上行，高估值板块通常更脆弱。",
       "uncertain": "下一步看公司业绩指引、利润率和资本开支，而不是只看单季是否超预期；同时留意市场下跌是否扩散到非科技板块。",
       "url": "https://www.bloomberg.com/news/articles/2026-08-21/us-stock-futures-gain-as-nasdaq-100-looks-to-snap-five-day-slump",
-      "sources": "原始来源：Bloomberg.com（优先来源）"
+      "sources": "原始来源：Bloomberg（优先来源）"
     },
     {
       "id": "bitcoin",
@@ -172,7 +172,7 @@
       ],
       "fact": "标题线索：比特币价格面临8万美元考验，周末流动性减少在即：加密每日。完整事实、数字与条件请以原文为准。",
       "why": "ETF 净流入可以反映配置型需求，但不能单独解释价格。若以太坊跑赢比特币，可能代表资金在加密资产内部轮动，而不是整个风险偏好普遍升温。",
-      "impact": "BTC 更需要与美元、实际利率和美股风险偏好一起看。当前页面市场快照为：标普 500上涨0.43%；BTC上涨6.72%；美元/人民币下跌0.16%；单日 ETF 流量应视为确认信号，而不是交易指令。",
+      "impact": "BTC 更需要与美元、实际利率和美股风险偏好一起看。当前页面市场快照为：标普 500上涨0.43%；BTC下跌1.49%；美元/人民币下跌0.16%；单日 ETF 流量应视为确认信号，而不是交易指令。",
       "uncertain": "下一步看 ETF 连续多日净流、主要发行方资金占比、BTC 与 ETH 的相对强弱，以及美债收益率和美元是否反向变化。",
       "url": "https://www.coindesk.com/zh/daybook-us/2026/08/21/bitcoin-faces-usd80-000-test-as-thinner-weekend-liquidity-looms",
       "sources": "原始来源：CoinDesk（优先来源）"
@@ -196,8 +196,8 @@
     },
     {
       "label": "BTC",
-      "value": "$77.9k",
-      "change": 6.72
+      "value": "$77.2k",
+      "change": -1.49
     }
   ],
   "calendar": [
@@ -231,7 +231,7 @@
     {
       "title": "美联储与风险资产",
       "status": "每日更新",
-      "update": "突发新闻：联邦公开市场委员会(FOMC)官员承认通胀仍处于高位",
+      "update": "Secretary Bessent just pushed down long-term US bond yields. That could complicate Fed Chairman Warsh’s job.",
       "next": "通胀、就业、收益率及美联储沟通是否形成同一方向。",
       "story_id": "us-macro"
     },
