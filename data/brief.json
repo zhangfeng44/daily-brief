@@ -1,6 +1,6 @@
 {
-  "edition_title": "8 月 28 日，星期五",
-  "updated_label": "2026-08-28 19:17 北京时间",
+  "edition_title": "8 月 29 日，星期六",
+  "updated_label": "2026-08-29 14:59 北京时间",
   "estimated_minutes": 10,
   "market_label": "收盘或最近可得报价 · 非实时",
   "theme": "先分清事实、阅读框架和市场反应。政策利好与宏观风险可以并存；对中国经济尤其要观察地产、地方财政、价格、就业和人民币是否出现同向变化。",
@@ -38,11 +38,11 @@
     {
       "id": "us-macro",
       "section": "lead",
-      "source": "美国宏观 · The New York Times · 扩展来源",
-      "title": "‘Honeymoon’s Over’: Warsh Under Pressure as Fed Weighs Raising Rates",
-      "original_title": "‘Honeymoon’s Over’: Warsh Under Pressure as Fed Weighs Raising Rates",
-      "summary": "一句话：联储系统对通胀、就业和货币政策作出沟通。它会影响利率预期，但单位官员讲话不等同于 FOMC 的正式决定。",
-      "time": "17:04",
+      "source": "美国宏观 · CNBC · 扩展来源",
+      "title": "September Fed decision is now a coin flip as rate hike odds increase post Warsh",
+      "original_title": "September Fed decision is now a coin flip as rate hike odds increase post Warsh",
+      "summary": "Odds rose after Warsh&#x27;s speech in Jackson Hole, Wyo., where he discussed that he still is frustrated with the overall inflation trend.",
+      "time": "23:22",
       "minutes": 3,
       "tags": [
         [
@@ -58,12 +58,12 @@
           "crypto"
         ]
       ],
-      "fact": "标题线索：‘Honeymoon’s Over’: Warsh Under Pressure as Fed Weighs Raising Rates。完整事实、数字与条件请以原文为准。",
+      "fact": "来源摘要：Odds rose after Warsh&#x27;s speech in Jackson Hole, Wyo., where he discussed that he still is frustrated with the overall inflation trend. 标题线索：September Fed decision is now a coin flip as rate hike odds increase post Warsh。完整事实、数字与条件请以原文为准。",
       "why": "市场真正交易的是“通胀回落是否足以允许更宽松的利率路径”。讲话若强调通胀风险，通常会让降息预期更谨慎；若强调就业转弱，方向可能相反。",
-      "impact": "对美股和 BTC，最直接的传导是美债收益率与美元。当前页面市场快照为：标普 500上涨0.72%；BTC下跌0.72%；美元/人民币下跌0.19%；应把该变动与利率、美元是否同向一起看。",
+      "impact": "对美股和 BTC，最直接的传导是美债收益率与美元。当前页面市场快照为：标普 500上涨0.72%；BTC下跌3.49%；美元/人民币下跌0.03%；应把该变动与利率、美元是否同向一起看。",
       "uncertain": "下一步看 CPI、PCE、非农就业、失业率，以及下一次 FOMC 声明和点阵图，而不是只根据一次讲话下注。",
-      "url": "https://www.nytimes.com/2026/08/26/business/kevin-warsh-federal-reserve-jackson.html",
-      "sources": "原始来源：The New York Times（扩展来源）"
+      "url": "https://www.cnbc.com/2026/08/28/-september-fed-decision-now-a-coin-flip-as-rate-hike-odds-increase.html",
+      "sources": "原始来源：CNBC（扩展来源）"
     },
     {
       "id": "trade-chain",
@@ -128,11 +128,11 @@
     {
       "id": "us-markets",
       "section": "update",
-      "source": "美国市场 · Bloomberg.com · 优先来源",
-      "title": "Tech Stocks Rally as Nvidia Fuels Bets on AI Trade: Markets Wrap",
-      "original_title": "Tech Stocks Rally as Nvidia Fuels Bets on AI Trade: Markets Wrap",
+      "source": "美国市场 · Reuters · 优先来源",
+      "title": "Nasdaq, S&P 500 lifted by Nvidia's forecast; investors eye speech by Fed's Warsh",
+      "original_title": "Nasdaq, S&P 500 lifted by Nvidia's forecast; investors eye speech by Fed's Warsh",
       "summary": "一句话：指数层面出现分化时，往往意味着盈利或宏观数据的利好不足以覆盖权重行业的压力。",
-      "time": "06:10",
+      "time": "07:05",
       "minutes": 1,
       "tags": [
         [
@@ -144,12 +144,12 @@
           "market"
         ]
       ],
-      "fact": "标题线索：Tech Stocks Rally as Nvidia Fuels Bets on AI Trade: Markets Wrap。完整事实、数字与条件请以原文为准。",
+      "fact": "标题线索：Nasdaq, S&P 500 lifted by Nvidia's forecast; investors eye speech by Fed's Warsh。完整事实、数字与条件请以原文为准。",
       "why": "如果芯片或大型科技股走弱，即便整体盈利不错，指数也可能承压，因为这些公司对标普和纳指的权重很高。要区分“市场整体变差”和“少数权重股拖累”。",
-      "impact": "观察半导体、云计算资本开支和大盘成长股的相对表现。当前页面市场快照为：标普 500上涨0.72%；BTC下跌0.72%；美元/人民币下跌0.19%；若收益率同步上行，高估值板块通常更脆弱。",
+      "impact": "观察半导体、云计算资本开支和大盘成长股的相对表现。当前页面市场快照为：标普 500上涨0.72%；BTC下跌3.49%；美元/人民币下跌0.03%；若收益率同步上行，高估值板块通常更脆弱。",
       "uncertain": "下一步看公司业绩指引、利润率和资本开支，而不是只看单季是否超预期；同时留意市场下跌是否扩散到非科技板块。",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-26/nasdaq-futures-rise-on-bullish-nvidia-sales-growth-markets-wrap",
-      "sources": "原始来源：Bloomberg.com（优先来源）"
+      "url": "https://www.reuters.com/business/nasdaq-futures-take-lead-after-nvidia-forecast-refuels-ai-trade-2026-08-27/",
+      "sources": "原始来源：Reuters（优先来源）"
     },
     {
       "id": "bitcoin",
@@ -172,7 +172,7 @@
       ],
       "fact": "标题线索：BTC价格稳居79,000美元以上，ETF资金流入创下自四月以来最长连续纪录：今日加密市场。完整事实、数字与条件请以原文为准。",
       "why": "ETF 净流入可以反映配置型需求，但不能单独解释价格。若以太坊跑赢比特币，可能代表资金在加密资产内部轮动，而不是整个风险偏好普遍升温。",
-      "impact": "BTC 更需要与美元、实际利率和美股风险偏好一起看。当前页面市场快照为：标普 500上涨0.72%；BTC下跌0.72%；美元/人民币下跌0.19%；单日 ETF 流量应视为确认信号，而不是交易指令。",
+      "impact": "BTC 更需要与美元、实际利率和美股风险偏好一起看。当前页面市场快照为：标普 500上涨0.72%；BTC下跌3.49%；美元/人民币下跌0.03%；单日 ETF 流量应视为确认信号，而不是交易指令。",
       "uncertain": "下一步看 ETF 连续多日净流、主要发行方资金占比、BTC 与 ETH 的相对强弱，以及美债收益率和美元是否反向变化。",
       "url": "https://www.coindesk.com/zh/markets/2026/08/27/bitcoin-steadies-above-usd79-000-as-etf-inflows-hit-longest-streak-since-april",
       "sources": "原始来源：CoinDesk（优先来源）"
@@ -191,13 +191,13 @@
     },
     {
       "label": "美元/人民币",
-      "value": "6.7096",
-      "change": -0.19
+      "value": "6.7205",
+      "change": -0.03
     },
     {
       "label": "BTC",
-      "value": "$79.7k",
-      "change": -0.72
+      "value": "$77.5k",
+      "change": -3.49
     }
   ],
   "calendar": [
@@ -231,7 +231,7 @@
     {
       "title": "美联储与风险资产",
       "status": "每日更新",
-      "update": "‘Honeymoon’s Over’: Warsh Under Pressure as Fed Weighs Raising Rates",
+      "update": "September Fed decision is now a coin flip as rate hike odds increase post Warsh",
       "next": "通胀、就业、收益率及美联储沟通是否形成同一方向。",
       "story_id": "us-macro"
     },
