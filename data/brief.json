@@ -1,6 +1,6 @@
 {
-  "edition_title": "8 月 31 日，星期一",
-  "updated_label": "2026-08-31 13:25 北京时间",
+  "edition_title": "9 月 1 日，星期二",
+  "updated_label": "2026-09-01 12:59 北京时间",
   "estimated_minutes": 10,
   "market_label": "收盘或最近可得报价 · 非实时",
   "theme": "先分清事实、阅读框架和市场反应。政策利好与宏观风险可以并存；对中国经济尤其要观察地产、地方财政、价格、就业和人民币是否出现同向变化。",
@@ -39,7 +39,7 @@
       "id": "us-macro",
       "section": "lead",
       "source": "美国宏观 · Financial Times · 优先来源",
-      "title": "Will the Fed’s hawkish stance survive contact with jobs data?",
+      "title": "美联储的鹰派立场能否经受住就业数据的影响？",
       "original_title": "Will the Fed’s hawkish stance survive contact with jobs data?",
       "summary": "一句话：联储系统对通胀、就业和货币政策作出沟通。它会影响利率预期，但单位官员讲话不等同于 FOMC 的正式决定。",
       "time": "19:00",
@@ -58,9 +58,9 @@
           "crypto"
         ]
       ],
-      "fact": "标题线索：Will the Fed’s hawkish stance survive contact with jobs data?。完整事实、数字与条件请以原文为准。",
+      "fact": "标题线索：美联储的鹰派立场能否经受住就业数据的影响？。完整事实、数字与条件请以原文为准。",
       "why": "市场真正交易的是“通胀回落是否足以允许更宽松的利率路径”。讲话若强调通胀风险，通常会让降息预期更谨慎；若强调就业转弱，方向可能相反。",
-      "impact": "对美股和 BTC，最直接的传导是美债收益率与美元。当前页面市场快照为：标普 500下跌0.25%；BTC上涨0.39%；美元/人民币下跌0.03%；应把该变动与利率、美元是否同向一起看。",
+      "impact": "对美股和 BTC，最直接的传导是美债收益率与美元。当前页面市场快照为：标普 500下跌0.58%；BTC上涨1.31%；美元/人民币下跌0.09%；应把该变动与利率、美元是否同向一起看。",
       "uncertain": "下一步看 CPI、PCE、非农就业、失业率，以及下一次 FOMC 声明和点阵图，而不是只根据一次讲话下注。",
       "url": "https://www.ft.com/content/c2682d2b-c5a4-4f98-8f04-cf93883fb9b6?syn-25a6b1a6=1",
       "sources": "原始来源：Financial Times（优先来源）"
@@ -128,11 +128,11 @@
     {
       "id": "us-markets",
       "section": "update",
-      "source": "美国市场 · CNBC · 扩展来源",
-      "title": "Can international stocks continue to beat S&P 500? A weak U.S. dollar will help",
-      "original_title": "Can international stocks continue to beat S&P 500? A weak U.S. dollar will help",
-      "summary": "International stocks have delivered big gains. Investing experts say U.S. dollar weakness is among reasons to believe the foreign bull market has room to run.",
-      "time": "19:51",
+      "source": "美国市场 · 待核查",
+      "title": "今日暂未取得主题相关的公开线索",
+      "original_title": "",
+      "summary": "自动采集未找到同时满足主题相关性和最低来源要求的条目，下一轮更新会重新检索。",
+      "time": "更新",
       "minutes": 1,
       "tags": [
         [
@@ -144,21 +144,21 @@
           "market"
         ]
       ],
-      "fact": "来源摘要：International stocks have delivered big gains. Investing experts say U.S. dollar weakness is among reasons to believe the foreign bull market has room to run. 标题线索：Can international stocks continue to beat S&P 500? A weak U.S. dollar will help。完整事实、数字与条件请以原文为准。",
+      "fact": "今日尚无可展示的主题线索。市场数据仍可作为背景参考，但不应被当作该主题的新闻结论。",
       "why": "如果芯片或大型科技股走弱，即便整体盈利不错，指数也可能承压，因为这些公司对标普和纳指的权重很高。要区分“市场整体变差”和“少数权重股拖累”。",
-      "impact": "观察半导体、云计算资本开支和大盘成长股的相对表现。当前页面市场快照为：标普 500下跌0.25%；BTC上涨0.39%；美元/人民币下跌0.03%；若收益率同步上行，高估值板块通常更脆弱。",
+      "impact": "观察半导体、云计算资本开支和大盘成长股的相对表现。当前页面市场快照为：标普 500下跌0.58%；BTC上涨1.31%；美元/人民币下跌0.09%；若收益率同步上行，高估值板块通常更脆弱。",
       "uncertain": "下一步看公司业绩指引、利润率和资本开支，而不是只看单季是否超预期；同时留意市场下跌是否扩散到非科技板块。",
-      "url": "https://www.cnbc.com/2026/08/28/markets-us-dollar-stocks.html",
-      "sources": "原始来源：CNBC（扩展来源）"
+      "url": "",
+      "sources": "等待下一轮公开来源更新"
     },
     {
       "id": "bitcoin",
       "section": "update",
-      "source": "加密资产 · 待核查",
-      "title": "今日暂未取得主题相关的公开线索",
-      "original_title": "",
-      "summary": "自动采集未找到同时满足主题相关性和最低来源要求的条目，下一轮更新会重新检索。",
-      "time": "更新",
+      "source": "加密资产 · CoinDesk · 优先来源",
+      "title": "美国打击伊朗，油价上涨，股市下跌，比特币几乎未受影响",
+      "original_title": "美国打击伊朗，油价上涨，股市下跌，比特币几乎未受影响",
+      "summary": "一句话：ETF 资金变化与加密资产内部相对强弱同时出现，说明资金不仅在判断方向，也在选择配置对象。",
+      "time": "12:29",
       "minutes": 1,
       "tags": [
         [
@@ -170,12 +170,12 @@
           "market"
         ]
       ],
-      "fact": "今日尚无可展示的主题线索。市场数据仍可作为背景参考，但不应被当作该主题的新闻结论。",
+      "fact": "标题线索：美国打击伊朗，油价上涨，股市下跌，比特币几乎未受影响。完整事实、数字与条件请以原文为准。",
       "why": "ETF 净流入可以反映配置型需求，但不能单独解释价格。若以太坊跑赢比特币，可能代表资金在加密资产内部轮动，而不是整个风险偏好普遍升温。",
-      "impact": "BTC 更需要与美元、实际利率和美股风险偏好一起看。当前页面市场快照为：标普 500下跌0.25%；BTC上涨0.39%；美元/人民币下跌0.03%；单日 ETF 流量应视为确认信号，而不是交易指令。",
+      "impact": "BTC 更需要与美元、实际利率和美股风险偏好一起看。当前页面市场快照为：标普 500下跌0.58%；BTC上涨1.31%；美元/人民币下跌0.09%；单日 ETF 流量应视为确认信号，而不是交易指令。",
       "uncertain": "下一步看 ETF 连续多日净流、主要发行方资金占比、BTC 与 ETH 的相对强弱，以及美债收益率和美元是否反向变化。",
-      "url": "",
-      "sources": "等待下一轮公开来源更新"
+      "url": "https://www.coindesk.com/zh/markets/2026/08/31/bitcoin-barely-blinks-as-u-s-hits-iran-sending-oil-higher-and-stocks-lower",
+      "sources": "原始来源：CoinDesk（优先来源）"
     }
   ],
   "markets": [
@@ -186,18 +186,18 @@
     },
     {
       "label": "标普 500",
-      "value": "7,711.76",
-      "change": -0.25
+      "value": "7,686.14",
+      "change": -0.58
     },
     {
       "label": "美元/人民币",
-      "value": "6.7202",
-      "change": -0.03
+      "value": "6.7198",
+      "change": -0.09
     },
     {
       "label": "BTC",
-      "value": "$78.1k",
-      "change": 0.39
+      "value": "$78.7k",
+      "change": 1.31
     }
   ],
   "calendar": [
@@ -231,7 +231,7 @@
     {
       "title": "美联储与风险资产",
       "status": "每日更新",
-      "update": "Will the Fed’s hawkish stance survive contact with jobs data?",
+      "update": "美联储的鹰派立场能否经受住就业数据的影响？",
       "next": "通胀、就业、收益率及美联储沟通是否形成同一方向。",
       "story_id": "us-macro"
     },
@@ -245,7 +245,7 @@
     {
       "title": "BTC 与流动性",
       "status": "每日更新",
-      "update": "今日暂未取得主题相关的公开线索",
+      "update": "美国打击伊朗，油价上涨，股市下跌，比特币几乎未受影响",
       "next": "ETF 资金、美元与实际利率、风险资产波动。",
       "story_id": "bitcoin"
     }
