@@ -1,6 +1,6 @@
 {
-  "edition_title": "9 月 3 日，星期四",
-  "updated_label": "2026-09-03 12:16 北京时间",
+  "edition_title": "9 月 4 日，星期五",
+  "updated_label": "2026-09-04 12:23 北京时间",
   "estimated_minutes": 10,
   "market_label": "收盘或最近可得报价 · 非实时",
   "theme": "先分清事实、阅读框架和市场反应。政策利好与宏观风险可以并存；对中国经济尤其要观察地产、地方财政、价格、就业和人民币是否出现同向变化。",
@@ -38,11 +38,11 @@
     {
       "id": "us-macro",
       "section": "lead",
-      "source": "美国宏观 · Bloomberg.com · 优先来源",
-      "title": "Evercore 的 Guha 表示，“现在是通胀优先的美联储”",
-      "original_title": "‘This Is an Inflation First Fed Right Now,’ Evercore’s Guha Says",
+      "source": "美国宏观 · Reuters · 优先来源",
+      "title": "美国劳动力市场保持稳定；服务投入价格上涨表明通胀加剧",
+      "original_title": "US labor market remains stable; services input price rises point to elevated inflation",
       "summary": "一句话：联储系统对通胀、就业和货币政策作出沟通。它会影响利率预期，但单位官员讲话不等同于 FOMC 的正式决定。",
-      "time": "19:59",
+      "time": "02:40",
       "minutes": 3,
       "tags": [
         [
@@ -58,21 +58,21 @@
           "crypto"
         ]
       ],
-      "fact": "标题线索：Evercore 的 Guha 表示，“现在是通胀优先的美联储”。完整事实、数字与条件请以原文为准。",
+      "fact": "标题线索：美国劳动力市场保持稳定；服务投入价格上涨表明通胀加剧。完整事实、数字与条件请以原文为准。",
       "why": "市场真正交易的是“通胀回落是否足以允许更宽松的利率路径”。讲话若强调通胀风险，通常会让降息预期更谨慎；若强调就业转弱，方向可能相反。",
-      "impact": "对美股和 BTC，最直接的传导是美债收益率与美元。当前页面市场快照为：标普 500上涨0.46%；BTC上涨0.22%；美元/人民币下跌0.04%；应把该变动与利率、美元是否同向一起看。",
+      "impact": "对美股和 BTC，最直接的传导是美债收益率与美元。当前页面市场快照为：标普 500上涨0.46%；BTC上涨4.97%；美元/人民币下跌0.05%；应把该变动与利率、美元是否同向一起看。",
       "uncertain": "下一步看 CPI、PCE、非农就业、失业率，以及下一次 FOMC 声明和点阵图，而不是只根据一次讲话下注。",
-      "url": "https://www.bloomberg.com/news/videos/2026-09-01/-this-is-an-inflation-first-fed-right-now-evercore-isi-video",
-      "sources": "原始来源：Bloomberg.com（优先来源）"
+      "url": "https://www.reuters.com/business/world-at-work/us-weekly-jobless-claims-rise-marginally-amid-stable-labor-market-2026-09-03/",
+      "sources": "原始来源：Reuters（优先来源）"
     },
     {
       "id": "trade-chain",
       "section": "lead",
-      "source": "全球贸易 · South China Morning Post · 扩展来源",
-      "title": "中国习近平在关税战中寻求埃及和中亚的新贸易路线",
-      "original_title": "China’s Xi seeks new trade routes in Egypt, Central Asia amid tariff wars",
-      "summary": "总统之行强调了将制造业转移到海外的战略，保护国内出口商免受日益增长的全球壁垒的影响。",
-      "time": "11:00",
+      "source": "全球贸易 · Nikkei Asia · 优先来源",
+      "title": "7月美国对亚洲贸易逆差扩大，其中越南为首",
+      "original_title": "US trade deficit with Asia grew in July, led by Vietnam",
+      "summary": "纽约——随着来自亚太地区的进口持续攀升，7月份美国与亚太地区13个主要经济体的商品贸易逆差增至993亿美元",
+      "time": "22:55",
       "minutes": 3,
       "tags": [
         [
@@ -88,12 +88,12 @@
           "risk"
         ]
       ],
-      "fact": "来源摘要：总统之行强调了将制造业转移到海外的战略，保护国内出口商免受日益增长的全球壁垒的影响。 标题线索：中国习近平在关税战中寻求埃及和中亚的新贸易路线。完整事实、数字与条件请以原文为准。",
+      "fact": "来源摘要：纽约——随着来自亚太地区的进口持续攀升，7月份美国与亚太地区13个主要经济体的商品贸易逆差增至993亿美元 标题线索：7月美国对亚洲贸易逆差扩大，其中越南为首。完整事实、数字与条件请以原文为准。",
       "why": "这类案例的价值在于观察企业是否真的迁移订单和产能，而不只是宣布计划。若更多企业采取相似做法，关税成本会改变区域贸易流和部分行业的利润率。",
       "impact": "汽车零部件、电子、航运和北美制造链更值得跟踪。对中国相关资产，重点不是单一公司，而是转口、海外产能和订单转移是否形成趋势。",
       "uncertain": "下一步看关税生效范围、原产地规则、豁免条款，以及企业是否披露资本开支、库存或交付地的实质调整。",
-      "url": "https://www.scmp.com/economy/global-economy/article/3366123/chinas-xi-seeks-trade-routes-egypt-central-asia-bypass-tariffs-and-western-rules",
-      "sources": "原始来源：South China Morning Post（扩展来源）"
+      "url": "https://asia.nikkei.com/economy/trade/us-trade-deficit-with-asia-grew-in-july-led-by-vietnam",
+      "sources": "原始来源：Nikkei Asia（优先来源）"
     },
     {
       "id": "china-risk",
@@ -128,11 +128,11 @@
     {
       "id": "us-markets",
       "section": "update",
-      "source": "美国市场 · Bloomberg.com · 优先来源",
-      "title": "股市上涨，买家在暴跌后抢购便宜货：市场结束",
-      "original_title": "Stocks Rise as Buyers Scoop Up Bargains After Rout: Markets Wrap",
-      "summary": "一句话：指数层面出现分化时，往往意味着盈利或宏观数据的利好不足以覆盖权重行业的压力。",
-      "time": "06:07",
+      "source": "美国市场 · BNN Bloomberg · 优先来源",
+      "title": "随着债券收益率进一步回落，科技股引领华尔街上涨",
+      "original_title": "Tech stocks lead a rally on Wall Street as bond yields ease some more",
+      "summary": "由于近期债券收益率的上涨进一步放缓，以及大型科技公司的反弹，帮助市场收复损失，华尔街股市收高。",
+      "time": "19:02",
       "minutes": 1,
       "tags": [
         [
@@ -144,21 +144,21 @@
           "market"
         ]
       ],
-      "fact": "标题线索：股市上涨，买家在暴跌后抢购便宜货：市场结束。完整事实、数字与条件请以原文为准。",
+      "fact": "来源摘要：由于近期债券收益率的上涨进一步放缓，以及大型科技公司的反弹，帮助市场收复损失，华尔街股市收高。 标题线索：随着债券收益率进一步回落，科技股引领华尔街上涨。完整事实、数字与条件请以原文为准。",
       "why": "如果芯片或大型科技股走弱，即便整体盈利不错，指数也可能承压，因为这些公司对标普和纳指的权重很高。要区分“市场整体变差”和“少数权重股拖累”。",
-      "impact": "观察半导体、云计算资本开支和大盘成长股的相对表现。当前页面市场快照为：标普 500上涨0.46%；BTC上涨0.22%；美元/人民币下跌0.04%；若收益率同步上行，高估值板块通常更脆弱。",
+      "impact": "观察半导体、云计算资本开支和大盘成长股的相对表现。当前页面市场快照为：标普 500上涨0.46%；BTC上涨4.97%；美元/人民币下跌0.05%；若收益率同步上行，高估值板块通常更脆弱。",
       "uncertain": "下一步看公司业绩指引、利润率和资本开支，而不是只看单季是否超预期；同时留意市场下跌是否扩散到非科技板块。",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-01/stock-market-today-dow-s-p-live-updates",
-      "sources": "原始来源：Bloomberg.com（优先来源）"
+      "url": "https://www.bnnbloomberg.ca/investing/2026/09/03/oil-prices-edge-lower-while-asian-shares-rise-tracking-wall-street-gains/",
+      "sources": "原始来源：BNN Bloomberg（优先来源）"
     },
     {
       "id": "bitcoin",
       "section": "update",
       "source": "加密资产 · CoinDesk · 优先来源",
-      "title": "美国打击伊朗，油价上涨，股市下跌，比特币几乎未受影响",
-      "original_title": "美国打击伊朗，油价上涨，股市下跌，比特币几乎未受影响",
+      "title": "随着 Robinhood Chain 收入推动 Arbitrum 激增，BTC 价格逼近 78,000 美元：今日加密市场",
+      "original_title": "随着 Robinhood Chain 收入推动 Arbitrum 激增，BTC 价格逼近 78,000 美元：今日加密市场",
       "summary": "一句话：ETF 资金变化与加密资产内部相对强弱同时出现，说明资金不仅在判断方向，也在选择配置对象。",
-      "time": "12:29",
+      "time": "18:29",
       "minutes": 1,
       "tags": [
         [
@@ -170,11 +170,11 @@
           "market"
         ]
       ],
-      "fact": "标题线索：美国打击伊朗，油价上涨，股市下跌，比特币几乎未受影响。完整事实、数字与条件请以原文为准。",
+      "fact": "标题线索：随着 Robinhood Chain 收入推动 Arbitrum 激增，BTC 价格逼近 78,000 美元：今日加密市场。完整事实、数字与条件请以原文为准。",
       "why": "ETF 净流入可以反映配置型需求，但不能单独解释价格。若以太坊跑赢比特币，可能代表资金在加密资产内部轮动，而不是整个风险偏好普遍升温。",
-      "impact": "BTC 更需要与美元、实际利率和美股风险偏好一起看。当前页面市场快照为：标普 500上涨0.46%；BTC上涨0.22%；美元/人民币下跌0.04%；单日 ETF 流量应视为确认信号，而不是交易指令。",
+      "impact": "BTC 更需要与美元、实际利率和美股风险偏好一起看。当前页面市场快照为：标普 500上涨0.46%；BTC上涨4.97%；美元/人民币下跌0.05%；单日 ETF 流量应视为确认信号，而不是交易指令。",
       "uncertain": "下一步看 ETF 连续多日净流、主要发行方资金占比、BTC 与 ETH 的相对强弱，以及美债收益率和美元是否反向变化。",
-      "url": "https://www.coindesk.com/zh/markets/2026/08/31/bitcoin-barely-blinks-as-u-s-hits-iran-sending-oil-higher-and-stocks-lower",
+      "url": "https://www.coindesk.com/zh/markets/2026/09/01/bitcoin-consolidates-near-usd78-000-as-arbitrum-surges-30-on-robinhood-chain-revenue",
       "sources": "原始来源：CoinDesk（优先来源）"
     }
   ],
@@ -191,13 +191,13 @@
     },
     {
       "label": "美元/人民币",
-      "value": "6.7173",
-      "change": -0.04
+      "value": "6.7155",
+      "change": -0.05
     },
     {
       "label": "BTC",
-      "value": "$77.6k",
-      "change": 0.22
+      "value": "$81.1k",
+      "change": 4.97
     }
   ],
   "calendar": [
@@ -231,7 +231,7 @@
     {
       "title": "美联储与风险资产",
       "status": "每日更新",
-      "update": "Evercore 的 Guha 表示，“现在是通胀优先的美联储”",
+      "update": "美国劳动力市场保持稳定；服务投入价格上涨表明通胀加剧",
       "next": "通胀、就业、收益率及美联储沟通是否形成同一方向。",
       "story_id": "us-macro"
     },
@@ -245,7 +245,7 @@
     {
       "title": "BTC 与流动性",
       "status": "每日更新",
-      "update": "美国打击伊朗，油价上涨，股市下跌，比特币几乎未受影响",
+      "update": "随着 Robinhood Chain 收入推动 Arbitrum 激增，BTC 价格逼近 78,000 美元：今日加密市场",
       "next": "ETF 资金、美元与实际利率、风险资产波动。",
       "story_id": "bitcoin"
     }
