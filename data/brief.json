@@ -1,6 +1,6 @@
 {
-  "edition_title": "9 月 4 日，星期五",
-  "updated_label": "2026-09-04 12:23 北京时间",
+  "edition_title": "9 月 5 日，星期六",
+  "updated_label": "2026-09-05 12:19 北京时间",
   "estimated_minutes": 10,
   "market_label": "收盘或最近可得报价 · 非实时",
   "theme": "先分清事实、阅读框架和市场反应。政策利好与宏观风险可以并存；对中国经济尤其要观察地产、地方财政、价格、就业和人民币是否出现同向变化。",
@@ -38,11 +38,11 @@
     {
       "id": "us-macro",
       "section": "lead",
-      "source": "美国宏观 · Reuters · 优先来源",
-      "title": "美国劳动力市场保持稳定；服务投入价格上涨表明通胀加剧",
-      "original_title": "US labor market remains stable; services input price rises point to elevated inflation",
+      "source": "美国宏观 · Bloomberg.com · 优先来源",
+      "title": "就业报告公布后，美联储利率决定仍取决于通胀",
+      "original_title": "Fed Rate Decision Still Hangs on Inflation After Jobs Report",
       "summary": "一句话：联储系统对通胀、就业和货币政策作出沟通。它会影响利率预期，但单位官员讲话不等同于 FOMC 的正式决定。",
-      "time": "02:40",
+      "time": "23:09",
       "minutes": 3,
       "tags": [
         [
@@ -58,12 +58,12 @@
           "crypto"
         ]
       ],
-      "fact": "标题线索：美国劳动力市场保持稳定；服务投入价格上涨表明通胀加剧。完整事实、数字与条件请以原文为准。",
+      "fact": "标题线索：就业报告公布后，美联储利率决定仍取决于通胀。完整事实、数字与条件请以原文为准。",
       "why": "市场真正交易的是“通胀回落是否足以允许更宽松的利率路径”。讲话若强调通胀风险，通常会让降息预期更谨慎；若强调就业转弱，方向可能相反。",
-      "impact": "对美股和 BTC，最直接的传导是美债收益率与美元。当前页面市场快照为：标普 500上涨0.46%；BTC上涨4.97%；美元/人民币下跌0.05%；应把该变动与利率、美元是否同向一起看。",
+      "impact": "对美股和 BTC，最直接的传导是美债收益率与美元。当前页面市场快照为：标普 500下跌0.38%；BTC下跌2.09%；美元/人民币下跌0.12%；应把该变动与利率、美元是否同向一起看。",
       "uncertain": "下一步看 CPI、PCE、非农就业、失业率，以及下一次 FOMC 声明和点阵图，而不是只根据一次讲话下注。",
-      "url": "https://www.reuters.com/business/world-at-work/us-weekly-jobless-claims-rise-marginally-amid-stable-labor-market-2026-09-03/",
-      "sources": "原始来源：Reuters（优先来源）"
+      "url": "https://www.bloomberg.com/news/articles/2026-09-04/fed-rate-decision-still-hangs-on-inflation-after-jobs-report",
+      "sources": "原始来源：Bloomberg.com（优先来源）"
     },
     {
       "id": "trade-chain",
@@ -146,7 +146,7 @@
       ],
       "fact": "来源摘要：由于近期债券收益率的上涨进一步放缓，以及大型科技公司的反弹，帮助市场收复损失，华尔街股市收高。 标题线索：随着债券收益率进一步回落，科技股引领华尔街上涨。完整事实、数字与条件请以原文为准。",
       "why": "如果芯片或大型科技股走弱，即便整体盈利不错，指数也可能承压，因为这些公司对标普和纳指的权重很高。要区分“市场整体变差”和“少数权重股拖累”。",
-      "impact": "观察半导体、云计算资本开支和大盘成长股的相对表现。当前页面市场快照为：标普 500上涨0.46%；BTC上涨4.97%；美元/人民币下跌0.05%；若收益率同步上行，高估值板块通常更脆弱。",
+      "impact": "观察半导体、云计算资本开支和大盘成长股的相对表现。当前页面市场快照为：标普 500下跌0.38%；BTC下跌2.09%；美元/人民币下跌0.12%；若收益率同步上行，高估值板块通常更脆弱。",
       "uncertain": "下一步看公司业绩指引、利润率和资本开支，而不是只看单季是否超预期；同时留意市场下跌是否扩散到非科技板块。",
       "url": "https://www.bnnbloomberg.ca/investing/2026/09/03/oil-prices-edge-lower-while-asian-shares-rise-tracking-wall-street-gains/",
       "sources": "原始来源：BNN Bloomberg（优先来源）"
@@ -155,10 +155,10 @@
       "id": "bitcoin",
       "section": "update",
       "source": "加密资产 · CoinDesk · 优先来源",
-      "title": "随着 Robinhood Chain 收入推动 Arbitrum 激增，BTC 价格逼近 78,000 美元：今日加密市场",
-      "original_title": "随着 Robinhood Chain 收入推动 Arbitrum 激增，BTC 价格逼近 78,000 美元：今日加密市场",
+      "title": "比特币突破81,000美元，隐私币引领加密市场广泛反弹",
+      "original_title": "比特币突破81,000美元，隐私币引领加密市场广泛反弹",
       "summary": "一句话：ETF 资金变化与加密资产内部相对强弱同时出现，说明资金不仅在判断方向，也在选择配置对象。",
-      "time": "18:29",
+      "time": "17:57",
       "minutes": 1,
       "tags": [
         [
@@ -170,11 +170,11 @@
           "market"
         ]
       ],
-      "fact": "标题线索：随着 Robinhood Chain 收入推动 Arbitrum 激增，BTC 价格逼近 78,000 美元：今日加密市场。完整事实、数字与条件请以原文为准。",
+      "fact": "标题线索：比特币突破81,000美元，隐私币引领加密市场广泛反弹。完整事实、数字与条件请以原文为准。",
       "why": "ETF 净流入可以反映配置型需求，但不能单独解释价格。若以太坊跑赢比特币，可能代表资金在加密资产内部轮动，而不是整个风险偏好普遍升温。",
-      "impact": "BTC 更需要与美元、实际利率和美股风险偏好一起看。当前页面市场快照为：标普 500上涨0.46%；BTC上涨4.97%；美元/人民币下跌0.05%；单日 ETF 流量应视为确认信号，而不是交易指令。",
+      "impact": "BTC 更需要与美元、实际利率和美股风险偏好一起看。当前页面市场快照为：标普 500下跌0.38%；BTC下跌2.09%；美元/人民币下跌0.12%；单日 ETF 流量应视为确认信号，而不是交易指令。",
       "uncertain": "下一步看 ETF 连续多日净流、主要发行方资金占比、BTC 与 ETH 的相对强弱，以及美债收益率和美元是否反向变化。",
-      "url": "https://www.coindesk.com/zh/markets/2026/09/01/bitcoin-consolidates-near-usd78-000-as-arbitrum-surges-30-on-robinhood-chain-revenue",
+      "url": "https://www.coindesk.com/zh/markets/2026/09/04/bitcoin-clears-usd81-000-as-privacy-coins-lead-a-broad-crypto-rally",
       "sources": "原始来源：CoinDesk（优先来源）"
     }
   ],
@@ -186,18 +186,18 @@
     },
     {
       "label": "标普 500",
-      "value": "7,666.60",
-      "change": 0.46
+      "value": "7,718.60",
+      "change": -0.38
     },
     {
       "label": "美元/人民币",
-      "value": "6.7155",
-      "change": -0.05
+      "value": "6.7108",
+      "change": -0.12
     },
     {
       "label": "BTC",
-      "value": "$81.1k",
-      "change": 4.97
+      "value": "$79.6k",
+      "change": -2.09
     }
   ],
   "calendar": [
@@ -231,7 +231,7 @@
     {
       "title": "美联储与风险资产",
       "status": "每日更新",
-      "update": "美国劳动力市场保持稳定；服务投入价格上涨表明通胀加剧",
+      "update": "就业报告公布后，美联储利率决定仍取决于通胀",
       "next": "通胀、就业、收益率及美联储沟通是否形成同一方向。",
       "story_id": "us-macro"
     },
@@ -245,7 +245,7 @@
     {
       "title": "BTC 与流动性",
       "status": "每日更新",
-      "update": "随着 Robinhood Chain 收入推动 Arbitrum 激增，BTC 价格逼近 78,000 美元：今日加密市场",
+      "update": "比特币突破81,000美元，隐私币引领加密市场广泛反弹",
       "next": "ETF 资金、美元与实际利率、风险资产波动。",
       "story_id": "bitcoin"
     }
