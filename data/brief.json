@@ -1,6 +1,6 @@
 {
-  "edition_title": "9 月 11 日，星期五",
-  "updated_label": "2026-09-11 12:31 北京时间",
+  "edition_title": "9 月 12 日，星期六",
+  "updated_label": "2026-09-12 12:27 北京时间",
   "estimated_minutes": 10,
   "market_label": "收盘或最近可得报价 · 非实时",
   "theme": "先分清事实、阅读框架和市场反应。政策利好与宏观风险可以并存；对中国经济尤其要观察地产、地方财政、价格、就业和人民币是否出现同向变化。",
@@ -38,11 +38,11 @@
     {
       "id": "us-macro",
       "section": "lead",
-      "source": "美国宏观 · Reuters · 优先来源",
-      "title": "纽约联储报告显示，消费者更担心个人财务和就业",
-      "original_title": "Consumers more worried about personal finances and jobs, New York Fed report shows",
-      "summary": "一句话：联储系统对通胀、就业和货币政策作出沟通。它会影响利率预期，但单位官员讲话不等同于 FOMC 的正式决定。",
-      "time": "23:02",
+      "source": "美国宏观 · 待核查",
+      "title": "今日暂未取得主题相关的公开线索",
+      "original_title": "",
+      "summary": "自动采集未找到同时满足主题相关性和最低来源要求的条目，下一轮更新会重新检索。",
+      "time": "更新",
       "minutes": 3,
       "tags": [
         [
@@ -58,21 +58,21 @@
           "crypto"
         ]
       ],
-      "fact": "标题线索：纽约联储报告显示，消费者更担心个人财务和就业。完整事实、数字与条件请以原文为准。",
+      "fact": "今日尚无可展示的主题线索。市场数据仍可作为背景参考，但不应被当作该主题的新闻结论。",
       "why": "市场真正交易的是“通胀回落是否足以允许更宽松的利率路径”。讲话若强调通胀风险，通常会让降息预期更谨慎；若强调就业转弱，方向可能相反。",
-      "impact": "对美股和 BTC，最直接的传导是美债收益率与美元。当前页面市场快照为：标普 500下跌0.58%；BTC下跌1.43%；美元/人民币下跌0.01%；应把该变动与利率、美元是否同向一起看。",
+      "impact": "对美股和 BTC，最直接的传导是美债收益率与美元。当前页面市场快照为：标普 500上涨0.86%；BTC上涨0.85%；美元/人民币上涨0.02%；应把该变动与利率、美元是否同向一起看。",
       "uncertain": "下一步看 CPI、PCE、非农就业、失业率，以及下一次 FOMC 声明和点阵图，而不是只根据一次讲话下注。",
-      "url": "https://www.reuters.com/business/consumers-more-worried-about-personal-finances-jobs-new-york-fed-report-shows-2026-09-08/",
-      "sources": "原始来源：Reuters（优先来源）"
+      "url": "",
+      "sources": "等待下一轮公开来源更新"
     },
     {
       "id": "trade-chain",
       "section": "lead",
-      "source": "全球贸易 · BNN Bloomberg · 优先来源",
-      "title": "随着企业寻求避免特朗普的最新关税，卡尼总理支持“在这里建设”的计划",
-      "original_title": "PM Carney bolsters plan to ‘build here’ as companies look to avoid Trump’s latest tariffs",
-      "summary": "马克·卡尼在透露最近几天与唐纳德·特朗普交谈后表示，他“随时准备”以“专业”方式与美国进行谈判。",
-      "time": "20:48",
+      "source": "全球贸易 · bloomberg.com · 优先来源",
+      "title": "US trade flip-flops on Canada, China carry hidden costs",
+      "original_title": "US trade flip-flops on Canada, China carry hidden costs",
+      "summary": "一句话：标题反映企业正通过产地、物流或供应链布局来应对美国关税。关税的影响正在从政策层面传导到具体采购与制造决策。",
+      "time": "03:24",
       "minutes": 3,
       "tags": [
         [
@@ -88,12 +88,12 @@
           "risk"
         ]
       ],
-      "fact": "来源摘要：马克·卡尼在透露最近几天与唐纳德·特朗普交谈后表示，他“随时准备”以“专业”方式与美国进行谈判。 标题线索：随着企业寻求避免特朗普的最新关税，卡尼总理支持“在这里建设”的计划。完整事实、数字与条件请以原文为准。",
+      "fact": "标题线索：US trade flip-flops on Canada, China carry hidden costs。完整事实、数字与条件请以原文为准。",
       "why": "这类案例的价值在于观察企业是否真的迁移订单和产能，而不只是宣布计划。若更多企业采取相似做法，关税成本会改变区域贸易流和部分行业的利润率。",
       "impact": "汽车零部件、电子、航运和北美制造链更值得跟踪。对中国相关资产，重点不是单一公司，而是转口、海外产能和订单转移是否形成趋势。",
       "uncertain": "下一步看关税生效范围、原产地规则、豁免条款，以及企业是否披露资本开支、库存或交付地的实质调整。",
-      "url": "https://www.bnnbloomberg.ca/tariffs/2026/09/10/carney-always-ready-to-negotiate-with-trump-in-professional-matter-live-updates-here/",
-      "sources": "原始来源：BNN Bloomberg（优先来源）"
+      "url": "https://www.bloomberg.com/professional/insights/markets/us-trade-flip-flops-on-canada-china-carry-hidden-costs/",
+      "sources": "原始来源：bloomberg.com（优先来源）"
     },
     {
       "id": "china-risk",
@@ -128,11 +128,11 @@
     {
       "id": "us-markets",
       "section": "update",
-      "source": "美国市场 · Investing.com · 扩展来源",
-      "title": "甲骨文财报：收入增长，股价较历史高位低 53%",
-      "original_title": "Oracle Earnings: Revenue Seen Rising as Shares Trade 53% Below Record High",
-      "summary": "甲骨文财报：收入增长，股价较历史高位低 53%",
-      "time": "00:56",
+      "source": "美国市场 · bloomberg.com · 优先来源",
+      "title": "Stocks, Bonds Drop as Oil Spike Boosts Fed Wagers: Markets Wrap",
+      "original_title": "Stocks, Bonds Drop as Oil Spike Boosts Fed Wagers: Markets Wrap",
+      "summary": "一句话：指数层面出现分化时，往往意味着盈利或宏观数据的利好不足以覆盖权重行业的压力。",
+      "time": "06:13",
       "minutes": 1,
       "tags": [
         [
@@ -144,18 +144,18 @@
           "market"
         ]
       ],
-      "fact": "来源摘要：甲骨文财报：收入增长，股价较历史高位低 53% 标题线索：甲骨文财报：收入增长，股价较历史高位低 53%。完整事实、数字与条件请以原文为准。",
+      "fact": "标题线索：Stocks, Bonds Drop as Oil Spike Boosts Fed Wagers: Markets Wrap。完整事实、数字与条件请以原文为准。",
       "why": "如果芯片或大型科技股走弱，即便整体盈利不错，指数也可能承压，因为这些公司对标普和纳指的权重很高。要区分“市场整体变差”和“少数权重股拖累”。",
-      "impact": "观察半导体、云计算资本开支和大盘成长股的相对表现。当前页面市场快照为：标普 500下跌0.58%；BTC下跌1.43%；美元/人民币下跌0.01%；若收益率同步上行，高估值板块通常更脆弱。",
+      "impact": "观察半导体、云计算资本开支和大盘成长股的相对表现。当前页面市场快照为：标普 500上涨0.86%；BTC上涨0.85%；美元/人民币上涨0.02%；若收益率同步上行，高估值板块通常更脆弱。",
       "uncertain": "下一步看公司业绩指引、利润率和资本开支，而不是只看单季是否超预期；同时留意市场下跌是否扩散到非科技板块。",
-      "url": "https://m.investing.com/analysis/oracle-earnings-revenue-seen-rising-as-shares-trade-53-below-record-high-200687414?ampMode=1",
-      "sources": "原始来源：Investing.com（扩展来源）"
+      "url": "https://www.bloomberg.com/news/articles/2026-09-09/stock-market-today-dow-s-p-live-updates",
+      "sources": "原始来源：bloomberg.com（优先来源）"
     },
     {
       "id": "bitcoin",
       "section": "update",
       "source": "加密资产 · CoinDesk · 优先来源",
-      "title": "BTC价格消息：比特币回升至79,000美元； Zcash ETF 收入达到 5 亿美元",
+      "title": "BTC price news: Bitcoin recovers toward $79,000; Zcash records a $500 million ETF haul",
       "original_title": "BTC price news: Bitcoin recovers toward $79,000; Zcash records a $500 million ETF haul",
       "summary": "一句话：ETF 资金变化与加密资产内部相对强弱同时出现，说明资金不仅在判断方向，也在选择配置对象。",
       "time": "12:53",
@@ -170,9 +170,9 @@
           "market"
         ]
       ],
-      "fact": "标题线索：BTC价格消息：比特币回升至79,000美元； Zcash ETF 收入达到 5 亿美元。完整事实、数字与条件请以原文为准。",
+      "fact": "标题线索：BTC price news: Bitcoin recovers toward $79,000; Zcash records a $500 million ETF haul。完整事实、数字与条件请以原文为准。",
       "why": "ETF 净流入可以反映配置型需求，但不能单独解释价格。若以太坊跑赢比特币，可能代表资金在加密资产内部轮动，而不是整个风险偏好普遍升温。",
-      "impact": "BTC 更需要与美元、实际利率和美股风险偏好一起看。当前页面市场快照为：标普 500下跌0.58%；BTC下跌1.43%；美元/人民币下跌0.01%；单日 ETF 流量应视为确认信号，而不是交易指令。",
+      "impact": "BTC 更需要与美元、实际利率和美股风险偏好一起看。当前页面市场快照为：标普 500上涨0.86%；BTC上涨0.85%；美元/人民币上涨0.02%；单日 ETF 流量应视为确认信号，而不是交易指令。",
       "uncertain": "下一步看 ETF 连续多日净流、主要发行方资金占比、BTC 与 ETH 的相对强弱，以及美债收益率和美元是否反向变化。",
       "url": "https://www.coindesk.com/markets/2026/09/09/bitcoin-recovers-toward-usd79-000-as-zcash-records-a-usd500-million-etf-haul",
       "sources": "原始来源：CoinDesk（优先来源）"
@@ -186,18 +186,18 @@
     },
     {
       "label": "标普 500",
-      "value": "7,591.70",
-      "change": -0.58
+      "value": "7,656.98",
+      "change": 0.86
     },
     {
       "label": "美元/人民币",
-      "value": "6.7099",
-      "change": -0.01
+      "value": "6.7075",
+      "change": 0.02
     },
     {
       "label": "BTC",
-      "value": "$77.1k",
-      "change": -1.43
+      "value": "$77.2k",
+      "change": 0.85
     }
   ],
   "calendar": [
@@ -231,7 +231,7 @@
     {
       "title": "美联储与风险资产",
       "status": "每日更新",
-      "update": "纽约联储报告显示，消费者更担心个人财务和就业",
+      "update": "今日暂未取得主题相关的公开线索",
       "next": "通胀、就业、收益率及美联储沟通是否形成同一方向。",
       "story_id": "us-macro"
     },
@@ -245,7 +245,7 @@
     {
       "title": "BTC 与流动性",
       "status": "每日更新",
-      "update": "BTC价格消息：比特币回升至79,000美元； Zcash ETF 收入达到 5 亿美元",
+      "update": "BTC price news: Bitcoin recovers toward $79,000; Zcash records a $500 million ETF haul",
       "next": "ETF 资金、美元与实际利率、风险资产波动。",
       "story_id": "bitcoin"
     }
