@@ -1,6 +1,6 @@
 {
-  "edition_title": "9 月 19 日，星期六",
-  "updated_label": "2026-09-19 12:31 北京时间",
+  "edition_title": "9 月 20 日，星期日",
+  "updated_label": "2026-09-20 12:48 北京时间",
   "estimated_minutes": 10,
   "market_label": "收盘或最近可得报价 · 非实时",
   "theme": "先分清事实、阅读框架和市场反应。政策利好与宏观风险可以并存；对中国经济尤其要观察地产、地方财政、价格、就业和人民币是否出现同向变化。",
@@ -38,11 +38,11 @@
     {
       "id": "us-macro",
       "section": "lead",
-      "source": "美国宏观 · The New York Times · 扩展来源",
-      "title": "沃什为遏制通胀而采取的首次重大加息举措",
-      "original_title": "Fed Raises Rates in First Major Step by Warsh to Contain Inflation",
-      "summary": "一句话：联储系统对通胀、就业和货币政策作出沟通。它会影响利率预期，但单位官员讲话不等同于 FOMC 的正式决定。",
-      "time": "05:23",
+      "source": "美国宏观 · Yahoo Finance UK · 扩展来源",
+      "title": "美联储决定后，利率上升和美元走强限制金价反弹",
+      "original_title": "Gold Rebounds After Fed Decision as Higher Rates and Stronger Dollar Limit Recovery",
+      "summary": "美联储周三加息，此举使新任美联储主席凯文·沃什与特朗普产生了鲜明的分歧。",
+      "time": "15:05",
       "minutes": 3,
       "tags": [
         [
@@ -58,12 +58,12 @@
           "crypto"
         ]
       ],
-      "fact": "标题线索：沃什为遏制通胀而采取的首次重大加息举措。完整事实、数字与条件请以原文为准。",
+      "fact": "来源摘要：美联储周三加息，此举使新任美联储主席凯文·沃什与特朗普产生了鲜明的分歧。 标题线索：美联储决定后，利率上升和美元走强限制金价反弹。完整事实、数字与条件请以原文为准。",
       "why": "市场真正交易的是“通胀回落是否足以允许更宽松的利率路径”。讲话若强调通胀风险，通常会让降息预期更谨慎；若强调就业转弱，方向可能相反。",
-      "impact": "对美股和 BTC，最直接的传导是美债收益率与美元。当前页面市场快照为：标普 500上涨0.17%；BTC上涨6.07%；美元/人民币下跌0.15%；应把该变动与利率、美元是否同向一起看。",
+      "impact": "对美股和 BTC，最直接的传导是美债收益率与美元。当前页面市场快照为：标普 500上涨0.17%；BTC下跌0.71%；美元/人民币下跌0.15%；应把该变动与利率、美元是否同向一起看。",
       "uncertain": "下一步看 CPI、PCE、非农就业、失业率，以及下一次 FOMC 声明和点阵图，而不是只根据一次讲话下注。",
-      "url": "https://www.nytimes.com/2026/09/16/business/economy/federal-reserve-interest-rates-warsh.html",
-      "sources": "原始来源：The New York Times（扩展来源）"
+      "url": "https://uk.finance.yahoo.com/news/fed-interest-meeting-warsh-raises-180859785.html",
+      "sources": "原始来源：Yahoo Finance UK（扩展来源）"
     },
     {
       "id": "trade-chain",
@@ -128,11 +128,11 @@
     {
       "id": "us-markets",
       "section": "update",
-      "source": "美国市场 · Investing.com South Africa · 扩展来源",
-      "title": "美国市场上涨，科技股引领纳斯达克指数和标准普尔 500 指数强劲上涨",
-      "original_title": "US Markets Rally as Tech Stocks Lead Nasdaq and S&P 500 to Strong Gains",
+      "source": "美国市场 · Investing.com · 扩展来源",
+      "title": "随着收益率下降，亚洲芯片和科技股追随华尔街涨幅",
+      "original_title": "Asia chip, tech stocks track Wall St gains as yields fall",
       "summary": "一句话：指数层面出现分化时，往往意味着盈利或宏观数据的利好不足以覆盖权重行业的压力。",
-      "time": "22:04",
+      "time": "11:46",
       "minutes": 1,
       "tags": [
         [
@@ -144,21 +144,21 @@
           "market"
         ]
       ],
-      "fact": "标题线索：美国市场上涨，科技股引领纳斯达克指数和标准普尔 500 指数强劲上涨。完整事实、数字与条件请以原文为准。",
+      "fact": "标题线索：随着收益率下降，亚洲芯片和科技股追随华尔街涨幅。完整事实、数字与条件请以原文为准。",
       "why": "如果芯片或大型科技股走弱，即便整体盈利不错，指数也可能承压，因为这些公司对标普和纳指的权重很高。要区分“市场整体变差”和“少数权重股拖累”。",
-      "impact": "观察半导体、云计算资本开支和大盘成长股的相对表现。当前页面市场快照为：标普 500上涨0.17%；BTC上涨6.07%；美元/人民币下跌0.15%；若收益率同步上行，高估值板块通常更脆弱。",
+      "impact": "观察半导体、云计算资本开支和大盘成长股的相对表现。当前页面市场快照为：标普 500上涨0.17%；BTC下跌0.71%；美元/人民币下跌0.15%；若收益率同步上行，高估值板块通常更脆弱。",
       "uncertain": "下一步看公司业绩指引、利润率和资本开支，而不是只看单季是否超预期；同时留意市场下跌是否扩散到非科技板块。",
-      "url": "https://za.investing.com/analysis/us-markets-rally-as-tech-stocks-lead-nasdaq-and-sp-500-to-strong-gains-200623166",
-      "sources": "原始来源：Investing.com South Africa（扩展来源）"
+      "url": "https://www.investing.com/news/stock-market-news/asia-chip-tech-stocks-track-wall-st-gains-as-yields-fall-4906644",
+      "sources": "原始来源：Investing.com（扩展来源）"
     },
     {
       "id": "bitcoin",
       "section": "update",
       "source": "加密资产 · CoinDesk · 优先来源",
-      "title": "自六月以来最大规模的比特币ETF资金流出发生于参议院投票失败后：加密市场今日",
-      "original_title": "自六月以来最大规模的比特币ETF资金流出发生于参议院投票失败后：加密市场今日",
-      "summary": "美国现货比特币交易所交易基金（ETF）市值减少4.5亿美元，创六月以来最大跌幅，因参议院未能推动《透明法案》，令对监管敏感的代币价格大幅下跌。",
-      "time": "18:48",
+      "title": "面向顾问的加密货币：多元化投资超越比特币和以太坊的必要性",
+      "original_title": "面向顾问的加密货币：多元化投资超越比特币和以太坊的必要性",
+      "summary": "CoinDesk 中文版提供比特币、以太坊与加密货币的最新新闻，以及关于区块链、稳定币和Web3的深度报道和市场分析。",
+      "time": "22:57",
       "minutes": 1,
       "tags": [
         [
@@ -170,11 +170,11 @@
           "market"
         ]
       ],
-      "fact": "来源摘要：美国现货比特币交易所交易基金（ETF）市值减少4.5亿美元，创六月以来最大跌幅，因参议院未能推动《透明法案》，令对监管敏感的代币价格大幅下跌。 标题线索：自六月以来最大规模的比特币ETF资金流出发生于参议院投票失败后：加密市场今日。完整事实、数字与条件请以原文为准。",
+      "fact": "来源摘要：CoinDesk 中文版提供比特币、以太坊与加密货币的最新新闻，以及关于区块链、稳定币和Web3的深度报道和市场分析。 标题线索：面向顾问的加密货币：多元化投资超越比特币和以太坊的必要性。完整事实、数字与条件请以原文为准。",
       "why": "ETF 净流入可以反映配置型需求，但不能单独解释价格。若以太坊跑赢比特币，可能代表资金在加密资产内部轮动，而不是整个风险偏好普遍升温。",
-      "impact": "BTC 更需要与美元、实际利率和美股风险偏好一起看。当前页面市场快照为：标普 500上涨0.17%；BTC上涨6.07%；美元/人民币下跌0.15%；单日 ETF 流量应视为确认信号，而不是交易指令。",
+      "impact": "BTC 更需要与美元、实际利率和美股风险偏好一起看。当前页面市场快照为：标普 500上涨0.17%；BTC下跌0.71%；美元/人民币下跌0.15%；单日 ETF 流量应视为确认信号，而不是交易指令。",
       "uncertain": "下一步看 ETF 连续多日净流、主要发行方资金占比、BTC 与 ETH 的相对强弱，以及美债收益率和美元是否反向变化。",
-      "url": "https://www.coindesk.com/zh/markets/2026/09/16/bitcoin-etfs-shed-usd450-million-as-clarity-act-fails",
+      "url": "https://www.coindesk.com/zh/coindesk-indices/2026/09/17/crypto-for-advisors-beyond-bitcoin-and-ether",
       "sources": "原始来源：CoinDesk（优先来源）"
     }
   ],
@@ -196,8 +196,8 @@
     },
     {
       "label": "BTC",
-      "value": "$81.0k",
-      "change": 6.07
+      "value": "$80.3k",
+      "change": -0.71
     }
   ],
   "calendar": [
@@ -231,7 +231,7 @@
     {
       "title": "美联储与风险资产",
       "status": "每日更新",
-      "update": "沃什为遏制通胀而采取的首次重大加息举措",
+      "update": "美联储决定后，利率上升和美元走强限制金价反弹",
       "next": "通胀、就业、收益率及美联储沟通是否形成同一方向。",
       "story_id": "us-macro"
     },
@@ -245,7 +245,7 @@
     {
       "title": "BTC 与流动性",
       "status": "每日更新",
-      "update": "自六月以来最大规模的比特币ETF资金流出发生于参议院投票失败后：加密市场今日",
+      "update": "面向顾问的加密货币：多元化投资超越比特币和以太坊的必要性",
       "next": "ETF 资金、美元与实际利率、风险资产波动。",
       "story_id": "bitcoin"
     }
