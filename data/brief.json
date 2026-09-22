@@ -1,6 +1,6 @@
 {
-  "edition_title": "9 月 21 日，星期一",
-  "updated_label": "2026-09-21 12:48 北京时间",
+  "edition_title": "9 月 22 日，星期二",
+  "updated_label": "2026-09-22 12:47 北京时间",
   "estimated_minutes": 10,
   "market_label": "收盘或最近可得报价 · 非实时",
   "theme": "先分清事实、阅读框架和市场反应。政策利好与宏观风险可以并存；对中国经济尤其要观察地产、地方财政、价格、就业和人民币是否出现同向变化。",
@@ -39,10 +39,10 @@
       "id": "us-macro",
       "section": "lead",
       "source": "美国宏观 · Yahoo Finance · 扩展来源",
-      "title": "为什么这位前美联储主席职位竞争者认为凯文·沃什面临着巨大的问题",
-      "original_title": "Why this former contender for the Fed chair job thinks Kevin Warsh has a huge problem on his hands",
-      "summary": "美联储可以",
-      "time": "13:16",
+      "title": "Exclusive-Fed's Musalem says more rate hikes likely needed to quell inflation",
+      "original_title": "Exclusive-Fed's Musalem says more rate hikes likely needed to quell inflation",
+      "summary": "By Howard Schneider WASHINGTON, Sept 21 (Reuters) - The Federal Reserve will likely need to hike interest rates further to lower inflation resulting from strong demand as well as a commodity price",
+      "time": "02:26",
       "minutes": 3,
       "tags": [
         [
@@ -58,21 +58,21 @@
           "crypto"
         ]
       ],
-      "fact": "来源摘要：美联储可以 标题线索：为什么这位前美联储主席职位竞争者认为凯文·沃什面临着巨大的问题。完整事实、数字与条件请以原文为准。",
+      "fact": "来源摘要：By Howard Schneider WASHINGTON, Sept 21 (Reuters) - The Federal Reserve will likely need to hike interest rates further to lower inflation resulting from strong demand as well as a commodity price 标题线索：Exclusive-Fed's Musalem says more rate hikes likely needed to quell inflation。完整事实、数字与条件请以原文为准。",
       "why": "市场真正交易的是“通胀回落是否足以允许更宽松的利率路径”。讲话若强调通胀风险，通常会让降息预期更谨慎；若强调就业转弱，方向可能相反。",
-      "impact": "对美股和 BTC，最直接的传导是美债收益率与美元。当前页面市场快照为：标普 500上涨0.17%；BTC上涨0.24%；美元/人民币下跌0.18%；应把该变动与利率、美元是否同向一起看。",
+      "impact": "对美股和 BTC，最直接的传导是美债收益率与美元。当前页面市场快照为：标普 500上涨1.49%；BTC上涨5.33%；美元/人民币下跌0.03%；应把该变动与利率、美元是否同向一起看。",
       "uncertain": "下一步看 CPI、PCE、非农就业、失业率，以及下一次 FOMC 声明和点阵图，而不是只根据一次讲话下注。",
-      "url": "https://finance.yahoo.com/economy/article/why-this-former-contender-for-the-fed-chair-job-thinks-kevin-warsh-has-a-huge-problem-on-his-hands-102652010.html",
+      "url": "https://finance.yahoo.com/economy/policy/articles/exclusive-feds-musalem-says-more-182655408.html",
       "sources": "原始来源：Yahoo Finance（扩展来源）"
     },
     {
       "id": "trade-chain",
       "section": "lead",
-      "source": "全球贸易 · 待核查",
-      "title": "今日暂未取得主题相关的公开线索",
-      "original_title": "",
-      "summary": "自动采集未找到同时满足主题相关性和最低来源要求的条目，下一轮更新会重新检索。",
-      "time": "更新",
+      "source": "全球贸易 · South China Morning Post · 扩展来源",
+      "title": "Rising toll of US-China trade, tech curbs in focus ahead of summit",
+      "original_title": "Rising toll of US-China trade, tech curbs in focus ahead of summit",
+      "summary": "Impacts of reciprocal restrictions eroding profits, disrupting supply chains and intensifying market competition are back in the spotlight.",
+      "time": "17:00",
       "minutes": 3,
       "tags": [
         [
@@ -88,12 +88,12 @@
           "risk"
         ]
       ],
-      "fact": "今日尚无可展示的主题线索。市场数据仍可作为背景参考，但不应被当作该主题的新闻结论。",
+      "fact": "来源摘要：Impacts of reciprocal restrictions eroding profits, disrupting supply chains and intensifying market competition are back in the spotlight. 标题线索：Rising toll of US-China trade, tech curbs in focus ahead of summit。完整事实、数字与条件请以原文为准。",
       "why": "这类案例的价值在于观察企业是否真的迁移订单和产能，而不只是宣布计划。若更多企业采取相似做法，关税成本会改变区域贸易流和部分行业的利润率。",
       "impact": "汽车零部件、电子、航运和北美制造链更值得跟踪。对中国相关资产，重点不是单一公司，而是转口、海外产能和订单转移是否形成趋势。",
       "uncertain": "下一步看关税生效范围、原产地规则、豁免条款，以及企业是否披露资本开支、库存或交付地的实质调整。",
-      "url": "",
-      "sources": "等待下一轮公开来源更新"
+      "url": "https://www.scmp.com/economy/policy/article/3367533/rising-toll-us-china-trade-tech-curbs-focus-ahead-xi-trump-summit",
+      "sources": "原始来源：South China Morning Post（扩展来源）"
     },
     {
       "id": "china-risk",
@@ -128,11 +128,11 @@
     {
       "id": "us-markets",
       "section": "update",
-      "source": "美国市场 · Bloomberg.com · 优先来源",
-      "title": "软件股从强劲的盈利和人工智能警告中获得新生",
-      "original_title": "Software Stocks Get New Life From Strong Earnings, AI Warnings",
+      "source": "美国市场 · Reuters · 优先来源",
+      "title": "Nasdaq hits record high as chipmakers fuel stock gains",
+      "original_title": "Nasdaq hits record high as chipmakers fuel stock gains",
       "summary": "一句话：指数层面出现分化时，往往意味着盈利或宏观数据的利好不足以覆盖权重行业的压力。",
-      "time": "21:35",
+      "time": "08:39",
       "minutes": 1,
       "tags": [
         [
@@ -144,21 +144,21 @@
           "market"
         ]
       ],
-      "fact": "标题线索：软件股从强劲的盈利和人工智能警告中获得新生。完整事实、数字与条件请以原文为准。",
+      "fact": "标题线索：Nasdaq hits record high as chipmakers fuel stock gains。完整事实、数字与条件请以原文为准。",
       "why": "如果芯片或大型科技股走弱，即便整体盈利不错，指数也可能承压，因为这些公司对标普和纳指的权重很高。要区分“市场整体变差”和“少数权重股拖累”。",
-      "impact": "观察半导体、云计算资本开支和大盘成长股的相对表现。当前页面市场快照为：标普 500上涨0.17%；BTC上涨0.24%；美元/人民币下跌0.18%；若收益率同步上行，高估值板块通常更脆弱。",
+      "impact": "观察半导体、云计算资本开支和大盘成长股的相对表现。当前页面市场快照为：标普 500上涨1.49%；BTC上涨5.33%；美元/人民币下跌0.03%；若收益率同步上行，高估值板块通常更脆弱。",
       "uncertain": "下一步看公司业绩指引、利润率和资本开支，而不是只看单季是否超预期；同时留意市场下跌是否扩散到非科技板块。",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-18/software-stocks-get-new-life-from-strong-earnings-ai-warnings",
-      "sources": "原始来源：Bloomberg.com（优先来源）"
+      "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-09-21/",
+      "sources": "原始来源：Reuters（优先来源）"
     },
     {
       "id": "bitcoin",
       "section": "update",
-      "source": "加密资产 · coindesk.com · 优先来源",
-      "title": "随着加密货币专业股走高，以太坊和 XRP ETF 出现资金流出",
-      "original_title": "Ether and XRP ETFs post outflows as crypto majors move higher",
-      "summary": "即使代币上涨，以太基金也连续第三个交易日下跌，而各大主要货币都上涨，zcash 延续了涨势。",
-      "time": "15:33",
+      "source": "加密资产 · CoinDesk · 优先来源",
+      "title": "Bitcoin price news: BTC eyes $90,000 as leverage is building",
+      "original_title": "Bitcoin price news: BTC eyes $90,000 as leverage is building",
+      "summary": "Bitcoin has broken out to $86,000, but analysts say the next leg depends on whether spot buyers continue to show up as leverage builds.",
+      "time": "04:39",
       "minutes": 1,
       "tags": [
         [
@@ -170,12 +170,12 @@
           "market"
         ]
       ],
-      "fact": "来源摘要：即使代币上涨，以太基金也连续第三个交易日下跌，而各大主要货币都上涨，zcash 延续了涨势。 标题线索：随着加密货币专业股走高，以太坊和 XRP ETF 出现资金流出。完整事实、数字与条件请以原文为准。",
+      "fact": "来源摘要：Bitcoin has broken out to $86,000, but analysts say the next leg depends on whether spot buyers continue to show up as leverage builds. 标题线索：Bitcoin price news: BTC eyes $90,000 as leverage is building。完整事实、数字与条件请以原文为准。",
       "why": "ETF 净流入可以反映配置型需求，但不能单独解释价格。若以太坊跑赢比特币，可能代表资金在加密资产内部轮动，而不是整个风险偏好普遍升温。",
-      "impact": "BTC 更需要与美元、实际利率和美股风险偏好一起看。当前页面市场快照为：标普 500上涨0.17%；BTC上涨0.24%；美元/人民币下跌0.18%；单日 ETF 流量应视为确认信号，而不是交易指令。",
+      "impact": "BTC 更需要与美元、实际利率和美股风险偏好一起看。当前页面市场快照为：标普 500上涨1.49%；BTC上涨5.33%；美元/人民币下跌0.03%；单日 ETF 流量应视为确认信号，而不是交易指令。",
       "uncertain": "下一步看 ETF 连续多日净流、主要发行方资金占比、BTC 与 ETH 的相对强弱，以及美债收益率和美元是否反向变化。",
-      "url": "https://www.coindesk.com/markets/2026/09/18/ether-and-xrp-etfs-post-outflows-as-bitcoin-moves-above-usd77-000",
-      "sources": "原始来源：coindesk.com（优先来源）"
+      "url": "https://www.coindesk.com/markets/2026/09/21/bitcoin-could-test-usd90-000-after-shorts-get-squeezed-but-traders-warn-leverage-is-building",
+      "sources": "原始来源：CoinDesk（优先来源）"
     }
   ],
   "markets": [
@@ -186,18 +186,18 @@
     },
     {
       "label": "标普 500",
-      "value": "7,650.50",
-      "change": 0.17
+      "value": "7,764.70",
+      "change": 1.49
     },
     {
       "label": "美元/人民币",
-      "value": "6.6952",
-      "change": -0.18
+      "value": "6.6955",
+      "change": -0.03
     },
     {
       "label": "BTC",
-      "value": "$81.4k",
-      "change": 0.24
+      "value": "$85.5k",
+      "change": 5.33
     }
   ],
   "calendar": [
@@ -231,7 +231,7 @@
     {
       "title": "美联储与风险资产",
       "status": "每日更新",
-      "update": "为什么这位前美联储主席职位竞争者认为凯文·沃什面临着巨大的问题",
+      "update": "Exclusive-Fed's Musalem says more rate hikes likely needed to quell inflation",
       "next": "通胀、就业、收益率及美联储沟通是否形成同一方向。",
       "story_id": "us-macro"
     },
@@ -245,7 +245,7 @@
     {
       "title": "BTC 与流动性",
       "status": "每日更新",
-      "update": "随着加密货币专业股走高，以太坊和 XRP ETF 出现资金流出",
+      "update": "Bitcoin price news: BTC eyes $90,000 as leverage is building",
       "next": "ETF 资金、美元与实际利率、风险资产波动。",
       "story_id": "bitcoin"
     }
