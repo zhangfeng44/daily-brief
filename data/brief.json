@@ -1,6 +1,6 @@
 {
-  "edition_title": "9 月 25 日，星期五",
-  "updated_label": "2026-09-25 12:49 北京时间",
+  "edition_title": "9 月 26 日，星期六",
+  "updated_label": "2026-09-26 12:50 北京时间",
   "estimated_minutes": 10,
   "market_label": "收盘或最近可得报价 · 非实时",
   "theme": "先分清事实、阅读框架和市场反应。政策利好与宏观风险可以并存；对中国经济尤其要观察地产、地方财政、价格、就业和人民币是否出现同向变化。",
@@ -38,11 +38,11 @@
     {
       "id": "us-macro",
       "section": "lead",
-      "source": "美国宏观 · reuters.com · 优先来源",
-      "title": "美联储再次希望当前通胀飙升能够顺利着陆",
-      "original_title": "Fed again hoping for a pain-free landing from current inflation spike",
+      "source": "美国宏观 · Reuters · 优先来源",
+      "title": "华尔街未来一周：就业报告、测试美国利率路径的通胀数据、经济实力",
+      "original_title": "Wall St Week Ahead: Jobs report, inflation data to test US rate path, economic strength",
       "summary": "一句话：联储系统对通胀、就业和货币政策作出沟通。它会影响利率预期，但单位官员讲话不等同于 FOMC 的正式决定。",
-      "time": "18:36",
+      "time": "05:35",
       "minutes": 3,
       "tags": [
         [
@@ -58,12 +58,12 @@
           "crypto"
         ]
       ],
-      "fact": "标题线索：美联储再次希望当前通胀飙升能够顺利着陆。完整事实、数字与条件请以原文为准。",
+      "fact": "标题线索：华尔街未来一周：就业报告、测试美国利率路径的通胀数据、经济实力。完整事实、数字与条件请以原文为准。",
       "why": "市场真正交易的是“通胀回落是否足以允许更宽松的利率路径”。讲话若强调通胀风险，通常会让降息预期更谨慎；若强调就业转弱，方向可能相反。",
-      "impact": "对美股和 BTC，最直接的传导是美债收益率与美元。当前页面市场快照为：标普 500下跌0.02%；BTC下跌0.23%；美元/人民币下跌0.11%；应把该变动与利率、美元是否同向一起看。",
+      "impact": "对美股和 BTC，最直接的传导是美债收益率与美元。当前页面市场快照为：标普 500上涨0.51%；BTC下跌0.48%；美元/人民币上涨0.02%；应把该变动与利率、美元是否同向一起看。",
       "uncertain": "下一步看 CPI、PCE、非农就业、失业率，以及下一次 FOMC 声明和点阵图，而不是只根据一次讲话下注。",
-      "url": "https://www.reuters.com/business/fed-again-hoping-pain-free-landing-current-inflation-spike-2026-09-24/",
-      "sources": "原始来源：reuters.com（优先来源）"
+      "url": "https://www.reuters.com/business/wall-st-week-ahead-jobs-report-inflation-data-test-us-rate-path-economic-2026-09-25/",
+      "sources": "原始来源：Reuters（优先来源）"
     },
     {
       "id": "trade-chain",
@@ -129,7 +129,7 @@
       "id": "us-markets",
       "section": "update",
       "source": "美国市场 · Bloomberg.com · 优先来源",
-      "title": "摩根大通的彼得斯青睐股票，因为更高的收益率测试了盈利",
+      "title": "摩根大通的彼得斯青睐股票，因为更高的收益率测试盈利",
       "original_title": "JPMorgan’s Peters Favors Stocks as Higher Yields Test Earnings",
       "summary": "一句话：指数层面出现分化时，往往意味着盈利或宏观数据的利好不足以覆盖权重行业的压力。",
       "time": "17:39",
@@ -144,9 +144,9 @@
           "market"
         ]
       ],
-      "fact": "标题线索：摩根大通的彼得斯青睐股票，因为更高的收益率测试了盈利。完整事实、数字与条件请以原文为准。",
+      "fact": "标题线索：摩根大通的彼得斯青睐股票，因为更高的收益率测试盈利。完整事实、数字与条件请以原文为准。",
       "why": "如果芯片或大型科技股走弱，即便整体盈利不错，指数也可能承压，因为这些公司对标普和纳指的权重很高。要区分“市场整体变差”和“少数权重股拖累”。",
-      "impact": "观察半导体、云计算资本开支和大盘成长股的相对表现。当前页面市场快照为：标普 500下跌0.02%；BTC下跌0.23%；美元/人民币下跌0.11%；若收益率同步上行，高估值板块通常更脆弱。",
+      "impact": "观察半导体、云计算资本开支和大盘成长股的相对表现。当前页面市场快照为：标普 500上涨0.51%；BTC下跌0.48%；美元/人民币上涨0.02%；若收益率同步上行，高估值板块通常更脆弱。",
       "uncertain": "下一步看公司业绩指引、利润率和资本开支，而不是只看单季是否超预期；同时留意市场下跌是否扩散到非科技板块。",
       "url": "https://www.bloomberg.com/news/articles/2026-09-24/jpmorgan-s-peters-favors-stocks-as-higher-yields-test-earnings",
       "sources": "原始来源：Bloomberg.com（优先来源）"
@@ -155,10 +155,10 @@
       "id": "bitcoin",
       "section": "update",
       "source": "加密资产 · CoinDesk · 优先来源",
-      "title": "现货比特币交易所交易基金（ETF）周一吸引了近10亿美元的资金流入，创历史第九大单日资金流入",
-      "original_title": "现货比特币交易所交易基金（ETF）周一吸引了近10亿美元的资金流入，创历史第九大单日资金流入",
-      "summary": "随着比特币上涨至自一月以来的最高点，现货比特币ETF的资金流入于周一有所回升。",
-      "time": "15:40",
+      "title": "比特币 ETF 弥补了 58 亿美元的缺口",
+      "original_title": "Bitcoin ETFs have erased a $5.8 billion hole",
+      "summary": "7 月份的某一时刻，ETF 全年净流出减少了 58 亿美元。现在，这已变成 8 亿美元的净流入。",
+      "time": "20:38",
       "minutes": 1,
       "tags": [
         [
@@ -170,11 +170,11 @@
           "market"
         ]
       ],
-      "fact": "来源摘要：随着比特币上涨至自一月以来的最高点，现货比特币ETF的资金流入于周一有所回升。 标题线索：现货比特币交易所交易基金（ETF）周一吸引了近10亿美元的资金流入，创历史第九大单日资金流入。完整事实、数字与条件请以原文为准。",
+      "fact": "来源摘要：7 月份的某一时刻，ETF 全年净流出减少了 58 亿美元。现在，这已变成 8 亿美元的净流入。 标题线索：比特币 ETF 弥补了 58 亿美元的缺口。完整事实、数字与条件请以原文为准。",
       "why": "ETF 净流入可以反映配置型需求，但不能单独解释价格。若以太坊跑赢比特币，可能代表资金在加密资产内部轮动，而不是整个风险偏好普遍升温。",
-      "impact": "BTC 更需要与美元、实际利率和美股风险偏好一起看。当前页面市场快照为：标普 500下跌0.02%；BTC下跌0.23%；美元/人民币下跌0.11%；单日 ETF 流量应视为确认信号，而不是交易指令。",
+      "impact": "BTC 更需要与美元、实际利率和美股风险偏好一起看。当前页面市场快照为：标普 500上涨0.51%；BTC下跌0.48%；美元/人民币上涨0.02%；单日 ETF 流量应视为确认信号，而不是交易指令。",
       "uncertain": "下一步看 ETF 连续多日净流、主要发行方资金占比、BTC 与 ETH 的相对强弱，以及美债收益率和美元是否反向变化。",
-      "url": "https://www.coindesk.com/zh/markets/2026/09/22/spot-bitcoin-etfs-attracted-nearly-usd1-billion-on-monday-the-9th-largest-inflow-ever",
+      "url": "https://www.coindesk.com/markets/2026/09/25/bitcoin-etfs-have-erased-a-usd5-8-billion-hole",
       "sources": "原始来源：CoinDesk（优先来源）"
     }
   ],
@@ -186,18 +186,18 @@
     },
     {
       "label": "标普 500",
-      "value": "7,704.13",
-      "change": -0.02
+      "value": "7,743.41",
+      "change": 0.51
     },
     {
       "label": "美元/人民币",
-      "value": "6.7037",
-      "change": -0.11
+      "value": "6.7125",
+      "change": 0.02
     },
     {
       "label": "BTC",
-      "value": "$84.2k",
-      "change": -0.23
+      "value": "$84.0k",
+      "change": -0.48
     }
   ],
   "calendar": [
@@ -231,7 +231,7 @@
     {
       "title": "美联储与风险资产",
       "status": "每日更新",
-      "update": "美联储再次希望当前通胀飙升能够顺利着陆",
+      "update": "华尔街未来一周：就业报告、测试美国利率路径的通胀数据、经济实力",
       "next": "通胀、就业、收益率及美联储沟通是否形成同一方向。",
       "story_id": "us-macro"
     },
@@ -245,7 +245,7 @@
     {
       "title": "BTC 与流动性",
       "status": "每日更新",
-      "update": "现货比特币交易所交易基金（ETF）周一吸引了近10亿美元的资金流入，创历史第九大单日资金流入",
+      "update": "比特币 ETF 弥补了 58 亿美元的缺口",
       "next": "ETF 资金、美元与实际利率、风险资产波动。",
       "story_id": "bitcoin"
     }
