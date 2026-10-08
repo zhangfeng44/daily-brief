@@ -1,6 +1,6 @@
 {
-  "edition_title": "10 月 7 日，星期三",
-  "updated_label": "2026-10-07 13:49 北京时间",
+  "edition_title": "10 月 8 日，星期四",
+  "updated_label": "2026-10-08 13:54 北京时间",
   "estimated_minutes": 10,
   "market_label": "收盘或最近可得报价 · 非实时",
   "theme": "先分清事实、阅读框架和市场反应。政策利好与宏观风险可以并存；对中国经济尤其要观察地产、地方财政、价格、就业和人民币是否出现同向变化。",
@@ -38,11 +38,11 @@
     {
       "id": "us-macro",
       "section": "lead",
-      "source": "美国宏观 · Yahoo Finance Singapore · 扩展来源",
-      "title": "疲弱的就业数据缓解了美联储加息的预期，金价在每周下跌后小幅走高",
-      "original_title": "Gold edges higher after weekly slide as weak jobs data ease Fed hike bets",
-      "summary": "Investing.com——由于美元走强、油价波动以及美国国债市场持续暴跌，周一黄金价格几乎没有变化。",
-      "time": "09:46",
+      "source": "美国宏观 · Yahoo Finance · 扩展来源",
+      "title": "美联储9月份一致同意加息。此后经济信号发生了变化。",
+      "original_title": "The Fed was unanimous about raising rates in September. Economic signals have since changed.",
+      "summary": "美联储于9月16日一致投票决定加息，这是三年来的首次加息。",
+      "time": "02:48",
       "minutes": 3,
       "tags": [
         [
@@ -58,12 +58,12 @@
           "crypto"
         ]
       ],
-      "fact": "来源摘要：Investing.com——由于美元走强、油价波动以及美国国债市场持续暴跌，周一黄金价格几乎没有变化。 标题线索：疲弱的就业数据缓解了美联储加息的预期，金价在每周下跌后小幅走高。完整事实、数字与条件请以原文为准。",
+      "fact": "来源摘要：美联储于9月16日一致投票决定加息，这是三年来的首次加息。 标题线索：美联储9月份一致同意加息。此后经济信号发生了变化。。完整事实、数字与条件请以原文为准。",
       "why": "市场真正交易的是“通胀回落是否足以允许更宽松的利率路径”。讲话若强调通胀风险，通常会让降息预期更谨慎；若强调就业转弱，方向可能相反。",
-      "impact": "对美股和 BTC，最直接的传导是美债收益率与美元。当前页面市场快照为：标普 500上涨0.58%；BTC下跌1.79%；美元/人民币下跌0.16%；应把该变动与利率、美元是否同向一起看。",
+      "impact": "对美股和 BTC，最直接的传导是美债收益率与美元。当前页面市场快照为：标普 500下跌0.22%；BTC下跌3.34%；美元/人民币下跌0.17%；应把该变动与利率、美元是否同向一起看。",
       "uncertain": "下一步看 CPI、PCE、非农就业、失业率，以及下一次 FOMC 声明和点阵图，而不是只根据一次讲话下注。",
-      "url": "https://sg.finance.yahoo.com/news/gold-edges-higher-weekly-slide-014610629.html",
-      "sources": "原始来源：Yahoo Finance Singapore（扩展来源）"
+      "url": "https://finance.yahoo.com/economy/policy/article/the-fed-was-unanimous-about-raising-rates-in-september-economic-signals-have-since-changed-184839972.html",
+      "sources": "原始来源：Yahoo Finance（扩展来源）"
     },
     {
       "id": "trade-chain",
@@ -146,7 +146,7 @@
       ],
       "fact": "标题线索：投资者关注盈利 纳斯达克收盘创历史新高。完整事实、数字与条件请以原文为准。",
       "why": "如果芯片或大型科技股走弱，即便整体盈利不错，指数也可能承压，因为这些公司对标普和纳指的权重很高。要区分“市场整体变差”和“少数权重股拖累”。",
-      "impact": "观察半导体、云计算资本开支和大盘成长股的相对表现。当前页面市场快照为：标普 500上涨0.58%；BTC下跌1.79%；美元/人民币下跌0.16%；若收益率同步上行，高估值板块通常更脆弱。",
+      "impact": "观察半导体、云计算资本开支和大盘成长股的相对表现。当前页面市场快照为：标普 500下跌0.22%；BTC下跌3.34%；美元/人民币下跌0.17%；若收益率同步上行，高估值板块通常更脆弱。",
       "uncertain": "下一步看公司业绩指引、利润率和资本开支，而不是只看单季是否超预期；同时留意市场下跌是否扩散到非科技板块。",
       "url": "https://www.reuters.com/world/europe/wall-st-futures-dip-tech-stocks-take-breather-2026-10-05/",
       "sources": "原始来源：Reuters（优先来源）"
@@ -172,7 +172,7 @@
       ],
       "fact": "来源摘要：这种较窄的下降幅度不仅限于一周年纪念日。熊市本身较为温和，过去的低迷时期价格暴跌 77% 至 85%。 标题线索：比特币（BTC）在创下126,000美元历史高点一年后，累计下跌“仅”32%。完整事实、数字与条件请以原文为准。",
       "why": "ETF 净流入可以反映配置型需求，但不能单独解释价格。若以太坊跑赢比特币，可能代表资金在加密资产内部轮动，而不是整个风险偏好普遍升温。",
-      "impact": "BTC 更需要与美元、实际利率和美股风险偏好一起看。当前页面市场快照为：标普 500上涨0.58%；BTC下跌1.79%；美元/人民币下跌0.16%；单日 ETF 流量应视为确认信号，而不是交易指令。",
+      "impact": "BTC 更需要与美元、实际利率和美股风险偏好一起看。当前页面市场快照为：标普 500下跌0.22%；BTC下跌3.34%；美元/人民币下跌0.17%；单日 ETF 流量应视为确认信号，而不是交易指令。",
       "uncertain": "下一步看 ETF 连续多日净流、主要发行方资金占比、BTC 与 ETH 的相对强弱，以及美债收益率和美元是否反向变化。",
       "url": "https://www.coindesk.com/zh/markets/2026/10/06/from-retail-leverage-to-etf-flows-a-year-after-its-record-high-bitcoin-is-down-just-32",
       "sources": "原始来源：CoinDesk（优先来源）"
@@ -186,18 +186,18 @@
     },
     {
       "label": "标普 500",
-      "value": "7,818.93",
-      "change": 0.58
+      "value": "7,801.77",
+      "change": -0.22
     },
     {
       "label": "美元/人民币",
-      "value": "6.6938",
-      "change": -0.16
+      "value": "6.6932",
+      "change": -0.17
     },
     {
       "label": "BTC",
-      "value": "$84.2k",
-      "change": -1.79
+      "value": "$82.7k",
+      "change": -3.34
     }
   ],
   "calendar": [
@@ -231,7 +231,7 @@
     {
       "title": "美联储与风险资产",
       "status": "每日更新",
-      "update": "疲弱的就业数据缓解了美联储加息的预期，金价在每周下跌后小幅走高",
+      "update": "美联储9月份一致同意加息。此后经济信号发生了变化。",
       "next": "通胀、就业、收益率及美联储沟通是否形成同一方向。",
       "story_id": "us-macro"
     },
