@@ -1,6 +1,6 @@
 {
-  "edition_title": "10 月 8 日，星期四",
-  "updated_label": "2026-10-08 13:54 北京时间",
+  "edition_title": "10 月 9 日，星期五",
+  "updated_label": "2026-10-09 14:01 北京时间",
   "estimated_minutes": 10,
   "market_label": "收盘或最近可得报价 · 非实时",
   "theme": "先分清事实、阅读框架和市场反应。政策利好与宏观风险可以并存；对中国经济尤其要观察地产、地方财政、价格、就业和人民币是否出现同向变化。",
@@ -60,7 +60,7 @@
       ],
       "fact": "来源摘要：美联储于9月16日一致投票决定加息，这是三年来的首次加息。 标题线索：美联储9月份一致同意加息。此后经济信号发生了变化。。完整事实、数字与条件请以原文为准。",
       "why": "市场真正交易的是“通胀回落是否足以允许更宽松的利率路径”。讲话若强调通胀风险，通常会让降息预期更谨慎；若强调就业转弱，方向可能相反。",
-      "impact": "对美股和 BTC，最直接的传导是美债收益率与美元。当前页面市场快照为：标普 500下跌0.22%；BTC下跌3.34%；美元/人民币下跌0.17%；应把该变动与利率、美元是否同向一起看。",
+      "impact": "对美股和 BTC，最直接的传导是美债收益率与美元。当前页面市场快照为：标普 500下跌0.47%；BTC下跌1.14%；美元/人民币下跌0.11%；应把该变动与利率、美元是否同向一起看。",
       "uncertain": "下一步看 CPI、PCE、非农就业、失业率，以及下一次 FOMC 声明和点阵图，而不是只根据一次讲话下注。",
       "url": "https://finance.yahoo.com/economy/policy/article/the-fed-was-unanimous-about-raising-rates-in-september-economic-signals-have-since-changed-184839972.html",
       "sources": "原始来源：Yahoo Finance（扩展来源）"
@@ -128,11 +128,11 @@
     {
       "id": "us-markets",
       "section": "update",
-      "source": "美国市场 · Reuters · 优先来源",
-      "title": "投资者关注盈利 纳斯达克收盘创历史新高",
-      "original_title": "Nasdaq notches record high close as investors focus on earnings",
+      "source": "美国市场 · Financial Times · 优先来源",
+      "title": "人工智能股摆脱债券市场低迷影响，标准普尔 500 指数创历史新高",
+      "original_title": "S&P 500 hits record high as AI stocks shrug off bond market slump",
       "summary": "一句话：指数层面出现分化时，往往意味着盈利或宏观数据的利好不足以覆盖权重行业的压力。",
-      "time": "06:38",
+      "time": "21:30",
       "minutes": 1,
       "tags": [
         [
@@ -144,21 +144,21 @@
           "market"
         ]
       ],
-      "fact": "标题线索：投资者关注盈利 纳斯达克收盘创历史新高。完整事实、数字与条件请以原文为准。",
+      "fact": "标题线索：人工智能股摆脱债券市场低迷影响，标准普尔 500 指数创历史新高。完整事实、数字与条件请以原文为准。",
       "why": "如果芯片或大型科技股走弱，即便整体盈利不错，指数也可能承压，因为这些公司对标普和纳指的权重很高。要区分“市场整体变差”和“少数权重股拖累”。",
-      "impact": "观察半导体、云计算资本开支和大盘成长股的相对表现。当前页面市场快照为：标普 500下跌0.22%；BTC下跌3.34%；美元/人民币下跌0.17%；若收益率同步上行，高估值板块通常更脆弱。",
+      "impact": "观察半导体、云计算资本开支和大盘成长股的相对表现。当前页面市场快照为：标普 500下跌0.47%；BTC下跌1.14%；美元/人民币下跌0.11%；若收益率同步上行，高估值板块通常更脆弱。",
       "uncertain": "下一步看公司业绩指引、利润率和资本开支，而不是只看单季是否超预期；同时留意市场下跌是否扩散到非科技板块。",
-      "url": "https://www.reuters.com/world/europe/wall-st-futures-dip-tech-stocks-take-breather-2026-10-05/",
-      "sources": "原始来源：Reuters（优先来源）"
+      "url": "https://www.ft.com/content/1c1ee003-f041-4c66-a971-f08d488d11f7?syn-25a6b1a6=1",
+      "sources": "原始来源：Financial Times（优先来源）"
     },
     {
       "id": "bitcoin",
       "section": "update",
       "source": "加密资产 · CoinDesk · 优先来源",
-      "title": "比特币（BTC）在创下126,000美元历史高点一年后，累计下跌“仅”32%",
-      "original_title": "比特币（BTC）在创下126,000美元历史高点一年后，累计下跌“仅”32%",
-      "summary": "这种较窄的下降幅度不仅限于一周年纪念日。熊市本身较为温和，过去的低迷时期价格暴跌 77% 至 85%。",
-      "time": "16:27",
+      "title": "比特币交易所交易基金（ETF）单日流出近5亿美元：加密日报",
+      "original_title": "比特币交易所交易基金（ETF）单日流出近5亿美元：加密日报",
+      "summary": "2026年10月8日的前瞻",
+      "time": "19:23",
       "minutes": 1,
       "tags": [
         [
@@ -170,11 +170,11 @@
           "market"
         ]
       ],
-      "fact": "来源摘要：这种较窄的下降幅度不仅限于一周年纪念日。熊市本身较为温和，过去的低迷时期价格暴跌 77% 至 85%。 标题线索：比特币（BTC）在创下126,000美元历史高点一年后，累计下跌“仅”32%。完整事实、数字与条件请以原文为准。",
+      "fact": "来源摘要：2026年10月8日的前瞻 标题线索：比特币交易所交易基金（ETF）单日流出近5亿美元：加密日报。完整事实、数字与条件请以原文为准。",
       "why": "ETF 净流入可以反映配置型需求，但不能单独解释价格。若以太坊跑赢比特币，可能代表资金在加密资产内部轮动，而不是整个风险偏好普遍升温。",
-      "impact": "BTC 更需要与美元、实际利率和美股风险偏好一起看。当前页面市场快照为：标普 500下跌0.22%；BTC下跌3.34%；美元/人民币下跌0.17%；单日 ETF 流量应视为确认信号，而不是交易指令。",
+      "impact": "BTC 更需要与美元、实际利率和美股风险偏好一起看。当前页面市场快照为：标普 500下跌0.47%；BTC下跌1.14%；美元/人民币下跌0.11%；单日 ETF 流量应视为确认信号，而不是交易指令。",
       "uncertain": "下一步看 ETF 连续多日净流、主要发行方资金占比、BTC 与 ETH 的相对强弱，以及美债收益率和美元是否反向变化。",
-      "url": "https://www.coindesk.com/zh/markets/2026/10/06/from-retail-leverage-to-etf-flows-a-year-after-its-record-high-bitcoin-is-down-just-32",
+      "url": "https://www.coindesk.com/zh/daybook-us/2026/10/08/bitcoin-etf-investors-head-for-the-exit-and-it-s-the-biggest-rush-in-months",
       "sources": "原始来源：CoinDesk（优先来源）"
     }
   ],
@@ -186,18 +186,18 @@
     },
     {
       "label": "标普 500",
-      "value": "7,801.77",
-      "change": -0.22
+      "value": "7,765.36",
+      "change": -0.47
     },
     {
       "label": "美元/人民币",
-      "value": "6.6932",
-      "change": -0.17
+      "value": "6.6968",
+      "change": -0.11
     },
     {
       "label": "BTC",
-      "value": "$82.7k",
-      "change": -3.34
+      "value": "$82.3k",
+      "change": -1.14
     }
   ],
   "calendar": [
@@ -245,7 +245,7 @@
     {
       "title": "BTC 与流动性",
       "status": "每日更新",
-      "update": "比特币（BTC）在创下126,000美元历史高点一年后，累计下跌“仅”32%",
+      "update": "比特币交易所交易基金（ETF）单日流出近5亿美元：加密日报",
       "next": "ETF 资金、美元与实际利率、风险资产波动。",
       "story_id": "bitcoin"
     }
