@@ -1,6 +1,6 @@
 {
-  "edition_title": "10 月 10 日，星期六",
-  "updated_label": "2026-10-10 13:43 北京时间",
+  "edition_title": "10 月 11 日，星期日",
+  "updated_label": "2026-10-11 13:38 北京时间",
   "estimated_minutes": 10,
   "market_label": "收盘或最近可得报价 · 非实时",
   "theme": "先分清事实、阅读框架和市场反应。政策利好与宏观风险可以并存；对中国经济尤其要观察地产、地方财政、价格、就业和人民币是否出现同向变化。",
@@ -38,11 +38,11 @@
     {
       "id": "us-macro",
       "section": "lead",
-      "source": "美国宏观 · Yahoo Finance · 扩展来源",
-      "title": "美联储9月份一致同意加息。此后经济信号发生了变化。",
-      "original_title": "The Fed was unanimous about raising rates in September. Economic signals have since changed.",
-      "summary": "美联储于9月16日一致投票决定加息，这是三年来的首次加息。",
-      "time": "02:48",
+      "source": "美国宏观 · The New York Times · 扩展来源",
+      "title": "A Top Fed Official Casts Further Doubt on a Rate Rise This Month",
+      "original_title": "A Top Fed Official Casts Further Doubt on a Rate Rise This Month",
+      "summary": "一句话：联储系统对通胀、就业和货币政策作出沟通。它会影响利率预期，但单位官员讲话不等同于 FOMC 的正式决定。",
+      "time": "16:38",
       "minutes": 3,
       "tags": [
         [
@@ -58,21 +58,21 @@
           "crypto"
         ]
       ],
-      "fact": "来源摘要：美联储于9月16日一致投票决定加息，这是三年来的首次加息。 标题线索：美联储9月份一致同意加息。此后经济信号发生了变化。。完整事实、数字与条件请以原文为准。",
+      "fact": "标题线索：A Top Fed Official Casts Further Doubt on a Rate Rise This Month。完整事实、数字与条件请以原文为准。",
       "why": "市场真正交易的是“通胀回落是否足以允许更宽松的利率路径”。讲话若强调通胀风险，通常会让降息预期更谨慎；若强调就业转弱，方向可能相反。",
-      "impact": "对美股和 BTC，最直接的传导是美债收益率与美元。当前页面市场快照为：标普 500上涨0.59%；BTC上涨1.28%；美元/人民币下跌0.15%；应把该变动与利率、美元是否同向一起看。",
+      "impact": "对美股和 BTC，最直接的传导是美债收益率与美元。当前页面市场快照为：标普 500上涨0.59%；BTC上涨0.53%；美元/人民币下跌0.15%；应把该变动与利率、美元是否同向一起看。",
       "uncertain": "下一步看 CPI、PCE、非农就业、失业率，以及下一次 FOMC 声明和点阵图，而不是只根据一次讲话下注。",
-      "url": "https://finance.yahoo.com/economy/policy/article/the-fed-was-unanimous-about-raising-rates-in-september-economic-signals-have-since-changed-184839972.html",
-      "sources": "原始来源：Yahoo Finance（扩展来源）"
+      "url": "https://www.nytimes.com/2026/10/08/business/federal-reserve-christopher-waller-rates.html",
+      "sources": "原始来源：The New York Times（扩展来源）"
     },
     {
       "id": "trade-chain",
       "section": "lead",
-      "source": "全球贸易 · South China Morning Post · 扩展来源",
-      "title": "尽管存在贸易疑虑，中国进口的美国主要港口仍录得有史以来最好的季度业绩",
-      "original_title": "Key US port for China imports records best-ever quarter despite trade doubt",
-      "summary": "洛杉矶港是美国从中国进口的主要门户，7 月至 9 月经历了有记录以来最繁忙的三个月。",
-      "time": "04:54",
+      "source": "全球贸易 · BNN Bloomberg · 优先来源",
+      "title": "EU and China strike interim trade deal that could cut Chinese hybrid exports, EU envoy says",
+      "original_title": "EU and China strike interim trade deal that could cut Chinese hybrid exports, EU envoy says",
+      "summary": "The top trade envoys for China and the European Union agreed on a broad initial agreement following two days of talks aimed at calming escalating tensions.",
+      "time": "23:52",
       "minutes": 3,
       "tags": [
         [
@@ -88,12 +88,12 @@
           "risk"
         ]
       ],
-      "fact": "来源摘要：洛杉矶港是美国从中国进口的主要门户，7 月至 9 月经历了有记录以来最繁忙的三个月。 标题线索：尽管存在贸易疑虑，中国进口的美国主要港口仍录得有史以来最好的季度业绩。完整事实、数字与条件请以原文为准。",
+      "fact": "来源摘要：The top trade envoys for China and the European Union agreed on a broad initial agreement following two days of talks aimed at calming escalating tensions. 标题线索：EU and China strike interim trade deal that could cut Chinese hybrid exports, EU envoy says。完整事实、数字与条件请以原文为准。",
       "why": "这类案例的价值在于观察企业是否真的迁移订单和产能，而不只是宣布计划。若更多企业采取相似做法，关税成本会改变区域贸易流和部分行业的利润率。",
       "impact": "汽车零部件、电子、航运和北美制造链更值得跟踪。对中国相关资产，重点不是单一公司，而是转口、海外产能和订单转移是否形成趋势。",
       "uncertain": "下一步看关税生效范围、原产地规则、豁免条款，以及企业是否披露资本开支、库存或交付地的实质调整。",
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3370410/key-us-port-china-imports-records-best-ever-quarter-despite-trade-uncertainty",
-      "sources": "原始来源：South China Morning Post（扩展来源）"
+      "url": "https://www.bnnbloomberg.ca/business/international/2026/10/09/eu-and-china-strike-interim-trade-deal-that-could-cut-chinese-hybrid-exports-eu-envoy-says/",
+      "sources": "原始来源：BNN Bloomberg（优先来源）"
     },
     {
       "id": "china-risk",
@@ -129,10 +129,10 @@
       "id": "us-markets",
       "section": "update",
       "source": "美国市场 · Reuters · 优先来源",
-      "title": "股市在财报公布前上涨，美国国债收益率和油价仍处于高位",
+      "title": "Stocks advance ahead of earnings, navigating still-high Treasury yields and oil prices",
       "original_title": "Stocks advance ahead of earnings, navigating still-high Treasury yields and oil prices",
       "summary": "一句话：指数层面出现分化时，往往意味着盈利或宏观数据的利好不足以覆盖权重行业的压力。",
-      "time": "09:56",
+      "time": "03:19",
       "minutes": 1,
       "tags": [
         [
@@ -144,9 +144,9 @@
           "market"
         ]
       ],
-      "fact": "标题线索：股市在财报公布前上涨，美国国债收益率和油价仍处于高位。完整事实、数字与条件请以原文为准。",
+      "fact": "标题线索：Stocks advance ahead of earnings, navigating still-high Treasury yields and oil prices。完整事实、数字与条件请以原文为准。",
       "why": "如果芯片或大型科技股走弱，即便整体盈利不错，指数也可能承压，因为这些公司对标普和纳指的权重很高。要区分“市场整体变差”和“少数权重股拖累”。",
-      "impact": "观察半导体、云计算资本开支和大盘成长股的相对表现。当前页面市场快照为：标普 500上涨0.59%；BTC上涨1.28%；美元/人民币下跌0.15%；若收益率同步上行，高估值板块通常更脆弱。",
+      "impact": "观察半导体、云计算资本开支和大盘成长股的相对表现。当前页面市场快照为：标普 500上涨0.59%；BTC上涨0.53%；美元/人民币下跌0.15%；若收益率同步上行，高估值板块通常更脆弱。",
       "uncertain": "下一步看公司业绩指引、利润率和资本开支，而不是只看单季是否超预期；同时留意市场下跌是否扩散到非科技板块。",
       "url": "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-10-09/",
       "sources": "原始来源：Reuters（优先来源）"
@@ -172,7 +172,7 @@
       ],
       "fact": "来源摘要：2026年10月8日的前瞻 标题线索：比特币交易所交易基金（ETF）单日流出近5亿美元：加密日报。完整事实、数字与条件请以原文为准。",
       "why": "ETF 净流入可以反映配置型需求，但不能单独解释价格。若以太坊跑赢比特币，可能代表资金在加密资产内部轮动，而不是整个风险偏好普遍升温。",
-      "impact": "BTC 更需要与美元、实际利率和美股风险偏好一起看。当前页面市场快照为：标普 500上涨0.59%；BTC上涨1.28%；美元/人民币下跌0.15%；单日 ETF 流量应视为确认信号，而不是交易指令。",
+      "impact": "BTC 更需要与美元、实际利率和美股风险偏好一起看。当前页面市场快照为：标普 500上涨0.59%；BTC上涨0.53%；美元/人民币下跌0.15%；单日 ETF 流量应视为确认信号，而不是交易指令。",
       "uncertain": "下一步看 ETF 连续多日净流、主要发行方资金占比、BTC 与 ETH 的相对强弱，以及美债收益率和美元是否反向变化。",
       "url": "https://www.coindesk.com/zh/daybook-us/2026/10/08/bitcoin-etf-investors-head-for-the-exit-and-it-s-the-biggest-rush-in-months",
       "sources": "原始来源：CoinDesk（优先来源）"
@@ -196,8 +196,8 @@
     },
     {
       "label": "BTC",
-      "value": "$82.7k",
-      "change": 1.28
+      "value": "$83.0k",
+      "change": 0.53
     }
   ],
   "calendar": [
@@ -231,7 +231,7 @@
     {
       "title": "美联储与风险资产",
       "status": "每日更新",
-      "update": "美联储9月份一致同意加息。此后经济信号发生了变化。",
+      "update": "A Top Fed Official Casts Further Doubt on a Rate Rise This Month",
       "next": "通胀、就业、收益率及美联储沟通是否形成同一方向。",
       "story_id": "us-macro"
     },
