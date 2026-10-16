@@ -1,6 +1,6 @@
 {
-  "edition_title": "10 月 15 日，星期四",
-  "updated_label": "2026-10-15 12:28 北京时间",
+  "edition_title": "10 月 16 日，星期五",
+  "updated_label": "2026-10-16 12:23 北京时间",
   "estimated_minutes": 10,
   "market_label": "收盘或最近可得报价 · 非实时",
   "theme": "先分清事实、阅读框架和市场反应。政策利好与宏观风险可以并存；对中国经济尤其要观察地产、地方财政、价格、就业和人民币是否出现同向变化。",
@@ -60,7 +60,7 @@
       ],
       "fact": "标题线索：Fed rate hike call seen tight as inflation heats up。完整事实、数字与条件请以原文为准。",
       "why": "市场真正交易的是“通胀回落是否足以允许更宽松的利率路径”。讲话若强调通胀风险，通常会让降息预期更谨慎；若强调就业转弱，方向可能相反。",
-      "impact": "对美股和 BTC，最直接的传导是美债收益率与美元。当前页面市场快照为：标普 500下跌1.11%；BTC下跌2.29%；美元/人民币下跌0.01%；应把该变动与利率、美元是否同向一起看。",
+      "impact": "对美股和 BTC，最直接的传导是美债收益率与美元。当前页面市场快照为：标普 500上涨0.33%；BTC上涨0.56%；美元/人民币下跌0.07%；应把该变动与利率、美元是否同向一起看。",
       "uncertain": "下一步看 CPI、PCE、非农就业、失业率，以及下一次 FOMC 声明和点阵图，而不是只根据一次讲话下注。",
       "url": "https://www.reuters.com/markets/us/fed-rate-hike-seen-more-likely-after-inflation-data-2026-10-14/",
       "sources": "原始来源：Reuters（优先来源）"
@@ -146,7 +146,7 @@
       ],
       "fact": "标题线索：Nasdaq ends down as chipmakers fall and bank earnings roll in。完整事实、数字与条件请以原文为准。",
       "why": "如果芯片或大型科技股走弱，即便整体盈利不错，指数也可能承压，因为这些公司对标普和纳指的权重很高。要区分“市场整体变差”和“少数权重股拖累”。",
-      "impact": "观察半导体、云计算资本开支和大盘成长股的相对表现。当前页面市场快照为：标普 500下跌1.11%；BTC下跌2.29%；美元/人民币下跌0.01%；若收益率同步上行，高估值板块通常更脆弱。",
+      "impact": "观察半导体、云计算资本开支和大盘成长股的相对表现。当前页面市场快照为：标普 500上涨0.33%；BTC上涨0.56%；美元/人民币下跌0.07%；若收益率同步上行，高估值板块通常更脆弱。",
       "uncertain": "下一步看公司业绩指引、利润率和资本开支，而不是只看单季是否超预期；同时留意市场下跌是否扩散到非科技板块。",
       "url": "https://www.reuters.com/business/sp-500-futures-muted-investors-await-big-bank-earnings-chip-weakness-weighs-2026-10-13/",
       "sources": "原始来源：Reuters（优先来源）"
@@ -155,10 +155,10 @@
       "id": "bitcoin",
       "section": "update",
       "source": "加密资产 · CoinDesk · 优先来源",
-      "title": "Bitcoin pulls back from $84,000 as oil recovers, ETFs bleed over $600 million",
-      "original_title": "Bitcoin pulls back from $84,000 as oil recovers, ETFs bleed over $600 million",
-      "summary": "Bitcoin reversed early gains as oil bounced back to over $92. Analysts express concerns over large outflows from spot ETFs last week.",
-      "time": "18:41",
+      "title": "贝莱德加密货币ETF资产激增63%，但远低于2025年峰值",
+      "original_title": "贝莱德加密货币ETF资产激增63%，但远低于2025年峰值",
+      "summary": "The asset manager&#x27;s crypto assets surged 63% to $79.6 billion as investors returned, but holdings remain 23% below year-ago levels.",
+      "time": "22:31",
       "minutes": 1,
       "tags": [
         [
@@ -170,11 +170,11 @@
           "market"
         ]
       ],
-      "fact": "来源摘要：Bitcoin reversed early gains as oil bounced back to over $92. Analysts express concerns over large outflows from spot ETFs last week. 标题线索：Bitcoin pulls back from $84,000 as oil recovers, ETFs bleed over $600 million。完整事实、数字与条件请以原文为准。",
+      "fact": "来源摘要：The asset manager&#x27;s crypto assets surged 63% to $79.6 billion as investors returned, but holdings remain 23% below year-ago levels. 标题线索：贝莱德加密货币ETF资产激增63%，但远低于2025年峰值。完整事实、数字与条件请以原文为准。",
       "why": "ETF 净流入可以反映配置型需求，但不能单独解释价格。若以太坊跑赢比特币，可能代表资金在加密资产内部轮动，而不是整个风险偏好普遍升温。",
-      "impact": "BTC 更需要与美元、实际利率和美股风险偏好一起看。当前页面市场快照为：标普 500下跌1.11%；BTC下跌2.29%；美元/人民币下跌0.01%；单日 ETF 流量应视为确认信号，而不是交易指令。",
+      "impact": "BTC 更需要与美元、实际利率和美股风险偏好一起看。当前页面市场快照为：标普 500上涨0.33%；BTC上涨0.56%；美元/人民币下跌0.07%；单日 ETF 流量应视为确认信号，而不是交易指令。",
       "uncertain": "下一步看 ETF 连续多日净流、主要发行方资金占比、BTC 与 ETH 的相对强弱，以及美债收益率和美元是否反向变化。",
-      "url": "https://www.coindesk.com/markets/2026/10/12/bitcoin-shrugs-off-etf-outflows-to-trade-above-usd84-000-as-oil-falls",
+      "url": "https://www.coindesk.com/zh/markets/2026/10/14/blackrock-s-crypto-etf-assets-surge-63-but-remain-far-below-2025-peak",
       "sources": "原始来源：CoinDesk（优先来源）"
     }
   ],
@@ -186,18 +186,18 @@
     },
     {
       "label": "标普 500",
-      "value": "7,718.94",
-      "change": -1.11
+      "value": "7,744.06",
+      "change": 0.33
     },
     {
       "label": "美元/人民币",
-      "value": "6.6916",
-      "change": -0.01
+      "value": "6.6880",
+      "change": -0.07
     },
     {
       "label": "BTC",
-      "value": "$81.2k",
-      "change": -2.29
+      "value": "$82.0k",
+      "change": 0.56
     }
   ],
   "calendar": [
@@ -245,7 +245,7 @@
     {
       "title": "BTC 与流动性",
       "status": "每日更新",
-      "update": "Bitcoin pulls back from $84,000 as oil recovers, ETFs bleed over $600 million",
+      "update": "贝莱德加密货币ETF资产激增63%，但远低于2025年峰值",
       "next": "ETF 资金、美元与实际利率、风险资产波动。",
       "story_id": "bitcoin"
     }
