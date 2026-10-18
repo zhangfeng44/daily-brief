@@ -1,6 +1,6 @@
 {
-  "edition_title": "10 月 17 日，星期六",
-  "updated_label": "2026-10-17 12:17 北京时间",
+  "edition_title": "10 月 18 日，星期日",
+  "updated_label": "2026-10-18 12:22 北京时间",
   "estimated_minutes": 10,
   "market_label": "收盘或最近可得报价 · 非实时",
   "theme": "先分清事实、阅读框架和市场反应。政策利好与宏观风险可以并存；对中国经济尤其要观察地产、地方财政、价格、就业和人民币是否出现同向变化。",
@@ -39,10 +39,10 @@
       "id": "us-macro",
       "section": "lead",
       "source": "美国宏观 · Reuters · 优先来源",
-      "title": "随着通胀升温，美联储加息呼声趋紧",
-      "original_title": "Fed rate hike call seen tight as inflation heats up",
+      "title": "美联储沃什认为美国具有韧性，但对利率路径持沉默态度",
+      "original_title": "Fed's Warsh sees US resilience, mum on rate-path view",
       "summary": "一句话：联储系统对通胀、就业和货币政策作出沟通。它会影响利率预期，但单位官员讲话不等同于 FOMC 的正式决定。",
-      "time": "22:22",
+      "time": "15:46",
       "minutes": 3,
       "tags": [
         [
@@ -58,21 +58,21 @@
           "crypto"
         ]
       ],
-      "fact": "标题线索：随着通胀升温，美联储加息呼声趋紧。完整事实、数字与条件请以原文为准。",
+      "fact": "标题线索：美联储沃什认为美国具有韧性，但对利率路径持沉默态度。完整事实、数字与条件请以原文为准。",
       "why": "市场真正交易的是“通胀回落是否足以允许更宽松的利率路径”。讲话若强调通胀风险，通常会让降息预期更谨慎；若强调就业转弱，方向可能相反。",
-      "impact": "对美股和 BTC，最直接的传导是美债收益率与美元。当前页面市场快照为：标普 500下跌1.09%；BTC下跌0.87%；美元/人民币下跌0.07%；应把该变动与利率、美元是否同向一起看。",
+      "impact": "对美股和 BTC，最直接的传导是美债收益率与美元。当前页面市场快照为：标普 500下跌1.09%；BTC上涨0.38%；美元/人民币下跌0.07%；应把该变动与利率、美元是否同向一起看。",
       "uncertain": "下一步看 CPI、PCE、非农就业、失业率，以及下一次 FOMC 声明和点阵图，而不是只根据一次讲话下注。",
-      "url": "https://www.reuters.com/markets/us/fed-rate-hike-seen-more-likely-after-inflation-data-2026-10-14/",
+      "url": "https://www.reuters.com/markets/asia/feds-warsh-gives-no-hint-october-policy-decision-2026-10-16/",
       "sources": "原始来源：Reuters（优先来源）"
     },
     {
       "id": "trade-chain",
       "section": "lead",
-      "source": "全球贸易 · BNN Bloomberg · 优先来源",
-      "title": "市场展望：尽管存在关税，人工智能建设仍将推动全球贸易繁荣",
-      "original_title": "Market Outlook: AI buildout drives global trade boom despite tariffs",
-      "summary": "牛津经济研究院美国高级经济学家马修·马丁表示，尽管关税和货运成本不断上升，人工智能需求仍在维持全球贸易。",
-      "time": "02:45",
+      "source": "全球贸易 · South China Morning Post · 扩展来源",
+      "title": "随着关税威胁缓解，美国再次受到中国出口商的青睐",
+      "original_title": "As tariff threats ease, US in fashion again among Chinese exporters",
+      "summary": "但广交会参展商表示，欧洲市场前景因监管和金融障碍而蒙上阴影。",
+      "time": "20:00",
       "minutes": 3,
       "tags": [
         [
@@ -88,12 +88,12 @@
           "risk"
         ]
       ],
-      "fact": "来源摘要：牛津经济研究院美国高级经济学家马修·马丁表示，尽管关税和货运成本不断上升，人工智能需求仍在维持全球贸易。 标题线索：市场展望：尽管存在关税，人工智能建设仍将推动全球贸易繁荣。完整事实、数字与条件请以原文为准。",
+      "fact": "来源摘要：但广交会参展商表示，欧洲市场前景因监管和金融障碍而蒙上阴影。 标题线索：随着关税威胁缓解，美国再次受到中国出口商的青睐。完整事实、数字与条件请以原文为准。",
       "why": "这类案例的价值在于观察企业是否真的迁移订单和产能，而不只是宣布计划。若更多企业采取相似做法，关税成本会改变区域贸易流和部分行业的利润率。",
       "impact": "汽车零部件、电子、航运和北美制造链更值得跟踪。对中国相关资产，重点不是单一公司，而是转口、海外产能和订单转移是否形成趋势。",
       "uncertain": "下一步看关税生效范围、原产地规则、豁免条款，以及企业是否披露资本开支、库存或交付地的实质调整。",
-      "url": "https://www.bnnbloomberg.ca/investing/market-outlook/2026/10/14/market-outlook-ai-buildout-drives-global-trade-boom-despite-tariffs/",
-      "sources": "原始来源：BNN Bloomberg（优先来源）"
+      "url": "https://amp.scmp.com/economy/china-economy/article/3371178/tariff-threats-ease-us-fashion-again-among-chinese-exporters",
+      "sources": "原始来源：South China Morning Post（扩展来源）"
     },
     {
       "id": "china-risk",
@@ -146,7 +146,7 @@
       ],
       "fact": "标题线索：华尔街未来一周随着人工智能涨势摇摆不定，股市的焦点转向盈利。完整事实、数字与条件请以原文为准。",
       "why": "如果芯片或大型科技股走弱，即便整体盈利不错，指数也可能承压，因为这些公司对标普和纳指的权重很高。要区分“市场整体变差”和“少数权重股拖累”。",
-      "impact": "观察半导体、云计算资本开支和大盘成长股的相对表现。当前页面市场快照为：标普 500下跌1.09%；BTC下跌0.87%；美元/人民币下跌0.07%；若收益率同步上行，高估值板块通常更脆弱。",
+      "impact": "观察半导体、云计算资本开支和大盘成长股的相对表现。当前页面市场快照为：标普 500下跌1.09%；BTC上涨0.38%；美元/人民币下跌0.07%；若收益率同步上行，高估值板块通常更脆弱。",
       "uncertain": "下一步看公司业绩指引、利润率和资本开支，而不是只看单季是否超预期；同时留意市场下跌是否扩散到非科技板块。",
       "url": "https://www.reuters.com/legal/transactional/wall-st-week-ahead-ai-rally-wobbles-stock-markets-spotlight-turns-earnings-2026-10-16/",
       "sources": "原始来源：Reuters（优先来源）"
@@ -155,10 +155,10 @@
       "id": "bitcoin",
       "section": "update",
       "source": "加密资产 · CoinDesk · 优先来源",
-      "title": "贝莱德加密货币ETF资产激增63%，但远低于2025年峰值",
-      "original_title": "贝莱德加密货币ETF资产激增63%，但远低于2025年峰值",
-      "summary": "随着投资者回归，该资产管理公司的加密资产飙升 63% 至 796 亿美元，但持有量仍比去年同期水平低 23%。",
-      "time": "22:31",
+      "title": "XRP 未能像比特币和以太坊那样让持有者致富。以下是原因",
+      "original_title": "XRP 未能像比特币和以太坊那样让持有者致富。以下是原因",
+      "summary": "XRP 仍位于其 2017 年周期高点以下，而比特币、以太坊及其他主要代币则大幅上涨，令其持有者收益丰厚。",
+      "time": "13:53",
       "minutes": 1,
       "tags": [
         [
@@ -170,11 +170,11 @@
           "market"
         ]
       ],
-      "fact": "来源摘要：随着投资者回归，该资产管理公司的加密资产飙升 63% 至 796 亿美元，但持有量仍比去年同期水平低 23%。 标题线索：贝莱德加密货币ETF资产激增63%，但远低于2025年峰值。完整事实、数字与条件请以原文为准。",
+      "fact": "来源摘要：XRP 仍位于其 2017 年周期高点以下，而比特币、以太坊及其他主要代币则大幅上涨，令其持有者收益丰厚。 标题线索：XRP 未能像比特币和以太坊那样让持有者致富。以下是原因。完整事实、数字与条件请以原文为准。",
       "why": "ETF 净流入可以反映配置型需求，但不能单独解释价格。若以太坊跑赢比特币，可能代表资金在加密资产内部轮动，而不是整个风险偏好普遍升温。",
-      "impact": "BTC 更需要与美元、实际利率和美股风险偏好一起看。当前页面市场快照为：标普 500下跌1.09%；BTC下跌0.87%；美元/人民币下跌0.07%；单日 ETF 流量应视为确认信号，而不是交易指令。",
+      "impact": "BTC 更需要与美元、实际利率和美股风险偏好一起看。当前页面市场快照为：标普 500下跌1.09%；BTC上涨0.38%；美元/人民币下跌0.07%；单日 ETF 流量应视为确认信号，而不是交易指令。",
       "uncertain": "下一步看 ETF 连续多日净流、主要发行方资金占比、BTC 与 ETH 的相对强弱，以及美债收益率和美元是否反向变化。",
-      "url": "https://www.coindesk.com/zh/markets/2026/10/14/blackrock-s-crypto-etf-assets-surge-63-but-remain-far-below-2025-peak",
+      "url": "https://www.coindesk.com/zh/markets/2026/10/16/xrp-has-failed-to-make-holders-rich-like-bitcoin-and-ether-here-s-why",
       "sources": "原始来源：CoinDesk（优先来源）"
     }
   ],
@@ -196,8 +196,8 @@
     },
     {
       "label": "BTC",
-      "value": "$81.4k",
-      "change": -0.87
+      "value": "$81.8k",
+      "change": 0.38
     }
   ],
   "calendar": [
@@ -231,7 +231,7 @@
     {
       "title": "美联储与风险资产",
       "status": "每日更新",
-      "update": "随着通胀升温，美联储加息呼声趋紧",
+      "update": "美联储沃什认为美国具有韧性，但对利率路径持沉默态度",
       "next": "通胀、就业、收益率及美联储沟通是否形成同一方向。",
       "story_id": "us-macro"
     },
@@ -245,7 +245,7 @@
     {
       "title": "BTC 与流动性",
       "status": "每日更新",
-      "update": "贝莱德加密货币ETF资产激增63%，但远低于2025年峰值",
+      "update": "XRP 未能像比特币和以太坊那样让持有者致富。以下是原因",
       "next": "ETF 资金、美元与实际利率、风险资产波动。",
       "story_id": "bitcoin"
     }
