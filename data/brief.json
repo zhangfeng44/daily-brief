@@ -1,6 +1,6 @@
 {
-  "edition_title": "10 月 19 日，星期一",
-  "updated_label": "2026-10-19 12:31 北京时间",
+  "edition_title": "10 月 20 日，星期二",
+  "updated_label": "2026-10-20 12:41 北京时间",
   "estimated_minutes": 10,
   "market_label": "收盘或最近可得报价 · 非实时",
   "theme": "先分清事实、阅读框架和市场反应。政策利好与宏观风险可以并存；对中国经济尤其要观察地产、地方财政、价格、就业和人民币是否出现同向变化。",
@@ -38,11 +38,11 @@
     {
       "id": "us-macro",
       "section": "lead",
-      "source": "美国宏观 · Federal Reserve Bank of Minneapolis · 优先来源",
-      "title": "Is the rise of self-employment a positive sign for the economy?",
-      "original_title": "Is the rise of self-employment a positive sign for the economy?",
-      "summary": "For some, starting a business is better than working for wages, but for others, it’s a second job",
-      "time": "04:19",
+      "source": "美国宏观 · Financial Times Chinese · 优先来源",
+      "title": "AI、中性利率与美联储加息空间（下）",
+      "original_title": "AI、中性利率与美联储加息空间（下）",
+      "summary": "陈稻田：ChatGPT对科技行业的就业下降产生了立竿见影的影响，同时由于高薪科技行业雇佣量的下降，美国私营工资增速不断下降，这有利于缓和通胀压力。",
+      "time": "07:23",
       "minutes": 3,
       "tags": [
         [
@@ -58,21 +58,21 @@
           "crypto"
         ]
       ],
-      "fact": "来源摘要：For some, starting a business is better than working for wages, but for others, it’s a second job 标题线索：Is the rise of self-employment a positive sign for the economy?。完整事实、数字与条件请以原文为准。",
+      "fact": "来源摘要：陈稻田：ChatGPT对科技行业的就业下降产生了立竿见影的影响，同时由于高薪科技行业雇佣量的下降，美国私营工资增速不断下降，这有利于缓和通胀压力。 标题线索：AI、中性利率与美联储加息空间（下）。完整事实、数字与条件请以原文为准。",
       "why": "市场真正交易的是“通胀回落是否足以允许更宽松的利率路径”。讲话若强调通胀风险，通常会让降息预期更谨慎；若强调就业转弱，方向可能相反。",
-      "impact": "对美股和 BTC，最直接的传导是美债收益率与美元。当前页面市场快照为：标普 500下跌1.09%；BTC上涨1.32%；美元/人民币下跌0.15%；应把该变动与利率、美元是否同向一起看。",
+      "impact": "对美股和 BTC，最直接的传导是美债收益率与美元。当前页面市场快照为：标普 500上涨0.41%；BTC下跌0.06%；美元/人民币下跌0.19%；应把该变动与利率、美元是否同向一起看。",
       "uncertain": "下一步看 CPI、PCE、非农就业、失业率，以及下一次 FOMC 声明和点阵图，而不是只根据一次讲话下注。",
-      "url": "https://www.minneapolisfed.org/article/2026/is-the-rise-of-self-employment-a-positive-sign-for-the-economy",
-      "sources": "原始来源：Federal Reserve Bank of Minneapolis（优先来源）"
+      "url": "https://wap.ftchinese.com/story/001111043",
+      "sources": "原始来源：Financial Times Chinese（优先来源）"
     },
     {
       "id": "trade-chain",
       "section": "lead",
-      "source": "全球贸易 · BNN Bloomberg · 优先来源",
-      "title": "Canada’s wool industry looks inward after tariffs cut it off from the U.S.",
-      "original_title": "Canada’s wool industry looks inward after tariffs cut it off from the U.S.",
-      "summary": "Canada’s wool sector is in the midst of a transformation as one of the many segments of the economy dealing with tariffs put in place by U.S. President Donald Trump’s administration.",
-      "time": "19:29",
+      "source": "全球贸易 · 待核查",
+      "title": "今日暂未取得主题相关的公开线索",
+      "original_title": "",
+      "summary": "自动采集未找到同时满足主题相关性和最低来源要求的条目，下一轮更新会重新检索。",
+      "time": "更新",
       "minutes": 3,
       "tags": [
         [
@@ -88,12 +88,12 @@
           "risk"
         ]
       ],
-      "fact": "来源摘要：Canada’s wool sector is in the midst of a transformation as one of the many segments of the economy dealing with tariffs put in place by U.S. President Donald Trump’s administration. 标题线索：Canada’s wool industry looks inward after tariffs cut it off from the U.S.。完整事实、数字与条件请以原文为准。",
+      "fact": "今日尚无可展示的主题线索。市场数据仍可作为背景参考，但不应被当作该主题的新闻结论。",
       "why": "这类案例的价值在于观察企业是否真的迁移订单和产能，而不只是宣布计划。若更多企业采取相似做法，关税成本会改变区域贸易流和部分行业的利润率。",
       "impact": "汽车零部件、电子、航运和北美制造链更值得跟踪。对中国相关资产，重点不是单一公司，而是转口、海外产能和订单转移是否形成趋势。",
       "uncertain": "下一步看关税生效范围、原产地规则、豁免条款，以及企业是否披露资本开支、库存或交付地的实质调整。",
-      "url": "https://www.bnnbloomberg.ca/business/2026/10/17/cut-off-from-the-us-canadas-wool-industry-looks-to-grow-at-home-and-overseas/",
-      "sources": "原始来源：BNN Bloomberg（优先来源）"
+      "url": "",
+      "sources": "等待下一轮公开来源更新"
     },
     {
       "id": "china-risk",
@@ -129,10 +129,10 @@
       "id": "us-markets",
       "section": "update",
       "source": "美国市场 · Reuters · 优先来源",
-      "title": "Wall St Week Ahead As AI rally wobbles, stock market's spotlight turns to earnings",
-      "original_title": "Wall St Week Ahead As AI rally wobbles, stock market's spotlight turns to earnings",
+      "title": "随着芯片和人工智能相关股票反弹，纳斯达克指数攀升",
+      "original_title": "Nasdaq climbs as chip and AI-linked stocks bounce back",
       "summary": "一句话：指数层面出现分化时，往往意味着盈利或宏观数据的利好不足以覆盖权重行业的压力。",
-      "time": "18:03",
+      "time": "07:31",
       "minutes": 1,
       "tags": [
         [
@@ -144,21 +144,21 @@
           "market"
         ]
       ],
-      "fact": "标题线索：Wall St Week Ahead As AI rally wobbles, stock market's spotlight turns to earnings。完整事实、数字与条件请以原文为准。",
+      "fact": "标题线索：随着芯片和人工智能相关股票反弹，纳斯达克指数攀升。完整事实、数字与条件请以原文为准。",
       "why": "如果芯片或大型科技股走弱，即便整体盈利不错，指数也可能承压，因为这些公司对标普和纳指的权重很高。要区分“市场整体变差”和“少数权重股拖累”。",
-      "impact": "观察半导体、云计算资本开支和大盘成长股的相对表现。当前页面市场快照为：标普 500下跌1.09%；BTC上涨1.32%；美元/人民币下跌0.15%；若收益率同步上行，高估值板块通常更脆弱。",
+      "impact": "观察半导体、云计算资本开支和大盘成长股的相对表现。当前页面市场快照为：标普 500上涨0.41%；BTC下跌0.06%；美元/人民币下跌0.19%；若收益率同步上行，高估值板块通常更脆弱。",
       "uncertain": "下一步看公司业绩指引、利润率和资本开支，而不是只看单季是否超预期；同时留意市场下跌是否扩散到非科技板块。",
-      "url": "https://www.reuters.com/legal/transactional/wall-st-week-ahead-ai-rally-wobbles-stock-markets-spotlight-turns-earnings-2026-10-16/",
+      "url": "https://www.reuters.com/business/wall-st-futures-climb-ai-stocks-rebound-oil-yields-fall-2026-10-19/",
       "sources": "原始来源：Reuters（优先来源）"
     },
     {
       "id": "bitcoin",
       "section": "update",
-      "source": "加密资产 · CoinDesk · 优先来源",
-      "title": "XRP 未能像比特币和以太坊那样让持有者致富。以下是原因",
-      "original_title": "XRP 未能像比特币和以太坊那样让持有者致富。以下是原因",
-      "summary": "XRP 仍位于其 2017 年周期高点以下，而比特币、以太坊及其他主要代币则大幅上涨，令其持有者收益丰厚。",
-      "time": "13:56",
+      "source": "加密资产 · 待核查",
+      "title": "今日暂未取得主题相关的公开线索",
+      "original_title": "",
+      "summary": "自动采集未找到同时满足主题相关性和最低来源要求的条目，下一轮更新会重新检索。",
+      "time": "更新",
       "minutes": 1,
       "tags": [
         [
@@ -170,12 +170,12 @@
           "market"
         ]
       ],
-      "fact": "来源摘要：XRP 仍位于其 2017 年周期高点以下，而比特币、以太坊及其他主要代币则大幅上涨，令其持有者收益丰厚。 标题线索：XRP 未能像比特币和以太坊那样让持有者致富。以下是原因。完整事实、数字与条件请以原文为准。",
+      "fact": "今日尚无可展示的主题线索。市场数据仍可作为背景参考，但不应被当作该主题的新闻结论。",
       "why": "ETF 净流入可以反映配置型需求，但不能单独解释价格。若以太坊跑赢比特币，可能代表资金在加密资产内部轮动，而不是整个风险偏好普遍升温。",
-      "impact": "BTC 更需要与美元、实际利率和美股风险偏好一起看。当前页面市场快照为：标普 500下跌1.09%；BTC上涨1.32%；美元/人民币下跌0.15%；单日 ETF 流量应视为确认信号，而不是交易指令。",
+      "impact": "BTC 更需要与美元、实际利率和美股风险偏好一起看。当前页面市场快照为：标普 500上涨0.41%；BTC下跌0.06%；美元/人民币下跌0.19%；单日 ETF 流量应视为确认信号，而不是交易指令。",
       "uncertain": "下一步看 ETF 连续多日净流、主要发行方资金占比、BTC 与 ETH 的相对强弱，以及美债收益率和美元是否反向变化。",
-      "url": "https://www.coindesk.com/zh/markets/2026/10/16/xrp-has-failed-to-make-holders-rich-like-bitcoin-and-ether-here-s-why",
-      "sources": "原始来源：CoinDesk（优先来源）"
+      "url": "",
+      "sources": "等待下一轮公开来源更新"
     }
   ],
   "markets": [
@@ -186,18 +186,18 @@
     },
     {
       "label": "标普 500",
-      "value": "7,659.44",
-      "change": -1.09
+      "value": "7,690.73",
+      "change": 0.41
     },
     {
       "label": "美元/人民币",
-      "value": "6.6811",
-      "change": -0.15
+      "value": "6.6782",
+      "change": -0.19
     },
     {
       "label": "BTC",
-      "value": "$82.5k",
-      "change": 1.32
+      "value": "$82.0k",
+      "change": -0.06
     }
   ],
   "calendar": [
@@ -231,7 +231,7 @@
     {
       "title": "美联储与风险资产",
       "status": "每日更新",
-      "update": "Is the rise of self-employment a positive sign for the economy?",
+      "update": "AI、中性利率与美联储加息空间（下）",
       "next": "通胀、就业、收益率及美联储沟通是否形成同一方向。",
       "story_id": "us-macro"
     },
@@ -245,7 +245,7 @@
     {
       "title": "BTC 与流动性",
       "status": "每日更新",
-      "update": "XRP 未能像比特币和以太坊那样让持有者致富。以下是原因",
+      "update": "今日暂未取得主题相关的公开线索",
       "next": "ETF 资金、美元与实际利率、风险资产波动。",
       "story_id": "bitcoin"
     }
