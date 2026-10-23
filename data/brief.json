@@ -1,6 +1,6 @@
 {
-  "edition_title": "10 月 22 日，星期四",
-  "updated_label": "2026-10-22 12:34 北京时间",
+  "edition_title": "10 月 23 日，星期五",
+  "updated_label": "2026-10-23 12:40 北京时间",
   "estimated_minutes": 10,
   "market_label": "收盘或最近可得报价 · 非实时",
   "theme": "先分清事实、阅读框架和市场反应。政策利好与宏观风险可以并存；对中国经济尤其要观察地产、地方财政、价格、就业和人民币是否出现同向变化。",
@@ -38,11 +38,11 @@
     {
       "id": "us-macro",
       "section": "lead",
-      "source": "美国宏观 · Reuters · 优先来源",
-      "title": "美联储认为人工智能的繁荣加剧了通胀头痛，但其他人可能会为此买单",
-      "original_title": "Fed sees AI boom adding to inflation headache, but others may pay for the medicine",
+      "source": "美国宏观 · Bloomberg.com · 优先来源",
+      "title": "粘性通胀正在考验美联储的决心",
+      "original_title": "Sticky Inflation Is Testing the Fed’s Resolve",
       "summary": "一句话：联储系统对通胀、就业和货币政策作出沟通。它会影响利率预期，但单位官员讲话不等同于 FOMC 的正式决定。",
-      "time": "02:39",
+      "time": "18:00",
       "minutes": 3,
       "tags": [
         [
@@ -58,21 +58,21 @@
           "crypto"
         ]
       ],
-      "fact": "标题线索：美联储认为人工智能的繁荣加剧了通胀头痛，但其他人可能会为此买单。完整事实、数字与条件请以原文为准。",
+      "fact": "标题线索：粘性通胀正在考验美联储的决心。完整事实、数字与条件请以原文为准。",
       "why": "市场真正交易的是“通胀回落是否足以允许更宽松的利率路径”。讲话若强调通胀风险，通常会让降息预期更谨慎；若强调就业转弱，方向可能相反。",
-      "impact": "对美股和 BTC，最直接的传导是美债收益率与美元。当前页面市场快照为：标普 500上涨0.58%；BTC下跌0.24%；美元/人民币下跌0.06%；应把该变动与利率、美元是否同向一起看。",
+      "impact": "对美股和 BTC，最直接的传导是美债收益率与美元。当前页面市场快照为：标普 500下跌1.21%；BTC下跌2.86%；美元/人民币下跌0.09%；应把该变动与利率、美元是否同向一起看。",
       "uncertain": "下一步看 CPI、PCE、非农就业、失业率，以及下一次 FOMC 声明和点阵图，而不是只根据一次讲话下注。",
-      "url": "https://www.reuters.com/markets/wealth/fed-sees-ai-boom-adding-inflation-headache-others-may-pay-medicine-2026-10-19/",
-      "sources": "原始来源：Reuters（优先来源）"
+      "url": "https://www.bloomberg.com/opinion/articles/2026-10-21/sticky-inflation-is-testing-federal-reserve-s-resolve",
+      "sources": "原始来源：Bloomberg.com（优先来源）"
     },
     {
       "id": "trade-chain",
       "section": "lead",
-      "source": "全球贸易 · South China Morning Post · 扩展来源",
-      "title": "贸易战2.0后，为何更多中国企业将目光投向泰国而不是越南",
-      "original_title": "Why more Chinese firms are eyeing Thailand over Vietnam after trade war 2.0",
-      "summary": "随着越南达到饱和点，“微笑之国”已成为中国企业海外业务多元化的黄金地段。",
-      "time": "06:00",
+      "source": "全球贸易 · Bloomberg.com · 优先来源",
+      "title": "贸易商对铜牛市持谨慎态度，没有关税迹象",
+      "original_title": "Traders Grow Wary of Copper Bull Market With No Sign of Tariffs",
+      "summary": "一句话：标题反映企业正通过产地、物流或供应链布局来应对美国关税。关税的影响正在从政策层面传导到具体采购与制造决策。",
+      "time": "19:00",
       "minutes": 3,
       "tags": [
         [
@@ -88,12 +88,12 @@
           "risk"
         ]
       ],
-      "fact": "来源摘要：随着越南达到饱和点，“微笑之国”已成为中国企业海外业务多元化的黄金地段。 标题线索：贸易战2.0后，为何更多中国企业将目光投向泰国而不是越南。完整事实、数字与条件请以原文为准。",
+      "fact": "标题线索：贸易商对铜牛市持谨慎态度，没有关税迹象。完整事实、数字与条件请以原文为准。",
       "why": "这类案例的价值在于观察企业是否真的迁移订单和产能，而不只是宣布计划。若更多企业采取相似做法，关税成本会改变区域贸易流和部分行业的利润率。",
       "impact": "汽车零部件、电子、航运和北美制造链更值得跟踪。对中国相关资产，重点不是单一公司，而是转口、海外产能和订单转移是否形成趋势。",
       "uncertain": "下一步看关税生效范围、原产地规则、豁免条款，以及企业是否披露资本开支、库存或交付地的实质调整。",
-      "url": "https://amp.scmp.com/economy/global-economy/article/3371529/poster-child-why-more-chinese-firms-have-thailand-their-expansion-plans",
-      "sources": "原始来源：South China Morning Post（扩展来源）"
+      "url": "https://www.bloomberg.com/news/newsletters/2026-10-20/traders-are-growing-wary-of-a-copper-price-crash-with-no-sign-of-tariffs",
+      "sources": "原始来源：Bloomberg.com（优先来源）"
     },
     {
       "id": "china-risk",
@@ -129,10 +129,10 @@
       "id": "us-markets",
       "section": "update",
       "source": "美国市场 · Reuters · 优先来源",
-      "title": "SpaceX、超微提振人工智能人气，纳斯达克领涨华尔街股市",
-      "original_title": "Nasdaq leads Wall Street gains as SpaceX, Super Micro boost AI sentiment",
+      "title": "人工智能疑虑重燃引发科技股抛售，标普 500 指数和纳斯达克指数大幅收低",
+      "original_title": "S&P 500, Nasdaq end sharply lower as revived AI doubts ignite tech selloff",
       "summary": "一句话：指数层面出现分化时，往往意味着盈利或宏观数据的利好不足以覆盖权重行业的压力。",
-      "time": "07:11",
+      "time": "07:54",
       "minutes": 1,
       "tags": [
         [
@@ -144,21 +144,21 @@
           "market"
         ]
       ],
-      "fact": "标题线索：SpaceX、超微提振人工智能人气，纳斯达克领涨华尔街股市。完整事实、数字与条件请以原文为准。",
+      "fact": "标题线索：人工智能疑虑重燃引发科技股抛售，标普 500 指数和纳斯达克指数大幅收低。完整事实、数字与条件请以原文为准。",
       "why": "如果芯片或大型科技股走弱，即便整体盈利不错，指数也可能承压，因为这些公司对标普和纳指的权重很高。要区分“市场整体变差”和“少数权重股拖累”。",
-      "impact": "观察半导体、云计算资本开支和大盘成长股的相对表现。当前页面市场快照为：标普 500上涨0.58%；BTC下跌0.24%；美元/人民币下跌0.06%；若收益率同步上行，高估值板块通常更脆弱。",
+      "impact": "观察半导体、云计算资本开支和大盘成长股的相对表现。当前页面市场快照为：标普 500下跌1.21%；BTC下跌2.86%；美元/人民币下跌0.09%；若收益率同步上行，高估值板块通常更脆弱。",
       "uncertain": "下一步看公司业绩指引、利润率和资本开支，而不是只看单季是否超预期；同时留意市场下跌是否扩散到非科技板块。",
-      "url": "https://www.reuters.com/legal/transactional/nasdaq-futures-lead-gains-spacex-super-micro-results-lift-ai-trade-2026-10-21/",
+      "url": "https://www.reuters.com/business/nasdaq-futures-drop-over-1-ai-worries-resurface-oil-climbs-2026-10-22/",
       "sources": "原始来源：Reuters（优先来源）"
     },
     {
       "id": "bitcoin",
       "section": "update",
       "source": "加密资产 · CoinDesk · 优先来源",
-      "title": "在一个月来最大的 ETF 流入之后，股市疲软可能会抑制比特币的需求",
-      "original_title": "Equity weakness could damp demand for bitcoin after biggest ETF inflows in a month",
-      "summary": "加密货币的未来：2026 年 10 月 20 日",
-      "time": "19:19",
+      "title": "比特币 (BTC) ETF 在 3 天内吸纳 10 亿美元。接下来怎么办？",
+      "original_title": "Bitcoin (BTC) ETFs take in $1 billion in 3 days. What next?",
+      "summary": "过去的大幅上涨期间，ETF 每天净流入约 2.35 亿美元。根据 CoinDesk 分析的数据，这些基金尚未跟上这一步伐。",
+      "time": "20:14",
       "minutes": 1,
       "tags": [
         [
@@ -170,11 +170,11 @@
           "market"
         ]
       ],
-      "fact": "来源摘要：加密货币的未来：2026 年 10 月 20 日 标题线索：在一个月来最大的 ETF 流入之后，股市疲软可能会抑制比特币的需求。完整事实、数字与条件请以原文为准。",
+      "fact": "来源摘要：过去的大幅上涨期间，ETF 每天净流入约 2.35 亿美元。根据 CoinDesk 分析的数据，这些基金尚未跟上这一步伐。 标题线索：比特币 (BTC) ETF 在 3 天内吸纳 10 亿美元。接下来怎么办？。完整事实、数字与条件请以原文为准。",
       "why": "ETF 净流入可以反映配置型需求，但不能单独解释价格。若以太坊跑赢比特币，可能代表资金在加密资产内部轮动，而不是整个风险偏好普遍升温。",
-      "impact": "BTC 更需要与美元、实际利率和美股风险偏好一起看。当前页面市场快照为：标普 500上涨0.58%；BTC下跌0.24%；美元/人民币下跌0.06%；单日 ETF 流量应视为确认信号，而不是交易指令。",
+      "impact": "BTC 更需要与美元、实际利率和美股风险偏好一起看。当前页面市场快照为：标普 500下跌1.21%；BTC下跌2.86%；美元/人民币下跌0.09%；单日 ETF 流量应视为确认信号，而不是交易指令。",
       "uncertain": "下一步看 ETF 连续多日净流、主要发行方资金占比、BTC 与 ETH 的相对强弱，以及美债收益率和美元是否反向变化。",
-      "url": "https://www.coindesk.com/daybook-us/2026/10/20/equity-weakness-could-damp-demand-for-bitcoin-after-biggest-etf-inflows-in-a-month",
+      "url": "https://www.coindesk.com/markets/2026/10/22/bitcoin-etfs-attract-usd1-08-billion-in-3-days-but-it-may-not-be-enough-for-a-steep-rally",
       "sources": "原始来源：CoinDesk（优先来源）"
     }
   ],
@@ -186,18 +186,18 @@
     },
     {
       "label": "标普 500",
-      "value": "7,757.17",
-      "change": 0.58
+      "value": "7,663.43",
+      "change": -1.21
     },
     {
       "label": "美元/人民币",
-      "value": "6.6737",
-      "change": -0.06
+      "value": "6.6722",
+      "change": -0.09
     },
     {
       "label": "BTC",
-      "value": "$82.7k",
-      "change": -0.24
+      "value": "$81.6k",
+      "change": -2.86
     }
   ],
   "calendar": [
@@ -231,7 +231,7 @@
     {
       "title": "美联储与风险资产",
       "status": "每日更新",
-      "update": "美联储认为人工智能的繁荣加剧了通胀头痛，但其他人可能会为此买单",
+      "update": "粘性通胀正在考验美联储的决心",
       "next": "通胀、就业、收益率及美联储沟通是否形成同一方向。",
       "story_id": "us-macro"
     },
@@ -245,7 +245,7 @@
     {
       "title": "BTC 与流动性",
       "status": "每日更新",
-      "update": "在一个月来最大的 ETF 流入之后，股市疲软可能会抑制比特币的需求",
+      "update": "比特币 (BTC) ETF 在 3 天内吸纳 10 亿美元。接下来怎么办？",
       "next": "ETF 资金、美元与实际利率、风险资产波动。",
       "story_id": "bitcoin"
     }
