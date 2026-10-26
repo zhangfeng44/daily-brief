@@ -1,6 +1,6 @@
 {
-  "edition_title": "10 月 25 日，星期日",
-  "updated_label": "2026-10-25 12:32 北京时间",
+  "edition_title": "10 月 26 日，星期一",
+  "updated_label": "2026-10-26 12:37 北京时间",
   "estimated_minutes": 10,
   "market_label": "收盘或最近可得报价 · 非实时",
   "theme": "先分清事实、阅读框架和市场反应。政策利好与宏观风险可以并存；对中国经济尤其要观察地产、地方财政、价格、就业和人民币是否出现同向变化。",
@@ -60,7 +60,7 @@
       ],
       "fact": "标题线索：美联储面临迄今为止最令人困惑的经济。完整事实、数字与条件请以原文为准。",
       "why": "市场真正交易的是“通胀回落是否足以允许更宽松的利率路径”。讲话若强调通胀风险，通常会让降息预期更谨慎；若强调就业转弱，方向可能相反。",
-      "impact": "对美股和 BTC，最直接的传导是美债收益率与美元。当前页面市场快照为：标普 500下跌0.52%；BTC下跌0.37%；美元/人民币下跌0.12%；应把该变动与利率、美元是否同向一起看。",
+      "impact": "对美股和 BTC，最直接的传导是美债收益率与美元。当前页面市场快照为：标普 500下跌0.52%；BTC下跌1.09%；美元/人民币下跌0.14%；应把该变动与利率、美元是否同向一起看。",
       "uncertain": "下一步看 CPI、PCE、非农就业、失业率，以及下一次 FOMC 声明和点阵图，而不是只根据一次讲话下注。",
       "url": "https://www.bloomberg.com/news/articles/2026-10-23/federal-reserve-interest-rate-decision-faces-challenges-from-ai-inflation-war",
       "sources": "原始来源：Bloomberg.com（优先来源）"
@@ -72,7 +72,7 @@
       "title": "评论：美国关税战助推越南煤炭繁荣",
       "original_title": "COMMENTARY: US tariff war is fueling Vietnam's coal boom",
       "summary": "一句话：标题反映企业正通过产地、物流或供应链布局来应对美国关税。关税的影响正在从政策层面传导到具体采购与制造决策。",
-      "time": "09:14",
+      "time": "21:22",
       "minutes": 3,
       "tags": [
         [
@@ -129,10 +129,10 @@
       "id": "us-markets",
       "section": "update",
       "source": "美国市场 · Reuters · 优先来源",
-      "title": "人工智能疑虑重燃引发科技股抛售，标普 500 指数和纳斯达克指数大幅收低",
-      "original_title": "S&P 500, Nasdaq end sharply lower as revived AI doubts ignite tech selloff",
+      "title": "华尔街收盘走低，结束艰难的一周",
+      "original_title": "Wall Street closes lower to end rocky week",
       "summary": "一句话：指数层面出现分化时，往往意味着盈利或宏观数据的利好不足以覆盖权重行业的压力。",
-      "time": "07:54",
+      "time": "07:46",
       "minutes": 1,
       "tags": [
         [
@@ -144,21 +144,21 @@
           "market"
         ]
       ],
-      "fact": "标题线索：人工智能疑虑重燃引发科技股抛售，标普 500 指数和纳斯达克指数大幅收低。完整事实、数字与条件请以原文为准。",
+      "fact": "标题线索：华尔街收盘走低，结束艰难的一周。完整事实、数字与条件请以原文为准。",
       "why": "如果芯片或大型科技股走弱，即便整体盈利不错，指数也可能承压，因为这些公司对标普和纳指的权重很高。要区分“市场整体变差”和“少数权重股拖累”。",
-      "impact": "观察半导体、云计算资本开支和大盘成长股的相对表现。当前页面市场快照为：标普 500下跌0.52%；BTC下跌0.37%；美元/人民币下跌0.12%；若收益率同步上行，高估值板块通常更脆弱。",
+      "impact": "观察半导体、云计算资本开支和大盘成长股的相对表现。当前页面市场快照为：标普 500下跌0.52%；BTC下跌1.09%；美元/人民币下跌0.14%；若收益率同步上行，高估值板块通常更脆弱。",
       "uncertain": "下一步看公司业绩指引、利润率和资本开支，而不是只看单季是否超预期；同时留意市场下跌是否扩散到非科技板块。",
-      "url": "https://www.reuters.com/business/nasdaq-futures-drop-over-1-ai-worries-resurface-oil-climbs-2026-10-22/",
+      "url": "https://www.reuters.com/business/wall-street-futures-dip-after-ai-rout-telecoms-slide-2026-10-23/",
       "sources": "原始来源：Reuters（优先来源）"
     },
     {
       "id": "bitcoin",
       "section": "update",
       "source": "加密资产 · CoinDesk · 优先来源",
-      "title": "比特币 (BTC) ETF 在 3 天内吸纳 10 亿美元。接下来怎么办？",
-      "original_title": "Bitcoin (BTC) ETFs take in $1 billion in 3 days. What next?",
-      "summary": "过去的大幅上涨期间，ETF 每天净流入约 2.35 亿美元。根据 CoinDesk 分析的数据，这些基金尚未跟上这一步伐。",
-      "time": "20:14",
+      "title": "Strategy (MSTR)、Strive (ASST) 必须平衡比特币 (BTC) 购买、优先股股息",
+      "original_title": "Strategy (MSTR), Strive (ASST) must balance bitcoin (BTC) purchases, preferred stock dividends",
+      "summary": "这些证券已为近 136,000 枚比特币的购买提供了资金，开辟了一条融资渠道，分析师预计该渠道将补充更大的 ETF 市场。",
+      "time": "00:00",
       "minutes": 1,
       "tags": [
         [
@@ -170,11 +170,11 @@
           "market"
         ]
       ],
-      "fact": "来源摘要：过去的大幅上涨期间，ETF 每天净流入约 2.35 亿美元。根据 CoinDesk 分析的数据，这些基金尚未跟上这一步伐。 标题线索：比特币 (BTC) ETF 在 3 天内吸纳 10 亿美元。接下来怎么办？。完整事实、数字与条件请以原文为准。",
+      "fact": "来源摘要：这些证券已为近 136,000 枚比特币的购买提供了资金，开辟了一条融资渠道，分析师预计该渠道将补充更大的 ETF 市场。 标题线索：Strategy (MSTR)、Strive (ASST) 必须平衡比特币 (BTC) 购买、优先股股息。完整事实、数字与条件请以原文为准。",
       "why": "ETF 净流入可以反映配置型需求，但不能单独解释价格。若以太坊跑赢比特币，可能代表资金在加密资产内部轮动，而不是整个风险偏好普遍升温。",
-      "impact": "BTC 更需要与美元、实际利率和美股风险偏好一起看。当前页面市场快照为：标普 500下跌0.52%；BTC下跌0.37%；美元/人民币下跌0.12%；单日 ETF 流量应视为确认信号，而不是交易指令。",
+      "impact": "BTC 更需要与美元、实际利率和美股风险偏好一起看。当前页面市场快照为：标普 500下跌0.52%；BTC下跌1.09%；美元/人民币下跌0.14%；单日 ETF 流量应视为确认信号，而不是交易指令。",
       "uncertain": "下一步看 ETF 连续多日净流、主要发行方资金占比、BTC 与 ETH 的相对强弱，以及美债收益率和美元是否反向变化。",
-      "url": "https://www.coindesk.com/markets/2026/10/22/bitcoin-etfs-attract-usd1-08-billion-in-3-days-but-it-may-not-be-enough-for-a-steep-rally",
+      "url": "https://www.coindesk.com/business/2026/10/24/strategy-strive-face-balancing-act-between-bitcoin-buying-and-preferred-stock-dividends",
       "sources": "原始来源：CoinDesk（优先来源）"
     }
   ],
@@ -191,13 +191,13 @@
     },
     {
       "label": "美元/人民币",
-      "value": "6.6702",
-      "change": -0.12
+      "value": "6.6684",
+      "change": -0.14
     },
     {
       "label": "BTC",
-      "value": "$80.8k",
-      "change": -0.37
+      "value": "$79.9k",
+      "change": -1.09
     }
   ],
   "calendar": [
@@ -245,7 +245,7 @@
     {
       "title": "BTC 与流动性",
       "status": "每日更新",
-      "update": "比特币 (BTC) ETF 在 3 天内吸纳 10 亿美元。接下来怎么办？",
+      "update": "Strategy (MSTR)、Strive (ASST) 必须平衡比特币 (BTC) 购买、优先股股息",
       "next": "ETF 资金、美元与实际利率、风险资产波动。",
       "story_id": "bitcoin"
     }
