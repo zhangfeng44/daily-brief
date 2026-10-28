@@ -1,6 +1,6 @@
 {
-  "edition_title": "10 月 27 日，星期二",
-  "updated_label": "2026-10-27 12:55 北京时间",
+  "edition_title": "10 月 28 日，星期三",
+  "updated_label": "2026-10-28 13:30 北京时间",
   "estimated_minutes": 10,
   "market_label": "收盘或最近可得报价 · 非实时",
   "theme": "先分清事实、阅读框架和市场反应。政策利好与宏观风险可以并存；对中国经济尤其要观察地产、地方财政、价格、就业和人民币是否出现同向变化。",
@@ -60,7 +60,7 @@
       ],
       "fact": "今日尚无可展示的主题线索。市场数据仍可作为背景参考，但不应被当作该主题的新闻结论。",
       "why": "市场真正交易的是“通胀回落是否足以允许更宽松的利率路径”。讲话若强调通胀风险，通常会让降息预期更谨慎；若强调就业转弱，方向可能相反。",
-      "impact": "对美股和 BTC，最直接的传导是美债收益率与美元。当前页面市场快照为：标普 500上涨0.70%；BTC下跌0.62%；美元/人民币下跌0.16%；应把该变动与利率、美元是否同向一起看。",
+      "impact": "对美股和 BTC，最直接的传导是美债收益率与美元。当前页面市场快照为：标普 500上涨0.60%；BTC上涨1.01%；美元/人民币下跌0.05%；应把该变动与利率、美元是否同向一起看。",
       "uncertain": "下一步看 CPI、PCE、非农就业、失业率，以及下一次 FOMC 声明和点阵图，而不是只根据一次讲话下注。",
       "url": "",
       "sources": "等待下一轮公开来源更新"
@@ -128,11 +128,11 @@
     {
       "id": "us-markets",
       "section": "update",
-      "source": "美国市场 · Bloomberg.com · 优先来源",
-      "title": "随着石油价格下跌，股市先于科技股上涨：市场结束",
-      "original_title": "Stocks Gain Before Tech Earnings as Oil Declines: Markets Wrap",
+      "source": "美国市场 · Reuters · 优先来源",
+      "title": "美联储决定科技财报前股市上涨",
+      "original_title": "Stocks rise ahead of tech earnings, Fed decision",
       "summary": "一句话：指数层面出现分化时，往往意味着盈利或宏观数据的利好不足以覆盖权重行业的压力。",
-      "time": "04:10",
+      "time": "09:46",
       "minutes": 1,
       "tags": [
         [
@@ -144,21 +144,21 @@
           "market"
         ]
       ],
-      "fact": "标题线索：随着石油价格下跌，股市先于科技股上涨：市场结束。完整事实、数字与条件请以原文为准。",
+      "fact": "标题线索：美联储决定科技财报前股市上涨。完整事实、数字与条件请以原文为准。",
       "why": "如果芯片或大型科技股走弱，即便整体盈利不错，指数也可能承压，因为这些公司对标普和纳指的权重很高。要区分“市场整体变差”和“少数权重股拖累”。",
-      "impact": "观察半导体、云计算资本开支和大盘成长股的相对表现。当前页面市场快照为：标普 500上涨0.70%；BTC下跌0.62%；美元/人民币下跌0.16%；若收益率同步上行，高估值板块通常更脆弱。",
+      "impact": "观察半导体、云计算资本开支和大盘成长股的相对表现。当前页面市场快照为：标普 500上涨0.60%；BTC上涨1.01%；美元/人民币下跌0.05%；若收益率同步上行，高估值板块通常更脆弱。",
       "uncertain": "下一步看公司业绩指引、利润率和资本开支，而不是只看单季是否超预期；同时留意市场下跌是否扩散到非科技板块。",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-25/us-equity-futures-climb-as-crude-oil-price-dips-markets-wrap",
-      "sources": "原始来源：Bloomberg.com（优先来源）"
+      "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-10-27/",
+      "sources": "原始来源：Reuters（优先来源）"
     },
     {
       "id": "bitcoin",
       "section": "update",
       "source": "加密资产 · CoinDesk · 优先来源",
-      "title": "Strategy (MSTR)、Strive (ASST) 必须平衡比特币 (BTC) 购买、优先股股息",
-      "original_title": "Strategy (MSTR), Strive (ASST) must balance bitcoin (BTC) purchases, preferred stock dividends",
-      "summary": "这些证券已为近 136,000 枚比特币的购买提供了资金，开辟了一条融资渠道，分析师预计该渠道将补充更大的 ETF 市场。",
-      "time": "00:00",
+      "title": "Galaxy 表示，现在是积累比特币的时候了",
+      "original_title": "Now is the time to accumulate bitcoin, Galaxy says",
+      "summary": "Galaxy 认为，价格趋势的改善、ETF 需求的弹性以及美国债务的上升支持比特币恢复至之前的高点。",
+      "time": "19:32",
       "minutes": 1,
       "tags": [
         [
@@ -170,11 +170,11 @@
           "market"
         ]
       ],
-      "fact": "来源摘要：这些证券已为近 136,000 枚比特币的购买提供了资金，开辟了一条融资渠道，分析师预计该渠道将补充更大的 ETF 市场。 标题线索：Strategy (MSTR)、Strive (ASST) 必须平衡比特币 (BTC) 购买、优先股股息。完整事实、数字与条件请以原文为准。",
+      "fact": "来源摘要：Galaxy 认为，价格趋势的改善、ETF 需求的弹性以及美国债务的上升支持比特币恢复至之前的高点。 标题线索：Galaxy 表示，现在是积累比特币的时候了。完整事实、数字与条件请以原文为准。",
       "why": "ETF 净流入可以反映配置型需求，但不能单独解释价格。若以太坊跑赢比特币，可能代表资金在加密资产内部轮动，而不是整个风险偏好普遍升温。",
-      "impact": "BTC 更需要与美元、实际利率和美股风险偏好一起看。当前页面市场快照为：标普 500上涨0.70%；BTC下跌0.62%；美元/人民币下跌0.16%；单日 ETF 流量应视为确认信号，而不是交易指令。",
+      "impact": "BTC 更需要与美元、实际利率和美股风险偏好一起看。当前页面市场快照为：标普 500上涨0.60%；BTC上涨1.01%；美元/人民币下跌0.05%；单日 ETF 流量应视为确认信号，而不是交易指令。",
       "uncertain": "下一步看 ETF 连续多日净流、主要发行方资金占比、BTC 与 ETH 的相对强弱，以及美债收益率和美元是否反向变化。",
-      "url": "https://www.coindesk.com/business/2026/10/24/strategy-strive-face-balancing-act-between-bitcoin-buying-and-preferred-stock-dividends",
+      "url": "https://www.coindesk.com/markets/2026/10/27/now-is-the-time-to-accumulate-bitcoin-galaxy-says",
       "sources": "原始来源：CoinDesk（优先来源）"
     }
   ],
@@ -186,18 +186,18 @@
     },
     {
       "label": "标普 500",
-      "value": "7,676.77",
-      "change": 0.7
+      "value": "7,722.60",
+      "change": 0.6
     },
     {
       "label": "美元/人民币",
-      "value": "6.6672",
-      "change": -0.16
+      "value": "6.6669",
+      "change": -0.05
     },
     {
       "label": "BTC",
-      "value": "$79.5k",
-      "change": -0.62
+      "value": "$80.8k",
+      "change": 1.01
     }
   ],
   "calendar": [
@@ -245,7 +245,7 @@
     {
       "title": "BTC 与流动性",
       "status": "每日更新",
-      "update": "Strategy (MSTR)、Strive (ASST) 必须平衡比特币 (BTC) 购买、优先股股息",
+      "update": "Galaxy 表示，现在是积累比特币的时候了",
       "next": "ETF 资金、美元与实际利率、风险资产波动。",
       "story_id": "bitcoin"
     }
