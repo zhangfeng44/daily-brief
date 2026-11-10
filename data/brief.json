@@ -1,6 +1,6 @@
 {
-  "edition_title": "11 月 9 日，星期一",
-  "updated_label": "2026-11-09 14:12 北京时间",
+  "edition_title": "11 月 10 日，星期二",
+  "updated_label": "2026-11-10 15:08 北京时间",
   "estimated_minutes": 10,
   "market_label": "收盘或最近可得报价 · 非实时",
   "theme": "先分清事实、阅读框架和市场反应。政策利好与宏观风险可以并存；对中国经济尤其要观察地产、地方财政、价格、就业和人民币是否出现同向变化。",
@@ -38,11 +38,11 @@
     {
       "id": "us-macro",
       "section": "lead",
-      "source": "美国宏观 · Reuters · 优先来源",
-      "title": "Fed policymakers consider rate hike after strong jobs report",
-      "original_title": "Fed policymakers consider rate hike after strong jobs report",
+      "source": "美国宏观 · Bloomberg.com · 优先来源",
+      "title": "Steady Inflation Outlook, Mixed Views for Jobs in NY Fed Survey",
+      "original_title": "Steady Inflation Outlook, Mixed Views for Jobs in NY Fed Survey",
       "summary": "一句话：联储系统对通胀、就业和货币政策作出沟通。它会影响利率预期，但单位官员讲话不等同于 FOMC 的正式决定。",
-      "time": "04:58",
+      "time": "00:00",
       "minutes": 3,
       "tags": [
         [
@@ -58,21 +58,21 @@
           "crypto"
         ]
       ],
-      "fact": "标题线索：Fed policymakers consider rate hike after strong jobs report。完整事实、数字与条件请以原文为准。",
+      "fact": "标题线索：Steady Inflation Outlook, Mixed Views for Jobs in NY Fed Survey。完整事实、数字与条件请以原文为准。",
       "why": "市场真正交易的是“通胀回落是否足以允许更宽松的利率路径”。讲话若强调通胀风险，通常会让降息预期更谨慎；若强调就业转弱，方向可能相反。",
-      "impact": "对美股和 BTC，最直接的传导是美债收益率与美元。当前页面市场快照为：标普 500上涨0.31%；BTC下跌1.61%；美元/人民币下跌0.37%；应把该变动与利率、美元是否同向一起看。",
+      "impact": "对美股和 BTC，最直接的传导是美债收益率与美元。当前页面市场快照为：标普 500上涨2.35%；BTC上涨0.03%；美元/人民币下跌0.10%；应把该变动与利率、美元是否同向一起看。",
       "uncertain": "下一步看 CPI、PCE、非农就业、失业率，以及下一次 FOMC 声明和点阵图，而不是只根据一次讲话下注。",
-      "url": "https://www.reuters.com/business/traders-raise-bets-fed-rate-hike-after-jobs-report-2026-11-06/",
-      "sources": "原始来源：Reuters（优先来源）"
+      "url": "https://www.bloomberg.com/news/articles/2026-11-09/steady-inflation-outlook-mixed-views-for-jobs-in-ny-fed-survey",
+      "sources": "原始来源：Bloomberg.com（优先来源）"
     },
     {
       "id": "trade-chain",
       "section": "lead",
-      "source": "全球贸易 · South China Morning Post · 扩展来源",
-      "title": "‘Speed up’: US ag exporters urge faster progress on trade deal with China",
-      "original_title": "‘Speed up’: US ag exporters urge faster progress on trade deal with China",
-      "summary": "US agricultural exporters, hit hard by last year’s trade war, call for Washington and Beijing to implement trade deals agreed earlier this year.",
-      "time": "22:00",
+      "source": "全球贸易 · Reuters · 优先来源",
+      "title": "China extends US trade truce by two months",
+      "original_title": "China extends US trade truce by two months",
+      "summary": "一句话：标题反映企业正通过产地、物流或供应链布局来应对美国关税。关税的影响正在从政策层面传导到具体采购与制造决策。",
+      "time": "10:48",
       "minutes": 3,
       "tags": [
         [
@@ -88,12 +88,12 @@
           "risk"
         ]
       ],
-      "fact": "来源摘要：US agricultural exporters, hit hard by last year’s trade war, call for Washington and Beijing to implement trade deals agreed earlier this year. 标题线索：‘Speed up’: US ag exporters urge faster progress on trade deal with China。完整事实、数字与条件请以原文为准。",
+      "fact": "标题线索：China extends US trade truce by two months。完整事实、数字与条件请以原文为准。",
       "why": "这类案例的价值在于观察企业是否真的迁移订单和产能，而不只是宣布计划。若更多企业采取相似做法，关税成本会改变区域贸易流和部分行业的利润率。",
       "impact": "汽车零部件、电子、航运和北美制造链更值得跟踪。对中国相关资产，重点不是单一公司，而是转口、海外产能和订单转移是否形成趋势。",
       "uncertain": "下一步看关税生效范围、原产地规则、豁免条款，以及企业是否披露资本开支、库存或交付地的实质调整。",
-      "url": "https://amp.scmp.com/economy/china-economy/article/3373595/after-midterms-upheaval-us-ag-exporters-call-stability-china-trade",
-      "sources": "原始来源：South China Morning Post（扩展来源）"
+      "url": "https://www.reuters.com/world/asia-pacific/china-extends-suspension-24-tariff-us-imports-two-months-2026-11-09/",
+      "sources": "原始来源：Reuters（优先来源）"
     },
     {
       "id": "china-risk",
@@ -128,11 +128,11 @@
     {
       "id": "us-markets",
       "section": "update",
-      "source": "美国市场 · Yahoo Finance · 扩展来源",
-      "title": "3 Growth Stocks With Earnings Growth Up To 58%",
-      "original_title": "3 Growth Stocks With Earnings Growth Up To 58%",
-      "summary": "October’s US jobs report showed 165,000 new roles created, with hiring spread across sectors and economists calling the labor market strong and stable. That kind of broad employment backdrop can support companies that already look financially sound and are expected to grow earnings quickly. This article highlights three stocks that match that profile and",
-      "time": "04:14",
+      "source": "美国市场 · Bloomberg.com · 优先来源",
+      "title": "Stocks Climb as Buyers Step In Despite Nvidia Woes: Markets Wrap",
+      "original_title": "Stocks Climb as Buyers Step In Despite Nvidia Woes: Markets Wrap",
+      "summary": "一句话：指数层面出现分化时，往往意味着盈利或宏观数据的利好不足以覆盖权重行业的压力。",
+      "time": "06:20",
       "minutes": 1,
       "tags": [
         [
@@ -144,21 +144,21 @@
           "market"
         ]
       ],
-      "fact": "来源摘要：October’s US jobs report showed 165,000 new roles created, with hiring spread across sectors and economists calling the labor market strong and stable. That kind of broad employment backdrop can support companies that already look financially sound and are expected to grow earnings quickly. This article highlights three stocks that match that profile and 标题线索：3 Growth Stocks With Earnings Growth Up To 58%。完整事实、数字与条件请以原文为准。",
+      "fact": "标题线索：Stocks Climb as Buyers Step In Despite Nvidia Woes: Markets Wrap。完整事实、数字与条件请以原文为准。",
       "why": "如果芯片或大型科技股走弱，即便整体盈利不错，指数也可能承压，因为这些公司对标普和纳指的权重很高。要区分“市场整体变差”和“少数权重股拖累”。",
-      "impact": "观察半导体、云计算资本开支和大盘成长股的相对表现。当前页面市场快照为：标普 500上涨0.31%；BTC下跌1.61%；美元/人民币下跌0.37%；若收益率同步上行，高估值板块通常更脆弱。",
+      "impact": "观察半导体、云计算资本开支和大盘成长股的相对表现。当前页面市场快照为：标普 500上涨2.35%；BTC上涨0.03%；美元/人民币下跌0.10%；若收益率同步上行，高估值板块通常更脆弱。",
       "uncertain": "下一步看公司业绩指引、利润率和资本开支，而不是只看单季是否超预期；同时留意市场下跌是否扩散到非科技板块。",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/3-growth-stocks-earnings-growth-201412969.html",
-      "sources": "原始来源：Yahoo Finance（扩展来源）"
+      "url": "https://www.bloomberg.com/news/articles/2026-11-08/stock-market-today-dow-s-p-live-updates",
+      "sources": "原始来源：Bloomberg.com（优先来源）"
     },
     {
       "id": "bitcoin",
       "section": "update",
       "source": "加密资产 · CoinDesk · 优先来源",
-      "title": "Bitcoin recovers $76,000 level as ETFs shed $430 million after tech rout",
-      "original_title": "Bitcoin recovers $76,000 level as ETFs shed $430 million after tech rout",
+      "title": "比特币多头无法依赖ETF资金流入：Crypto Daily",
+      "original_title": "比特币多头无法依赖ETF资金流入：Crypto Daily",
       "summary": "一句话：ETF 资金变化与加密资产内部相对强弱同时出现，说明资金不仅在判断方向，也在选择配置对象。",
-      "time": "17:53",
+      "time": "20:36",
       "minutes": 1,
       "tags": [
         [
@@ -170,11 +170,11 @@
           "market"
         ]
       ],
-      "fact": "标题线索：Bitcoin recovers $76,000 level as ETFs shed $430 million after tech rout。完整事实、数字与条件请以原文为准。",
+      "fact": "标题线索：比特币多头无法依赖ETF资金流入：Crypto Daily。完整事实、数字与条件请以原文为准。",
       "why": "ETF 净流入可以反映配置型需求，但不能单独解释价格。若以太坊跑赢比特币，可能代表资金在加密资产内部轮动，而不是整个风险偏好普遍升温。",
-      "impact": "BTC 更需要与美元、实际利率和美股风险偏好一起看。当前页面市场快照为：标普 500上涨0.31%；BTC下跌1.61%；美元/人民币下跌0.37%；单日 ETF 流量应视为确认信号，而不是交易指令。",
+      "impact": "BTC 更需要与美元、实际利率和美股风险偏好一起看。当前页面市场快照为：标普 500上涨2.35%；BTC上涨0.03%；美元/人民币下跌0.10%；单日 ETF 流量应视为确认信号，而不是交易指令。",
       "uncertain": "下一步看 ETF 连续多日净流、主要发行方资金占比、BTC 与 ETH 的相对强弱，以及美债收益率和美元是否反向变化。",
-      "url": "https://www.coindesk.com/markets/2026/11/06/bitcoin-recovers-usd76-000-level-as-etfs-shed-usd430-million-after-tech-rout",
+      "url": "https://www.coindesk.com/zh/daybook-us/2026/11/09/bitcoin-bulls-can-t-rely-on-etf-flows",
       "sources": "原始来源：CoinDesk（优先来源）"
     }
   ],
@@ -186,18 +186,18 @@
     },
     {
       "label": "标普 500",
-      "value": "7,376.86",
-      "change": 0.31
+      "value": "7,549.94",
+      "change": 2.35
     },
     {
       "label": "美元/人民币",
-      "value": "6.6634",
-      "change": -0.37
+      "value": "6.6691",
+      "change": -0.1
     },
     {
       "label": "BTC",
-      "value": "$74.5k",
-      "change": -1.61
+      "value": "$74.6k",
+      "change": 0.03
     }
   ],
   "calendar": [
@@ -231,7 +231,7 @@
     {
       "title": "美联储与风险资产",
       "status": "每日更新",
-      "update": "Fed policymakers consider rate hike after strong jobs report",
+      "update": "Steady Inflation Outlook, Mixed Views for Jobs in NY Fed Survey",
       "next": "通胀、就业、收益率及美联储沟通是否形成同一方向。",
       "story_id": "us-macro"
     },
@@ -245,7 +245,7 @@
     {
       "title": "BTC 与流动性",
       "status": "每日更新",
-      "update": "Bitcoin recovers $76,000 level as ETFs shed $430 million after tech rout",
+      "update": "比特币多头无法依赖ETF资金流入：Crypto Daily",
       "next": "ETF 资金、美元与实际利率、风险资产波动。",
       "story_id": "bitcoin"
     }
