@@ -1,6 +1,6 @@
 {
-  "edition_title": "11 月 19 日，星期四",
-  "updated_label": "2026-11-19 15:15 北京时间",
+  "edition_title": "11 月 20 日，星期五",
+  "updated_label": "2026-11-20 15:03 北京时间",
   "estimated_minutes": 10,
   "market_label": "收盘或最近可得报价 · 非实时",
   "theme": "先分清事实、阅读框架和市场反应。政策利好与宏观风险可以并存；对中国经济尤其要观察地产、地方财政、价格、就业和人民币是否出现同向变化。",
@@ -39,8 +39,8 @@
       "id": "us-macro",
       "section": "lead",
       "source": "美国宏观 · Reuters · 优先来源",
-      "title": "美联储哈马克重申缓慢、稳定加息的理由 - 彭博电视台",
-      "original_title": "Fed's Hammack reiterates case for slow, steady rate hikes -Bloomberg TV",
+      "title": "Fed's Williams still favors tighter monetary policy, but says now is not the time for 'dramatic action'",
+      "original_title": "Fed's Williams still favors tighter monetary policy, but says now is not the time for 'dramatic action'",
       "summary": "一句话：联储系统对通胀、就业和货币政策作出沟通。它会影响利率预期，但单位官员讲话不等同于 FOMC 的正式决定。",
       "time": "04:16",
       "minutes": 3,
@@ -58,21 +58,21 @@
           "crypto"
         ]
       ],
-      "fact": "标题线索：美联储哈马克重申缓慢、稳定加息的理由 - 彭博电视台。完整事实、数字与条件请以原文为准。",
+      "fact": "标题线索：Fed's Williams still favors tighter monetary policy, but says now is not the time for 'dramatic action'。完整事实、数字与条件请以原文为准。",
       "why": "市场真正交易的是“通胀回落是否足以允许更宽松的利率路径”。讲话若强调通胀风险，通常会让降息预期更谨慎；若强调就业转弱，方向可能相反。",
-      "impact": "对美股和 BTC，最直接的传导是美债收益率与美元。当前页面市场快照为：标普 500下跌0.23%；BTC上涨0.91%；美元/人民币下跌0.02%；应把该变动与利率、美元是否同向一起看。",
+      "impact": "对美股和 BTC，最直接的传导是美债收益率与美元。当前页面市场快照为：标普 500下跌2.02%；BTC下跌0.01%；美元/人民币上涨0.03%；应把该变动与利率、美元是否同向一起看。",
       "uncertain": "下一步看 CPI、PCE、非农就业、失业率，以及下一次 FOMC 声明和点阵图，而不是只根据一次讲话下注。",
-      "url": "https://www.reuters.com/business/feds-hammack-reiterates-case-slow-steady-rate-hikes-bloomberg-tv-2026-11-16/",
+      "url": "https://www.reuters.com/business/feds-williams-still-favors-tighter-monetary-policy-says-now-is-not-time-dramatic-2026-11-17/",
       "sources": "原始来源：Reuters（优先来源）"
     },
     {
       "id": "trade-chain",
       "section": "lead",
-      "source": "全球贸易 · Bloomberg.com · 优先来源",
-      "title": "习近平会见卡尼，中国和加拿大扩大关税减免",
-      "original_title": "China and Canada Expand Tariff Relief as Xi Meets Carney",
-      "summary": "一句话：标题反映企业正通过产地、物流或供应链布局来应对美国关税。关税的影响正在从政策层面传导到具体采购与制造决策。",
-      "time": "13:19",
+      "source": "全球贸易 · BNN Bloomberg · 优先来源",
+      "title": "‘Are u really threatening to play China off the U.S.?’ Trump trade adviser asks PM Carney",
+      "original_title": "‘Are u really threatening to play China off the U.S.?’ Trump trade adviser asks PM Carney",
+      "summary": "A senior adviser to U.S. President Donald Trump shared harsh words against Canada’s potential auto trade expansion with China.",
+      "time": "02:40",
       "minutes": 3,
       "tags": [
         [
@@ -88,12 +88,12 @@
           "risk"
         ]
       ],
-      "fact": "标题线索：习近平会见卡尼，中国和加拿大扩大关税减免。完整事实、数字与条件请以原文为准。",
+      "fact": "来源摘要：A senior adviser to U.S. President Donald Trump shared harsh words against Canada’s potential auto trade expansion with China. 标题线索：‘Are u really threatening to play China off the U.S.?’ Trump trade adviser asks PM Carney。完整事实、数字与条件请以原文为准。",
       "why": "这类案例的价值在于观察企业是否真的迁移订单和产能，而不只是宣布计划。若更多企业采取相似做法，关税成本会改变区域贸易流和部分行业的利润率。",
       "impact": "汽车零部件、电子、航运和北美制造链更值得跟踪。对中国相关资产，重点不是单一公司，而是转口、海外产能和订单转移是否形成趋势。",
       "uncertain": "下一步看关税生效范围、原产地规则、豁免条款，以及企业是否披露资本开支、库存或交付地的实质调整。",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-17/china-canada-expand-tariff-relief-in-deepening-trade-thaw",
-      "sources": "原始来源：Bloomberg.com（优先来源）"
+      "url": "https://www.bnnbloomberg.ca/tariffs/2026/11/17/are-u-really-threatening-to-play-china-off-the-us-trump-trade-adviser-asks-pm-carney/",
+      "sources": "原始来源：BNN Bloomberg（优先来源）"
     },
     {
       "id": "china-risk",
@@ -129,10 +129,10 @@
       "id": "us-markets",
       "section": "update",
       "source": "美国市场 · Bloomberg.com · 优先来源",
-      "title": "英伟达盈利上涨乏力，股市下跌：市场结束",
-      "original_title": "Stocks Fall as Nvidia’s Earnings Rally Sputters: Markets Wrap",
+      "title": "US Tech Stocks Are Set to Rally as Anthropic IPO Boosts AI Trade",
+      "original_title": "US Tech Stocks Are Set to Rally as Anthropic IPO Boosts AI Trade",
       "summary": "一句话：指数层面出现分化时，往往意味着盈利或宏观数据的利好不足以覆盖权重行业的压力。",
-      "time": "05:40",
+      "time": "05:18",
       "minutes": 1,
       "tags": [
         [
@@ -144,21 +144,21 @@
           "market"
         ]
       ],
-      "fact": "标题线索：英伟达盈利上涨乏力，股市下跌：市场结束。完整事实、数字与条件请以原文为准。",
+      "fact": "标题线索：US Tech Stocks Are Set to Rally as Anthropic IPO Boosts AI Trade。完整事实、数字与条件请以原文为准。",
       "why": "如果芯片或大型科技股走弱，即便整体盈利不错，指数也可能承压，因为这些公司对标普和纳指的权重很高。要区分“市场整体变差”和“少数权重股拖累”。",
-      "impact": "观察半导体、云计算资本开支和大盘成长股的相对表现。当前页面市场快照为：标普 500下跌0.23%；BTC上涨0.91%；美元/人民币下跌0.02%；若收益率同步上行，高估值板块通常更脆弱。",
+      "impact": "观察半导体、云计算资本开支和大盘成长股的相对表现。当前页面市场快照为：标普 500下跌2.02%；BTC下跌0.01%；美元/人民币上涨0.03%；若收益率同步上行，高估值板块通常更脆弱。",
       "uncertain": "下一步看公司业绩指引、利润率和资本开支，而不是只看单季是否超预期；同时留意市场下跌是否扩散到非科技板块。",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-17/stock-market-today-dow-s-p-live-updates",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-19/us-stock-futures-jump-on-blockbuster-reception-to-anthropic-ipo",
       "sources": "原始来源：Bloomberg.com（优先来源）"
     },
     {
       "id": "bitcoin",
       "section": "update",
       "source": "加密资产 · CoinDesk · 优先来源",
-      "title": "比特币（BTC）价格在7月14日低点反弹后回落，该低点引发了周末的清算：加密市场今日",
-      "original_title": "比特币（BTC）价格在7月14日低点反弹后回落，该低点引发了周末的清算：加密市场今日",
+      "title": "BTC, ETH, SOL news: VanEck drops Gemini as custodian of its bitcoin, ether and SOL ETFs",
+      "original_title": "BTC, ETH, SOL news: VanEck drops Gemini as custodian of its bitcoin, ether and SOL ETFs",
       "summary": "一句话：ETF 资金变化与加密资产内部相对强弱同时出现，说明资金不仅在判断方向，也在选择配置对象。",
-      "time": "19:03",
+      "time": "12:28",
       "minutes": 1,
       "tags": [
         [
@@ -170,11 +170,11 @@
           "market"
         ]
       ],
-      "fact": "标题线索：比特币（BTC）价格在7月14日低点反弹后回落，该低点引发了周末的清算：加密市场今日。完整事实、数字与条件请以原文为准。",
+      "fact": "标题线索：BTC, ETH, SOL news: VanEck drops Gemini as custodian of its bitcoin, ether and SOL ETFs。完整事实、数字与条件请以原文为准。",
       "why": "ETF 净流入可以反映配置型需求，但不能单独解释价格。若以太坊跑赢比特币，可能代表资金在加密资产内部轮动，而不是整个风险偏好普遍升温。",
-      "impact": "BTC 更需要与美元、实际利率和美股风险偏好一起看。当前页面市场快照为：标普 500下跌0.23%；BTC上涨0.91%；美元/人民币下跌0.02%；单日 ETF 流量应视为确认信号，而不是交易指令。",
+      "impact": "BTC 更需要与美元、实际利率和美股风险偏好一起看。当前页面市场快照为：标普 500下跌2.02%；BTC下跌0.01%；美元/人民币上涨0.03%；单日 ETF 流量应视为确认信号，而不是交易指令。",
       "uncertain": "下一步看 ETF 连续多日净流、主要发行方资金占比、BTC 与 ETH 的相对强弱，以及美债收益率和美元是否反向变化。",
-      "url": "https://www.coindesk.com/zh/markets/2026/11/16/bitcoin-slips-to-usd64-000-after-usd2-billion-weekend-flush",
+      "url": "https://www.coindesk.com/markets/2026/11/20/vaneck-drops-gemini-as-custodian-of-its-bitcoin-ether-and-sol-etfs",
       "sources": "原始来源：CoinDesk（优先来源）"
     }
   ],
@@ -186,18 +186,18 @@
     },
     {
       "label": "标普 500",
-      "value": "7,323.63",
-      "change": -0.23
+      "value": "7,175.83",
+      "change": -2.02
     },
     {
       "label": "美元/人民币",
-      "value": "6.6648",
-      "change": -0.02
+      "value": "6.6695",
+      "change": 0.03
     },
     {
       "label": "BTC",
-      "value": "$63.6k",
-      "change": 0.91
+      "value": "$61.9k",
+      "change": -0.01
     }
   ],
   "calendar": [
@@ -231,7 +231,7 @@
     {
       "title": "美联储与风险资产",
       "status": "每日更新",
-      "update": "美联储哈马克重申缓慢、稳定加息的理由 - 彭博电视台",
+      "update": "Fed's Williams still favors tighter monetary policy, but says now is not the time for 'dramatic action'",
       "next": "通胀、就业、收益率及美联储沟通是否形成同一方向。",
       "story_id": "us-macro"
     },
@@ -245,7 +245,7 @@
     {
       "title": "BTC 与流动性",
       "status": "每日更新",
-      "update": "比特币（BTC）价格在7月14日低点反弹后回落，该低点引发了周末的清算：加密市场今日",
+      "update": "BTC, ETH, SOL news: VanEck drops Gemini as custodian of its bitcoin, ether and SOL ETFs",
       "next": "ETF 资金、美元与实际利率、风险资产波动。",
       "story_id": "bitcoin"
     }
